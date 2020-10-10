@@ -5,3 +5,9 @@ nav:
 site_name: Resourceful Bees Docs
 docs_dir: docs
 theme: readthedocs
+
+extra:
+  current_version: 1.15
+  versions:
+    1.15: 1.15
+    1.16.3: 1.16.3
