@@ -86,9 +86,9 @@ Given the information above, when an `Iron` and `Gold` bee mate there is a 20% c
 
 ### **Feed Item**
 
-The `feedItem` for a bee 
+The `feedItem` for a bee represents the item that is required to trigger the _**love**_ state for a bee. The item is a `string` value  in the form of `
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzkyMzEwNTYsLTE5OTI5NDU0MTgsLT
+eyJoaXN0b3J5IjpbLTE1MDU1MTE5MTgsLTE5OTI5NDU0MTgsLT
 ExMTM5Nzg4MTAsMTA3ODA1MDUyLC03NTM5MTczMDEsODEwMDE3
 NzE5XX0=
 -->
