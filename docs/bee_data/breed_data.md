@@ -3,8 +3,10 @@
 ## **Parents and Weight**
 ***
 
-### **isBreedable**
+### **isBreedable** (Required)
+
+This value is used to determine if a bee can be bred from other bees. The value 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDAzMzE2ODRdfQ==
+eyJoaXN0b3J5IjpbMTY1Mjg0MTExMV19
 -->
