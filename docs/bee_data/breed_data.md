@@ -52,9 +52,9 @@ Using the example above the bee would have 3 possible sets of parents:
 
 This value is an  _optional_  value that is used to determine the weighting that the child bee has versus all other bees the **same** two parents can make. The value is represented as a `double` and can be any number greater than zero. This value determines the weighting that the child bee has when breeding. The default for this value is 10.
 
-Suppose for example that we have t
+Suppose for example that we have two parents: `Iron` and `Gold` and that these two parents can make three different bee types: `Diamond` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMjYzODQ0LC0xOTkyOTQ1NDE4LC0xMT
-EzOTc4ODEwLDEwNzgwNTA1MiwtNzUzOTE3MzAxLDgxMDAxNzcx
-OV19
+eyJoaXN0b3J5IjpbMTg1MTYxODcwMCwtMTk5Mjk0NTQxOCwtMT
+ExMzk3ODgxMCwxMDc4MDUwNTIsLTc1MzkxNzMwMSw4MTAwMTc3
+MTldfQ==
 -->
