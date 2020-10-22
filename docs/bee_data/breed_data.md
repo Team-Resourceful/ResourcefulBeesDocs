@@ -36,10 +36,16 @@ In this example the bee can be bred when "my_super_cool_bee" mates with "my_othe
 A bee can also have multiple sets of parents by comma separating the values. Here is an example:
 ```json
 "isBreedable": true,
-"parent1": "coal, redston, zombie",
+"parent1": "coal, redstone, lapis",
 "parent2": "gold, diamond, emerald"
 ```
+Using the example above the bee would have 3 possible sets of parents:
+
+ 1. Coal & Gold
+ 2. Redstone & Diamond
+ 3. Lapis & Emerald
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1ODI5OTk5MiwtMTExMzk3ODgxMCwxMD
-c4MDUwNTIsLTc1MzkxNzMwMSw4MTAwMTc3MTldfQ==
+eyJoaXN0b3J5IjpbLTE2NzQ0MzQ2NDMsLTExMTM5Nzg4MTAsMT
+A3ODA1MDUyLC03NTM5MTczMDEsODEwMDE3NzE5XX0=
 -->
