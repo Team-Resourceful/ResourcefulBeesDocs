@@ -79,7 +79,7 @@ Sub-directories can be nested like so: `"folder_1/folder_2/folder_3/texture"`
 
 ### **Glow Color & Enchanted glow**
 
-The color value for the glowing is only a required value when the bee has the `isGlowing` value set to true. 
+The color value for glowing is only a required value when the bee has the `isGlowing` value set to true. 
 
 This value can be expressed in multiple ways but is encoded in the .json as a string. It can be expressed as a hexadecimal value with, or without, preceding tags, an integer value, or a named color from the available list found [here.](https://github.com/Resourceful-Bees/ResourcefulBees/wiki/Optional-Colors-Names) The color value is used to determine the bee's honeycomb color and honeycomb block color.
 
@@ -98,5 +98,5 @@ Below are some examples of color usage.
 <br>
 <br>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYwMjM2NzYyXX0=
+eyJoaXN0b3J5IjpbOTU1OTkyOTA1XX0=
 -->
