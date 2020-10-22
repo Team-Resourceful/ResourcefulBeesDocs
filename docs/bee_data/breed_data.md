@@ -139,9 +139,17 @@ Skeleton:
 ## **Template**
 ***
 
-Here is a 
+Here is a blank template showing all configurable fields in the Breed Data object:
+
+```json
+"BreedData": {  
+  "isBreedable": true,  
+  "feedItem": "small",  
+  "feedAmount": 8  
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NzIzODYxMSwyODU3NTM5NjYsLTE5OT
-I5NDU0MTgsLTExMTM5Nzg4MTAsMTA3ODA1MDUyLC03NTM5MTcz
-MDEsODEwMDE3NzE5XX0=
+eyJoaXN0b3J5IjpbMzEyNTczMjA4LDI4NTc1Mzk2NiwtMTk5Mj
+k0NTQxOCwtMTExMzk3ODgxMCwxMDc4MDUwNTIsLTc1MzkxNzMw
+MSw4MTAwMTc3MTldfQ==
 -->
