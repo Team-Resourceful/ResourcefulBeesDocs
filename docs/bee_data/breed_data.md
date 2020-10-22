@@ -19,6 +19,7 @@ Here is an example of its usage:
 
 In this example the bee can be bred when a "Diamond" and "Emerald" bee mate.  
 
+```j
 "breedable": true,
 "parent1": "diamond",
 "parent2": "Emerald"
@@ -35,6 +36,6 @@ In this example the bee can be bred when "my_super_cool_bee" mates with "my_othe
 
 _Note:_  A bee must have two  **different**  parents. No two bees can have the  **same**  two parents.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTM5Nzg4MTAsMTA3ODA1MDUyLC03NT
-M5MTczMDEsODEwMDE3NzE5XX0=
+eyJoaXN0b3J5IjpbMzQ3MzY4MjM0LC0xMTEzOTc4ODEwLDEwNz
+gwNTA1MiwtNzUzOTE3MzAxLDgxMDAxNzcxOV19
 -->
