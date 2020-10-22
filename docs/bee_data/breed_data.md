@@ -33,8 +33,8 @@ In this example the bee can be bred when "my_super_cool_bee" mates with "my_othe
 "parent2": "my_other_super_cool_bee"
 ```
 
-_Note:_  A bee must have two  **different**  parents. No two bees can have the  **same**  two parents.
+A bee can also have multiple sets of parents. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4NzkyNDAwNCwtMTExMzk3ODgxMCwxMD
+eyJoaXN0b3J5IjpbMTM5MzMwOTcwMSwtMTExMzk3ODgxMCwxMD
 c4MDUwNTIsLTc1MzkxNzMwMSw4MTAwMTc3MTldfQ==
 -->
