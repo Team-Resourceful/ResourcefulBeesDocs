@@ -5,7 +5,7 @@
 
 ### **isBeeColored** (Required)
 
-This value is used to determine if a bee should have its primary and secondary color layer textures colorized. This value defaults to `false` and as such it must be set to true if you wish to have colored bees.
+This value is used to determine if a bee should have its primary and secondary color layer textures colorized. This value defaults to `false` and as such it must be set to true if you wish to have colored bees. Leave the value as `false` when you want to use a custom base layer texture only. The 
 
 <br>
 <br>
@@ -98,5 +98,5 @@ Below are some examples of color usage.
 <br>
 <br>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjQxMTkxNDddfQ==
+eyJoaXN0b3J5IjpbODA1MzEyNTc0XX0=
 -->
