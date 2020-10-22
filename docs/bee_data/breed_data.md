@@ -6,7 +6,7 @@
 ### **isBreedable** (Optional)
 
 The `isBreedable` value is a `true`/`false` flag to tell the mod that "this bee is breedable and here are it's parents".
-This value is used to determine if a bee can be bred from other bees. The value defaults to `false` and must be set to `true` if you want the bee to be breedable. Setting the value to `true` but not specifying the bees parents means the bee can only be bred by bees of the same type.
+The value defaults to `false` and must be set to `true` if you want the bee to be breedable. Setting the value to `true` but *not* specifying the bees parents means the bee can only be bred by bees of the same type.
 
 <br>
 <br>
@@ -35,6 +35,6 @@ In this example the bee can be bred when "my_super_cool_bee" mates with "my_othe
 
 _Note:_  A bee must have two  **different**  parents. No two bees can have the  **same**  two parents.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNTczNDgyMywtNzUzOTE3MzAxLDgxMD
-AxNzcxOV19
+eyJoaXN0b3J5IjpbMTA3ODA1MDUyLC03NTM5MTczMDEsODEwMD
+E3NzE5XX0=
 -->
