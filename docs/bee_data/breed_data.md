@@ -84,7 +84,7 @@ Given the information above, when an `Iron` and `Gold` bee mate there is a 20% c
 ## **Feeding Bees**
 ***
 
-### **Feed Item**
+### **Feed Item** (Optional)
 
 The `feedItem` for a bee represents the item that is required to trigger the _**love**_ state for a bee. The item is a `string` value  in the form of `namespace:ID`. `feedItem` has tag support as follows: `tag:domain:type/material`.
 
@@ -110,7 +110,7 @@ Skeleton:
 <br>
 <br>
 
-### **Feed Amount**
+### **Feed Amount** (Optional)
 
 `feedAmount` is used to determine *how many* `feedItem`s must be given to the bee in order for it to trigger its love state. In the examples from above, the `Coal` bee must be given **four** poppies to trigger its love state and the `Skeleton` bee must be given eight total flowers from the `small` flowers tag.
 
@@ -120,13 +120,11 @@ Skeleton:
 ## **Time Delays**
 ***
 
-### **Child Growth Delay**
-
-
+### **Child Growth Delay** (Optional)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjA1ODcwMTEsMjg1NzUzOTY2LC0xOT
-kyOTQ1NDE4LC0xMTEzOTc4ODEwLDEwNzgwNTA1MiwtNzUzOTE3
-MzAxLDgxMDAxNzcxOV19
+eyJoaXN0b3J5IjpbMTgzMjU4NTk3OCwyODU3NTM5NjYsLTE5OT
+I5NDU0MTgsLTExMTM5Nzg4MTAsMTA3ODA1MDUyLC03NTM5MTcz
+MDEsODEwMDE3NzE5XX0=
 -->
