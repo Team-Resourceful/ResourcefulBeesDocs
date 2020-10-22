@@ -122,9 +122,9 @@ Skeleton:
 
 ### **Child Growth Delay** (Optional)
 
-`childGrowthDelay` is a signed integer represented as a negative 
+`childGrowthDelay` is a signed integer represented as a negative value which indicates the number of ticks it takes for the bee to become and adult bee. By default, it uses the vanilla va
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE1NzU0OTQsMjg1NzUzOTY2LC0xOTkyOT
-Q1NDE4LC0xMTEzOTc4ODEwLDEwNzgwNTA1MiwtNzUzOTE3MzAx
-LDgxMDAxNzcxOV19
+eyJoaXN0b3J5IjpbNjk2NDQyNjc3LDI4NTc1Mzk2NiwtMTk5Mj
+k0NTQxOCwtMTExMzk3ODgxMCwxMDc4MDUwNTIsLTc1MzkxNzMw
+MSw4MTAwMTc3MTldfQ==
 -->
