@@ -50,7 +50,7 @@ Using the example above the bee would have 3 possible sets of parents:
 
 ### **Breed Weight** (Optional)
 
-This value is an  _optional_  value. This value is used when establishing a bee's breeding rules. This value is represented as a `double`. The value can be any number greater than zero. This value determines the weighting that the child bee has when breeding. The default for this value is 0.33.
+This value is an  _optional_  value. This value is used when establishing a bee's breeding rules. This value is represented as a `double`. The value can be any number greater than zero. This value determines the weighting that the child bee has when breeding. The default for this value is 33.
 
 Using the above here are additional breeding examples:
 
@@ -70,6 +70,7 @@ This example the bee has a 15% chance to spawn when a Wither and Blaze bee mate.
 "parent2": "Blaze",
 "breedWeight": 0.15
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTI5NDU0MTgsLTExMTM5Nzg4MTAsMT
-A3ODA1MDUyLC03NTM5MTczMDEsODEwMDE3NzE5XX0=
+eyJoaXN0b3J5IjpbLTE4MzI4NjQyMDQsLTE5OTI5NDU0MTgsLT
+ExMTM5Nzg4MTAsMTA3ODA1MDUyLC03NTM5MTczMDEsODEwMDE3
+NzE5XX0=
 -->
