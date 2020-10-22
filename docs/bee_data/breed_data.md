@@ -52,9 +52,16 @@ Using the example above the bee would have 3 possible sets of parents:
 
 This value is an  _optional_  value that is used to determine the weighting that the child bee has versus all other bees the **same** two parents can make. The value is represented as a `double` and can be any number greater than zero. This value determines the weighting that the child bee has when breeding. The default for this value is 10.
 
-Suppose for example that we have two parents: `Iron` and `Gold` and that these two parents can make three different bee types: `Diamond` 
+Suppose for example that we have two parents: `Iron` and `Gold` and that these two parents can make three different bee types: `Diamond`, `Emerald`, and `Redstone`:
+
+Diamond Breed Data:
+```json
+"isBreedable": true,
+"parent1": "my_super_cool_bee",
+"parent2": "my_other_super_cool_bee"
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1MTYxODcwMCwtMTk5Mjk0NTQxOCwtMT
+eyJoaXN0b3J5IjpbLTc2MjU3NjU0MSwtMTk5Mjk0NTQxOCwtMT
 ExMzk3ODgxMCwxMDc4MDUwNTIsLTc1MzkxNzMwMSw4MTAwMTc3
 MTldfQ==
 -->
