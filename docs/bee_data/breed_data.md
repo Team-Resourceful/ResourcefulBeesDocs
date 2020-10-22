@@ -146,7 +146,7 @@ Here is a blank template showing all configurable fields in the Breed Data objec
   "isBreedable": true,  
   "parent1": "",
   "parent2": "",
-  "breedWeight": 10
+  "breedWeight": 10,
   "feedItem": "all",  
   "feedAmount": 1,
   "childGrowthDelay": -24000,
@@ -154,7 +154,7 @@ Here is a blank template showing all configurable fields in the Breed Data objec
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzY1NjgwMjMsMjg1NzUzOTY2LC0xOT
-kyOTQ1NDE4LC0xMTEzOTc4ODEwLDEwNzgwNTA1MiwtNzUzOTE3
-MzAxLDgxMDAxNzcxOV19
+eyJoaXN0b3J5IjpbMTE2OTI2NzM3OSwtMTc3NjU2ODAyMywyOD
+U3NTM5NjYsLTE5OTI5NDU0MTgsLTExMTM5Nzg4MTAsMTA3ODA1
+MDUyLC03NTM5MTczMDEsODEwMDE3NzE5XX0=
 -->
