@@ -86,9 +86,14 @@ Given the information above, when an `Iron` and `Gold` bee mate there is a 20% c
 
 ### **Feed Item**
 
-The `feedItem` for a bee represents the item that is required to trigger the _**love**_ state for a bee. The item is a `string` value  in the form of `namespace:ID`. It also has tag support: `tag:domain:type/material`.
+The `feedItem` for a bee represents the item that is required to trigger the _**love**_ state for a bee. The item is a `string` value  in the form of `namespace:ID`. `feedItem` has tag support as follows: `tag:domain:type/material`.
+
+Coal and Skeleton bees are good examples the feed item being used:
+
+```json
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNDk1MDI5OSwtMTk5Mjk0NTQxOCwtMT
+eyJoaXN0b3J5IjpbMjE0MzA3NzQ5NiwtMTk5Mjk0NTQxOCwtMT
 ExMzk3ODgxMCwxMDc4MDUwNTIsLTc1MzkxNzMwMSw4MTAwMTc3
 MTldfQ==
 -->
