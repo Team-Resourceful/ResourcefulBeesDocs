@@ -113,8 +113,18 @@ Skeleton:
 ### **Feed Amount**
 
 `feedAmount` is used to determine *how many* `feedItem`s must be given to the bee in order for it to trigger its love state. In the examples from above, the `Coal` bee must be given **four** poppies to trigger its love state and the `Skeleton` bee must be given eight total flowers from the `small` flowers tag.
+
+<br>
+<br>
+
+## **Feeding Bees**
+***
+
+### **Time Delays**
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MjMzMzQ5NSwtMTk5Mjk0NTQxOCwtMT
-ExMzk3ODgxMCwxMDc4MDUwNTIsLTc1MzkxNzMwMSw4MTAwMTc3
-MTldfQ==
+eyJoaXN0b3J5IjpbMjg1NzUzOTY2LC0xOTkyOTQ1NDE4LC0xMT
+EzOTc4ODEwLDEwNzgwNTA1MiwtNzUzOTE3MzAxLDgxMDAxNzcx
+OV19
 -->
