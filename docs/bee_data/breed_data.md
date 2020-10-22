@@ -11,9 +11,9 @@ The value defaults to `false` and must be set to `true` if you want the bee to b
 <br>
 <br>
 
-### **parent1 && parent2** (Optionally Required)
+### **Parent 1 & Parent 2** (Optionally Required)
 
-Parent 1 and Parent 2 are two separate values. They are  _optional_, however, when used, they  **must**  be used together with `isBreedable`. Parent 1 and Parent 2 are used for determining what bees must mate to create this child bee.
+`parent1` and `parent2` are two separate values. They are  _optional_, however, when used, they  **must**  be used together with `isBreedable`. Parent 1 and Parent 2 are used for determining what bees must mate to create this child bee.
 
 Here is an example of its usage:
 
@@ -35,6 +35,6 @@ In this example the bee can be bred when "my_super_cool_bee" mates with "my_othe
 
 _Note:_  A bee must have two  **different**  parents. No two bees can have the  **same**  two parents.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3ODA1MDUyLC03NTM5MTczMDEsODEwMD
-E3NzE5XX0=
+eyJoaXN0b3J5IjpbLTExMTM5Nzg4MTAsMTA3ODA1MDUyLC03NT
+M5MTczMDEsODEwMDE3NzE5XX0=
 -->
