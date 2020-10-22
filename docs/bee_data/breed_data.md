@@ -90,10 +90,29 @@ The `feedItem` for a bee represents the item that is required to trigger the _**
 
 Coal and Skeleton bees are good examples the feed item being used:
 
+Coal:
 ```json
+"BreedData": {  
+  "feedItem": "minecraft:poppy",  
+  "feedAmount": 4,  
+  "isBreedable": true  
+}
+```
+Skeleton:
+```json
+"BreedData": {  
+  "isBreedable": true,  
+  "feedItem": "small",  
+  "feedAmount": 8  
+}
+```
 
+<br>
+<br>
+
+###
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0MzA3NzQ5NiwtMTk5Mjk0NTQxOCwtMT
+eyJoaXN0b3J5IjpbLTc4OTIyODA5MywtMTk5Mjk0NTQxOCwtMT
 ExMzk3ODgxMCwxMDc4MDUwNTIsLTc1MzkxNzMwMSw4MTAwMTc3
 MTldfQ==
 -->
