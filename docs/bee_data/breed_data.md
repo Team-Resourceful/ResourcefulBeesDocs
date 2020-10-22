@@ -110,9 +110,11 @@ Skeleton:
 <br>
 <br>
 
-###
+### **Feed Amount**
+
+`feedAmount` is used to determine *how many* `feedItem`s must be given to the bee in order for it to trigger its 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4OTIyODA5MywtMTk5Mjk0NTQxOCwtMT
-ExMzk3ODgxMCwxMDc4MDUwNTIsLTc1MzkxNzMwMSw4MTAwMTc3
-MTldfQ==
+eyJoaXN0b3J5IjpbLTQ1NDMxMzIwLC0xOTkyOTQ1NDE4LC0xMT
+EzOTc4ODEwLDEwNzgwNTA1MiwtNzUzOTE3MzAxLDgxMDAxNzcx
+OV19
 -->
