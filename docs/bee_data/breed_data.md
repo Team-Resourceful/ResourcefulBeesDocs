@@ -77,8 +77,18 @@ Redstone Breed Data:
 ```
 
 Given the information above, when an `Iron` and `Gold` bee mate there is a 20% chance a `Diamond` bee will spawn, a 10% chance that an `Emerald` bee will spawn, and a 70% chance that a `Redstone` bee will spawn.
+
+<br>
+<br>
+
+## **Feeding Bees**
+***
+
+### **Feed Item**
+
+The `feedItem` for a bee 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI2NjQzMjg3LC0xOTkyOTQ1NDE4LC0xMT
-EzOTc4ODEwLDEwNzgwNTA1MiwtNzUzOTE3MzAxLDgxMDAxNzcx
-OV19
+eyJoaXN0b3J5IjpbLTE5MzkyMzEwNTYsLTE5OTI5NDU0MTgsLT
+ExMTM5Nzg4MTAsMTA3ODA1MDUyLC03NTM5MTczMDEsODEwMDE3
+NzE5XX0=
 -->
