@@ -48,8 +48,28 @@ Using the example above the bee would have 3 possible sets of parents:
 <br>
 <br>
 
-#
+### **Breed Weight** (Optional)
+
+This value is an  _optional_  value. This value is used when establishing a bee's breeding rules. This value is represented as a "double". The value should be between 0.00 -> 1.00. This value determines the weighting that the child bee has when breeding. The default for this value is 0.33.
+
+Using the above here are additional breeding examples:
+
+This example the bee has a 50% chance to spawn when a Gold and Lapis bee mate.  
+
+"breedable": true,
+"parent1": "Gold",
+"parent2": "Lapis",
+"breedWeight": 0.5
+
+  
+
+This example the bee has a 15% chance to spawn when a Wither and Blaze bee mate.
+
+"breedable": true,
+"parent1": "Wither",
+"parent2": "Blaze",
+"breedWeight": 0.15
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjc2ODU5MiwtMTExMzk3ODgxMCwxMD
+eyJoaXN0b3J5IjpbLTI3MzA5MzgxNywtMTExMzk3ODgxMCwxMD
 c4MDUwNTIsLTc1MzkxNzMwMSw4MTAwMTc3MTldfQ==
 -->
