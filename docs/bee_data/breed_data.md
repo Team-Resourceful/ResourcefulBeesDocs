@@ -129,9 +129,11 @@ Skeleton:
 
 ### **Breed Delay** (Optional)
 
-`breedDelay` is a signed integer represented as a positive value which indicates the number of ticks it takes before a bee can mate with another bee. By default, it uses the vanilla value of `-24000`.
+`breedDelay` is a signed integer represented as a positive value which indicates the number of ticks it takes before a bee can mate with another bee after having spawned in a child. By default, it uses the vanilla value of `6000`.
+
+**Note:** Internally, both values affect the `GrowingAge` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI4NTg5NjgxLDI4NTc1Mzk2NiwtMTk5Mj
-k0NTQxOCwtMTExMzk3ODgxMCwxMDc4MDUwNTIsLTc1MzkxNzMw
-MSw4MTAwMTc3MTldfQ==
+eyJoaXN0b3J5IjpbMTI0MDQ0NTM1NCwyODU3NTM5NjYsLTE5OT
+I5NDU0MTgsLTExMTM5Nzg4MTAsMTA3ODA1MDUyLC03NTM5MTcz
+MDEsODEwMDE3NzE5XX0=
 -->
