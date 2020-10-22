@@ -45,7 +45,11 @@ Using the example above the bee would have 3 possible sets of parents:
  2. Redstone & Diamond
  3. Lapis & Emerald
 
+<br>
+<br>
+
+#
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzQ0MzQ2NDMsLTExMTM5Nzg4MTAsMT
-A3ODA1MDUyLC03NTM5MTczMDEsODEwMDE3NzE5XX0=
+eyJoaXN0b3J5IjpbLTIwNjc2ODU5MiwtMTExMzk3ODgxMCwxMD
+c4MDUwNTIsLTc1MzkxNzMwMSw4MTAwMTc3MTldfQ==
 -->
