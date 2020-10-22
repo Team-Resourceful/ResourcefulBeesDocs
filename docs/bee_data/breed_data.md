@@ -122,9 +122,16 @@ Skeleton:
 
 ### **Child Growth Delay** (Optional)
 
-`childGrowthDelay` is a signed integer represented as a negative value which indicates the number of ticks it takes for the bee to become and adult bee. By default, it uses the vanilla va
+`childGrowthDelay` is a signed integer represented as a negative value which indicates the number of ticks it takes for the bee to become and adult bee. By default, it uses the vanilla value of `-24000`.
+
+<br>
+<br>
+
+### **Breed Delay** (Optional)
+
+`breedDelay` is a signed integer represented as a positive value which indicates the number of ticks it takes before a bee can mate with another bee. By default, it uses the vanilla value of `-24000`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk2NDQyNjc3LDI4NTc1Mzk2NiwtMTk5Mj
+eyJoaXN0b3J5IjpbOTI4NTg5NjgxLDI4NTc1Mzk2NiwtMTk5Mj
 k0NTQxOCwtMTExMzk3ODgxMCwxMDc4MDUwNTIsLTc1MzkxNzMw
 MSw4MTAwMTc3MTldfQ==
 -->
