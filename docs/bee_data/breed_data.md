@@ -57,11 +57,28 @@ Suppose for example that we have two parents: `Iron` and `Gold` and that these t
 Diamond Breed Data:
 ```json
 "isBreedable": true,
-"parent1": "my_super_cool_bee",
-"parent2": "my_other_super_cool_bee"
+"parent1": "iron",
+"parent2": "gold",
+"breedWeight": 20
 ```
+Emerald Breed Data:
+```json
+"isBreedable": true,
+"parent1": "iron",
+"parent2": "gold",
+"breedWeight": 10
+```
+Redstone Breed Data:
+```json
+"isBreedable": true,
+"parent1": "iron",
+"parent2": "gold",
+"breedWeight": 70
+```
+
+Given the 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MjU3NjU0MSwtMTk5Mjk0NTQxOCwtMT
-ExMzk3ODgxMCwxMDc4MDUwNTIsLTc1MzkxNzMwMSw4MTAwMTc3
-MTldfQ==
+eyJoaXN0b3J5IjpbNjMwNjIxMDk0LC0xOTkyOTQ1NDE4LC0xMT
+EzOTc4ODEwLDEwNzgwNTA1MiwtNzUzOTE3MzAxLDgxMDAxNzcx
+OV19
 -->
