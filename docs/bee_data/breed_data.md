@@ -132,8 +132,16 @@ Skeleton:
 `breedDelay` is a signed integer represented as a positive value which indicates the number of ticks it takes before a bee can mate with another bee after having spawned in a child. By default, it uses the vanilla value of `6000`.
 
 **Note:** Internally, both values affect the `GrowingAge` of the `AgeableEntity` and increase or decrease in value each tick with the goal of reaching zero.
+
+<br>
+<br>
+
+## **Template**
+***
+
+Here is a 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNTAwNjY5NiwyODU3NTM5NjYsLTE5OT
+eyJoaXN0b3J5IjpbMTc5NzIzODYxMSwyODU3NTM5NjYsLTE5OT
 I5NDU0MTgsLTExMTM5Nzg4MTAsMTA3ODA1MDUyLC03NTM5MTcz
 MDEsODEwMDE3NzE5XX0=
 -->
