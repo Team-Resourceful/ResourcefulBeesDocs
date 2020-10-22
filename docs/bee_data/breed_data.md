@@ -17,7 +17,7 @@ The value defaults to `false` and must be set to `true` if you want the bee to b
 
 Here is an example of its usage:
 
-In this example the bee can be bred when a "Diamond" and "Emerald" bee mate.  
+In this example the bee can be bred when a `Diamond` and `Emerald` bee mate.  
 
 ```json
 "isBreedable": true,
@@ -124,7 +124,7 @@ Skeleton:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMjU4NTk3OCwyODU3NTM5NjYsLTE5OT
+eyJoaXN0b3J5IjpbMjA5NzYzNzQ1MCwyODU3NTM5NjYsLTE5OT
 I5NDU0MTgsLTExMTM5Nzg4MTAsMTA3ODA1MDUyLC03NTM5MTcz
 MDEsODEwMDE3NzE5XX0=
 -->
