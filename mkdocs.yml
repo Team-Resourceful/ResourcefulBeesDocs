@@ -1,6 +1,6 @@
 nav:
   - Home: 'index.md'
-  - Breed Data : 'bee_data/breed_data.md
+  - Breed Data : 'bee_data/breed_data.md'
   - Color Data : 'bee_data/color_data.md'
 
 site_name: Resourceful Bees Docs
