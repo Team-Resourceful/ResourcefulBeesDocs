@@ -50,27 +50,11 @@ Using the example above the bee would have 3 possible sets of parents:
 
 ### **Breed Weight** (Optional)
 
-This value is an  _optional_  value that is used to determine the weighting that the child bee has versus all other bees the **same** two parents can make. The value is represented as a `double` and can be any number greater than zero. This value determines the weighting that the child bee has when breeding. The default for this value is 10. 
+This value is an  _optional_  value that is used to determine the weighting that the child bee has versus all other bees the **same** two parents can make. The value is represented as a `double` and can be any number greater than zero. This value determines the weighting that the child bee has when breeding. The default for this value is 10.
 
-Using the above information here are additional examples:
-
-This example the bee has a 50% chance to spawn when a Gold and Lapis bee mate.  
-
-"breedable": true,
-"parent1": "Gold",
-"parent2": "Lapis",
-"breedWeight": 0.5
-
-  
-
-This example the bee has a 15% chance to spawn when a Wither and Blaze bee mate.
-
-"breedable": true,
-"parent1": "Wither",
-"parent2": "Blaze",
-"breedWeight": 0.15
+Suppose for example that we have t
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMjQ3MzIzMywtMTk5Mjk0NTQxOCwtMT
-ExMzk3ODgxMCwxMDc4MDUwNTIsLTc1MzkxNzMwMSw4MTAwMTc3
-MTldfQ==
+eyJoaXN0b3J5IjpbLTYwMjYzODQ0LC0xOTkyOTQ1NDE4LC0xMT
+EzOTc4ODEwLDEwNzgwNTA1MiwtNzUzOTE3MzAxLDgxMDAxNzcx
+OV19
 -->
