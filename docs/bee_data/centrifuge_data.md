@@ -54,13 +54,15 @@ There are three different weight values that can be set for the centrifuge outpu
 Here is an example:
 
 ```json
-"CentrifugeData: {
-"mainOutput": "minecraft:diamond",
-"mainOutputWeight": 0.40,
-"secondaryOutput": "minecraft:nether_star",
-"secondaryOutputWeight": 0.02,
-"bottleOutput": "minecraft:experience_bottle",
-"bottleOutputWeight": 0.70
+"CentrifugeData": {
+	"hasCentrifugeOutput": true,
+	"mainOutput": "minecraft:diamond",
+	"mainOutputWeight": 0.40,
+	"secondaryOutput": "minecraft:nether_star",
+	"secondaryOutputWeight": 0.02,
+	"bottleOutput": "minecraft:experience_bottle",
+	"bottleOutputWeight": 0.70
+}
 ```
 <br>
 
@@ -79,15 +81,18 @@ Similar to weights, there are three different output count values that can be se
 Here is the previous example updated:
 
 ```json
-"mainOutput": "minecraft:diamond",
-"mainOutputWeight": 0.40,
-"mainOutputCount": 2,
-"secondaryOutput": "minecraft:nether_star",
-"secondaryOutputWeight": 0.02,
-"secondaryOutputCount": 1,
-"bottleOutput": "minecraft:experience_bottle",
-"bottleOutputWeight": 0.70,
-"bottleOutputCount": 3
+"CentrifugeData": {
+	"hasCentrifugeOutput": true,
+	"mainOutput": "minecraft:diamond",
+	"mainOutputWeight": 0.40,
+	"mainOutputCount": 2,
+	"secondaryOutput": "minecraft:nether_star",
+	"secondaryOutputWeight": 0.02,
+	"secondaryOutputCount": 1,
+	"bottleOutput": "minecraft:experience_bottle",
+	"bottleOutputWeight": 0.70,
+	"bottleOutputCount": 3
+}
 ```
 <br>
 
@@ -98,5 +103,5 @@ In the example above, the bee's honeycomb when used in the centrifuge will have 
 <br>
 <br>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU3NzcwNzQ0XX0=
+eyJoaXN0b3J5IjpbLTEzNTkxNzc0MTFdfQ==
 -->
