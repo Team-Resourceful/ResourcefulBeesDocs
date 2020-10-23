@@ -21,15 +21,18 @@ When a bee attacks the player, by default it deals 1 damage to the player and th
 
 ### **removeStingerOnAttack** (Optional)
 
-Use `removeStingerOnAttack` when you want only a specific bee to either die or not die after stinging the player. The global config value `beeDiesFromSting` by default is set to `true` and overrides this value. Set `beeDiesFromSting` to false if you would like to modify individual bees.
+Use `removeStingerOnAttack` when you want only a specific bee to either die or not die after stinging the player. The global config value `beeDiesFromSting` by default is set to `true` and overrides this value. Set `beeDiesFromSting` to `false` if you would like to modify individual bees.
 
 <br>
 <br>
 
 ### **inflictsPoison** (Optional)
 
-Use `inflictsPoison` when you want only a specific bee to not . The global config value `beesInflictPoison` by default is set to `true` and overrides this value. Set `beesInflictPoison` to false if you would like to modify individual bees.
+Use `inflictsPoison` when you want a specific bee to **only** deal attack damage. The global config value `beesInflictPoison` by default is set to `true` and overrides this value. Set `beesInflictPoison` to `false` if you would like to modify individual bees.
+
+## **Template**
+***
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0Mjc0ODEyLDY2MzYyNzU4OCwxNzg1NT
-kxNTcxXX0=
+eyJoaXN0b3J5IjpbMTgwNDI3MjY4LDE5NDI3NDgxMiw2NjM2Mj
+c1ODgsMTc4NTU5MTU3MV19
 -->
