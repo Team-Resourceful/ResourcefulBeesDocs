@@ -15,6 +15,13 @@ By default bees will get attack players when they get angry. Setting `isPassive`
 When a bee attacks the player, by default it deals 1 damage to the player and then inflicts poison damage over a period of time. The amount of poison damage isn't configurable, however the amount of damage on sting is configurable by using `attackDamage`. This can be any float value zero or greater.
 
 **Note:** Zero damage is useful for when you want a bee to have positive trait effects given to the player instead of damaging the player such as the Oreo Bee.
+
+<br>
+<br>
+
+### **removeStingerOnAttack** (Optional)
+
+Use `removeStingerOnAttack` when you want only a specific bee to either die or not die after stinging the player. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMwMjc3MTAxLDE3ODU1OTE1NzFdfQ==
+eyJoaXN0b3J5IjpbLTEyNDc2NTQwMDcsMTc4NTU5MTU3MV19
 -->
