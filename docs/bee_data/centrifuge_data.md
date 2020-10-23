@@ -117,16 +117,16 @@ Here is a blank template showing all configurable fields in the Breed Data objec
 	"hasCentrifugeOutput": true,
 	"mainInputCount": 1,
 	"mainOutput": "",
-	"mainOutputWeight": 0.40,
-	"mainOutputCount": 2,
+	"mainOutputWeight": 1.00,
+	"mainOutputCount": 1,
 	"secondaryOutput": "resourcefulbees:wax",
-	"secondaryOutputWeight": 0.02,
+	"secondaryOutputWeight": 0.20,
 	"secondaryOutputCount": 1,
 	"bottleOutput": "minecraft:honey_bottle",
-	"bottleOutputWeight": 0.70,
-	"bottleOutputCount": 3
+	"bottleOutputWeight": 0.25,
+	"bottleOutputCount": 1
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjcxMDc3OTAsLTEwMzA3NDQ0N119
+eyJoaXN0b3J5IjpbMTYyMjkyNzQ1NCwtMTAzMDc0NDQ3XX0=
 -->
