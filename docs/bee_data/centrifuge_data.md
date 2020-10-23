@@ -73,13 +73,14 @@ In the example above, the bee's honeycomb when used in the centrifuge will have 
 ## **Input and Output Counts**
 ***
 
-Similar to weights, there are three different output count values that can be set for the centrifuge outputs. These correspond with the three different centrifuge outputs available. There is `mainOutputCount`, `secondaryOutputCount`, and `bottleOutputCount`. These values are *optional* and can be used to determine the chance an item has to be output from the centrifuge recipe. They are two-digit decimal numbers between 0.00 -> 1.00.
+Similar to weights, there are three different output count values that can be set for the centrifuge outputs. These correspond with the three different centrifuge outputs available. There is `mainOutputCount`, `secondaryOutputCount`, and `bottleOutputCount`. These values are *optional* and can be used to determine the amount of the associated output item that is received when the recipe is processed.
 
 Here is an example:
 
 ```json
 "mainOutput": "minecraft:diamond",
 "mainOutputWeight": 0.40,
+"mainOutputCount":
 "secondaryOutput": "minecraft:nether_star",
 "secondaryOutputWeight": 0.02,
 "bottleOutput": "minecraft:experience_bottle",
@@ -94,5 +95,5 @@ In the example above, the bee's honeycomb when used in the centrifuge will have 
 <br>
 <br>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5OTM0MzE5MV19
+eyJoaXN0b3J5IjpbLTEwNzE3NzU1MjRdfQ==
 -->
