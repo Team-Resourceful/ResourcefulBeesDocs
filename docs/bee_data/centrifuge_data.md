@@ -84,11 +84,12 @@ In the example above, the bee's honeycomb when used in the centrifuge will have 
 
 Similar to weights, there are three different output count values that can be set for the centrifuge outputs. These correspond with the three different centrifuge outputs available. There is `mainOutputCount`, `secondaryOutputCount`, and `bottleOutputCount`. These values are *optional* and can be used to determine the amount of the associated output item that is received when the recipe is processed.
 
-Here is the previous example updated:
+Here is the previous example updated with input and output counts added:
 
 ```json
 "CentrifugeData": {
 	"hasCentrifugeOutput": true,
+	"mainInputCount": 4,
 	"mainOutput": "minecraft:diamond",
 	"mainOutputWeight": 0.40,
 	"mainOutputCount": 2,
@@ -102,9 +103,9 @@ Here is the previous example updated:
 ```
 <br>
 
-In the example above, the bee's honeycomb when used in the centrifuge will have a 40% chance to output **two** diamonds, a 2% chance to output **one** nether star as the secondary output, and a 70% chance to output **three** bottles of enchanting. <br>
+In the example above, when **four** of the bees honeycombs are used in the centrifuge, they will have a 40% chance to output **two** diamonds, a 2% chance to output **one** nether star as the secondary output, and a 70% chance to output **three** bottles of enchanting. <br>
 
 *Note:* The default for all three values is `1`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ3MDcyMjk3XX0=
+eyJoaXN0b3J5IjpbMTkwNjA2ODEwXX0=
 -->
