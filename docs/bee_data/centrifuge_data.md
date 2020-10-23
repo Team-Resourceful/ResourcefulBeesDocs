@@ -103,9 +103,12 @@ Here is the previous example updated with input and output counts added:
 ```
 <br>
 
-In the example above, when **four** of the bees honeycombs are used in the centrifuge, they will have a 40% chance to output **two** diamonds, a 2% chance to output **one** nether star as the secondary output, and a 70% chance to output **three** bottles of enchanting. <br>
+In the example above, the centrifuge recipe will have a 40% chance to output **two** diamonds, a 2% chance to output **one** nether star as the secondary output, and a 70% chance to output **three** bottles of enchanting while consuming **four** honeycombs per operation. <br>
 
-*Note:* The default for all three values is `1`
+*Note:* The default for all four values is `1`
+
+## **Input and Output Counts**
+***
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNjA2ODEwXX0=
+eyJoaXN0b3J5IjpbLTE3ODEwMzQ4MTVdfQ==
 -->
