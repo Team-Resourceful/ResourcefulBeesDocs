@@ -82,21 +82,29 @@ In this example, the bee will mutate lava into obsidian.
 ```json
 "MutationData": {
 	"hasMutation": true,
-	"mutationType": "BLOCK_TO_BLOCK",
+	"mutationType": "FLUID_TO_BLOCK",
 	"mutationInput": "minecraft:lava",
 	"mutationOutput": "minecraft:obsidian"
+}
 ```
 <br>
 
 In this example, the bee will mutate cobblestone into lava.
 ```json
-"mutationInput": "minecraft:cobblestone",
-"mutationOutput": "minecraft:lava"
+"MutationData": {
+	"hasMutation": true,
+	"mutationType": "BLOCK_TO_FLUID",
+	"mutationInput": "minecraft:cobblestone",
+	"mutationOutput": "minecraft:lava"
+}
 ```
 <br>
 
 In this example, the bee will mutate cow into a bat.
 ```json
+"MutationData": {
+	"hasMutation": true,
+	"mutationType": "ENTITY_TO_ENTITY",
 "mutationInput": "entity:minecraft:cow",
 "mutationOutput": "entity:minecraft:bat"
 ```
@@ -118,5 +126,5 @@ Example:
 "mutationOutput": "entity:minecraft:bat"
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgyNDkxMjM4LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbNzEyMTg0NTQyLDczMDk5ODExNl19
 -->
