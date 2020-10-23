@@ -69,22 +69,22 @@ In this example the bee will mutate a stone block into a coal ore block.
 
 In this example the bee will mutate any block tagged as stone into a coal ore block.
 ```json
-"mutationInput": "tag:forge:stone",
-"mutationOutput": "minecraft:coal_ore"
-```
-<br>
-
-In this example the bee will mutate a coal block into a bedrock block.
-```json
-"mutationInput": "minecraft:coal_block",
-"mutationOutput": "minecraft:bedrock"
+"MutationData": {
+	"hasMutation": true,
+	"mutationType": "BLOCK_TO_BLOCK",
+	"mutationInput": "tag:forge:stone",
+	"mutationOutput": "minecraft:coal_ore"
+}
 ```
 <br>
 
 In this example, the bee will mutate lava into obsidian.
 ```json
-"mutationInput": "minecraft:lava",
-"mutationOutput": "minecraft:obsidian"
+"MutationData": {
+	"hasMutation": true,
+	"mutationType": "BLOCK_TO_BLOCK",
+	"mutationInput": "minecraft:lava",
+	"mutationOutput": "minecraft:obsidian"
 ```
 <br>
 
@@ -118,5 +118,5 @@ Example:
 "mutationOutput": "entity:minecraft:bat"
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIxMTM4Mjc0LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbNDgyNDkxMjM4LDczMDk5ODExNl19
 -->
