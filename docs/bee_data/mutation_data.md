@@ -105,8 +105,9 @@ In this example, the bee will mutate cow into a bat.
 "MutationData": {
 	"hasMutation": true,
 	"mutationType": "ENTITY_TO_ENTITY",
-"mutationInput": "entity:minecraft:cow",
-"mutationOutput": "entity:minecraft:bat"
+	"mutationInput": "entity:minecraft:cow",
+	"mutationOutput": "entity:minecraft:bat"
+}
 ```
 <br>
 
@@ -126,5 +127,6 @@ Example:
 "mutationOutput": "entity:minecraft:bat"
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzEyMTg0NTQyLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTI0NTQwOTEzLDcxMjE4NDU0Miw3MzA5OT
+gxMTZdfQ==
 -->
