@@ -58,6 +58,8 @@ Example:
 
 In this example the bee will mutate a stone block into a coal ore block.
 ```json
+"MutationData": {
+"mutationType": "
 "mutationInput": "minecraft:stone",
 "mutationOutput": "minecraft:coal_ore"
 ```
@@ -105,7 +107,14 @@ In this example, the bee will mutate cow into a bat.
 
 ### **mutationCount**
 
-Use `mutationCount` when you want to specify how many blocks a bee can mutate before it must visit a hive and collect nectar again. By default a bee will mutate 1
+Use `mutationCount` when you want to specify how many blocks a bee can mutate before it must visit a hive and collect nectar again. By default a bee will mutate **ten** blocks before the process must be reset.
+
+Example:
+
+```json
+"mutationInput": "entity:minecraft:cow",
+"mutationOutput": "entity:minecraft:bat"
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNDQ5NzQzOSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTIzODAwODU4OSw3MzA5OTgxMTZdfQ==
 -->
