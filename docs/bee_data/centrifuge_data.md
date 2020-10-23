@@ -80,20 +80,22 @@ Here is an example:
 ```json
 "mainOutput": "minecraft:diamond",
 "mainOutputWeight": 0.40,
-"mainOutputCount":
+"mainOutputCount": 2,
 "secondaryOutput": "minecraft:nether_star",
 "secondaryOutputWeight": 0.02,
+"secondaryOutputCount": 1,
 "bottleOutput": "minecraft:experience_bottle",
-"bottleOutputWeight": 0.70
+"bottleOutputWeight": 0.70,
+"bottleOutputCount": 3
 ```
 <br>
 
-In the example above, the bee's honeycomb when used in the centrifuge will have a 40% chance to output a diamond, a 2% chance to output a nether star as the secondary output, and a 70% chance to output bottles of enchanting. <br>
+In the example above, the bee's honeycomb when used in the centrifuge will have a 40% chance to output two diamonds, a 2% chance to output one nether star as the secondary output, and a 70% chance to output 3 bottles of enchanting. <br>
 
-*Note:* The default value for Main Output is 1.0. The default value for Secondary output is 0.20. The default value for Bottle Output is 0.25.
+*Note:*  
 
 <br>
 <br>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzE3NzU1MjRdfQ==
+eyJoaXN0b3J5IjpbOTg0MTc1MDc0XX0=
 -->
