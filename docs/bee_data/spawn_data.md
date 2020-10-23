@@ -1,7 +1,11 @@
 # **Spawn Data**
 
-## **Parents and Weight**
+## **Enabling Natural Spawns**
 ***
+
+### **canSpawnInWorld** (Required)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MjY4Mjc4OF19
+eyJoaXN0b3J5IjpbMzAzMjIxMjJdfQ==
 -->
