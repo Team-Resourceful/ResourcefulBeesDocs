@@ -3,14 +3,14 @@
 ## **Outputs**
 ***
 
-### **hasCentrifugeOutput** (Required)
+### **Has Centrifuge Output?** (Required)
 
-This is a `true`/`false` value that when set to `true` allows a recipe to be generated for the honeycomb and honeycomb block. This value is **only** required *if* you want the bee's honeycomb to have centrifuge recipes generated, otherwise the entirety of the `centrifugeData` object can be left out of the bees json. 
+`hasCentrifugeOutput` is a `true`/`false` value that when set to `true` allows a recipe to be generated for the honeycomb and honeycomb block. This value is **only** required *if* you want the bee's honeycomb to have centrifuge recipes generated, otherwise the entirety of the `centrifugeData` object can be left out of the bees json. 
 
 <br>
 <br>
 
-### **mainOutput** (Optionally Required)
+### **Main Centrifuge Output** (Optionally Required)
 
 `mainOutput` is a string value in the form of `namespace:ID` that specifies the primary output of the bees honeycomb when it is put into the centrifuge. This value is required when `hasCentrifugeOutput` is set to true. This value can be  _anything_  you want to give to the player so long as it is an item in game. This includes any item from another mod. This output can also have an optional weighting value provided that determines the chance of getting the item.
 
@@ -128,5 +128,5 @@ Here is a blank template showing all configurable fields in the Breed Data objec
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMjkyNzQ1NCwtMTAzMDc0NDQ3XX0=
+eyJoaXN0b3J5IjpbLTE1MTM1NjQxNjgsLTEwMzA3NDQ0N119
 -->
