@@ -1,7 +1,9 @@
+# **Combat Data**
 
+## **Parents and Weight**
+***
 
-
-> Written with [StackEdit](https://stackedit.io/).
+### **isBreedable** (Optional)ttps://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTgxNDk1NjU5MF19
 -->
