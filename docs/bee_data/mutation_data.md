@@ -103,7 +103,9 @@ In this example, the bee will mutate cow into a bat.
 <br>
 <br>
 
-### **mutationCount** 
+### **mutationCount**
+
+Use `mutationCount` when you want to specify how many blocks a bee can mutate before it must visit a hive and collect nectar again. By default a bee will mutate 1
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI5ODY0NDg0LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTMyNDQ5NzQzOSw3MzA5OTgxMTZdfQ==
 -->
