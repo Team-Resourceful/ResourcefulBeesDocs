@@ -24,7 +24,7 @@ Here are some examples:
 <br>
 <br>
 
-## **Secondary Centrifuge Output** (Optional)
+### **Secondary Centrifuge Output** (Optional)
 
 The secondary output is an optional value for the bee. You can have a "waste" item or any other item for the secondary output. This value follows the same rules as shown for the main output. If no value is supplied then the default value of "Beeswax" is provided instead. This value can also have a custom defined weighting.
 
@@ -35,7 +35,7 @@ Here is an example of it's usage:
 <br>
 <br>
 
-## **Bottle Centrifuge Output** (Optional)
+### **Bottle Centrifuge Output** (Optional)
 
 The bottle output is an optional value for the bee. This output is intended to allow bees to provide a different bottled ingredient such as "Dragons Breath", however, like the other two outputs this value can be set to anything. This value defaults to "Honey Bottle" if not used. This value can also have a custom defined weighting.
 
@@ -47,5 +47,5 @@ Here is an example of it's usage:
 <br>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzODE2MTY0NV19
+eyJoaXN0b3J5IjpbLTEzNTA4ODI5NV19
 -->
