@@ -5,7 +5,7 @@
 
 ### **hasMutation** (Required)
 
-
+Block Mutation is an *optional* feature for bees. It is the modded version of vanilla pollination effects. Rather than a bee potentially applying a growth tick to a flower it flies over, a bee can instead "mutate" a block into another block. To give a bee a mutation `hasMutation` must be set to `true` **and** `mutationT
 
 ## **Mutation Inputs and Outputs** (Required)
 ***
@@ -14,7 +14,7 @@ The `mutationInput` represents the block or blocks to be mutated and the `mutati
 
 **NOTE** Entity to Entity mutation is also supported by using the `"entity:` prefix. Entity tags are **not** supported.
 
-**Note 2** In a future update we will support weighted outputs. This page will be updated when they are implemented.
+**Note 2** In a future update we will support multiple weighted outputs. This page will be updated when they are implemented.
 
 Example:
 
@@ -91,5 +91,5 @@ This is used when a bee mutates a normal block into another normal block. ex. `"
 This is used when a bee mutates an entity into another entity. ex. `"mutationType": "ENTITY_TO_ENTITY"`
 **NOTE:** No other form of entity mutation is planned at this time.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNjU4MDgyMSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTI3NDU3OTUzNyw3MzA5OTgxMTZdfQ==
 -->
