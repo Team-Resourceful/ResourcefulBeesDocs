@@ -107,7 +107,7 @@ In the example above, the centrifuge recipe will have a 40% chance to output **t
 
 *Note:* The default for all four values is `1`
 
-## **Input and Output Counts**
+## **Template**
 ***
 
 Here is a blank template showing all configurable fields in the Breed Data object:
@@ -128,5 +128,5 @@ Here is a blank template showing all configurable fields in the Breed Data objec
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTM1NjQxNjgsLTEwMzA3NDQ0N119
+eyJoaXN0b3J5IjpbLTE4NDg1Mjc1ODAsLTEwMzA3NDQ0N119
 -->
