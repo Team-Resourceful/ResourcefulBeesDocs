@@ -76,7 +76,9 @@ In the example above, the bee's honeycomb when used in the centrifuge will have 
 ## **Input and Output Counts**
 ***
 
-### **Inputs
+### **Input** (Optional)
+
+`mainInputCount` is a value used to determine the number of honeycombs required to process the centrifuge recipe.
 
 ### **Outputs** (Optional)
 
@@ -104,5 +106,5 @@ In the example above, the bee's honeycomb when used in the centrifuge will have 
 
 *Note:* The default for all three values is `1`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2OTIwNDA5Ml19
+eyJoaXN0b3J5IjpbNTQ3MDcyMjk3XX0=
 -->
