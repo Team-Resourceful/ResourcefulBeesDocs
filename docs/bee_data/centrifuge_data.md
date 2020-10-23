@@ -46,9 +46,10 @@ Here is an example of it's usage:
 <br>
 <br>
 
-### **Centrifuge Output Weighting** (Optional)
+## **Output Weighting**
+***
 
-There are three different weight values that can be set for the centrifuge outputs. These correspond with the three different centrifuge outputs available. There is the `mainOutputWeight`, the `secondaryOutputWeight`, and the `bottleOutputWeight`. These values are *optional* and can be used to determine the chance an item has to be output from the centrifuge recipe. Like the breed weight above they are two-digit decimal numbers between 0.00 -> 1.00.
+There are three different weight values that can be set for the centrifuge outputs. These correspond with the three different centrifuge outputs available. There is the `mainOutputWeight`, the `secondaryOutputWeight`, and the `bottleOutputWeight`. These values are *optional* and can be used to determine the chance an item has to be output from the centrifuge recipe. They are two-digit decimal numbers between 0.00 -> 1.00.
 
 Here is an example:
 
@@ -70,5 +71,5 @@ In the example above, the bee's honeycomb when used in the centrifuge will have 
 <br>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMTg5Nzc5NF19
+eyJoaXN0b3J5IjpbNTQ1Nzc5XX0=
 -->
