@@ -30,8 +30,8 @@ This is used when a bee mutates a normal block into another normal block. ex. `"
 
 ### **ENTITY_TO_ENTITY**
 
-This is used when a bee mutates an entity into another entity. ex. `"mutationType": "FLUID_TO_FLUID"`
-**NOTE:*
+This is used when a bee mutates an entity into another entity. ex. `"mutationType": "ENTITY_TO_ENTITY"`
+**NOTE:** No other form of entity mutation is planned at this time.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA5NTUxNzk5LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMTg4NTAzMjg4Myw3MzA5OTgxMTZdfQ==
 -->
