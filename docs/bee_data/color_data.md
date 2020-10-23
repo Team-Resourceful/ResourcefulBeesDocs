@@ -1,4 +1,4 @@
-# **ColorData**
+# **Color Data**
 
 ## **Color**
 ***
@@ -98,5 +98,5 @@ Below are some examples of color usage.
 <br>
 <br>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI2NjQ0NzYwXX0=
+eyJoaXN0b3J5IjpbMTk2NzM3NzU0NCwzMjY2NDQ3NjBdfQ==
 -->
