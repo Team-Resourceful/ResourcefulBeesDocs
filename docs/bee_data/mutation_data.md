@@ -5,34 +5,34 @@
 
 Block Mutation is an *optional* feature for bees. It is the modded version of vanilla pollination effects. Rather than a bee potentially applying a growth tick to a flower it flies over, a bee can instead "mutate" a block into another block. The `mutationInput` represents the block or blocks to be mutated and the `mutationOutput` represents the final form. For example, a bee could mutate simple stone blocks into coal ore blocks or cobblestone into lava. The `mutationInput` has the option of accepting tags, however the `mutationOutput` does not.
 
-**NOTE** Entity to Entity mutation is also supported by using the `"entity:` prefix.
+**NOTE** Entity to Entity mutation is also supported by using the `"entity:` prefix, however entity tags are not supported.
 
 Example:
 
 In this example the bee will mutate a stone block into a coal ore block.<br>
 ```json
 "mutationInput": "minecraft:stone",
-"mutationBlock": "minecraft:coal_ore"
+"mutationOutput": "minecraft:coal_ore"
 ```
 <br>
 
 In this example the bee will mutate any block tagged as stone into a coal ore block.<br>
 ```json
 "mutationInput": "tag:forge:stone",
-"mutationBlock": "minecraft:coal_ore"
+"mutationOutput": "minecraft:coal_ore"
 ```
 <br>
 
 In this example the bee will mutate a coal block into a bedrock block.<br>
 ```json
 "mutationInput": "minecraft:coal_block",
-"mutationBlock": "minecraft:bedrock"
+"mutationOutput": "minecraft:bedrock"
 ```
 <br>
 
-In this example, the bee will mutate any fluid in the lava tag into obsidian.<br>
+In this example, the bee will mutate lava into obsidian.<br>
 ```json
-"mutationInput": "tag:minecraft:lava",
+"mutationInput": "minecraft:lava",
 "mutationOutput": "minecraft:obsidian"
 ```
 <br>
@@ -85,5 +85,5 @@ This is used when a bee mutates a normal block into another normal block. ex. `"
 This is used when a bee mutates an entity into another entity. ex. `"mutationType": "ENTITY_TO_ENTITY"`
 **NOTE:** No other form of entity mutation is planned at this time.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMzc2MDA5NSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTE1ODg0NjE5NDAsNzMwOTk4MTE2XX0=
 -->
