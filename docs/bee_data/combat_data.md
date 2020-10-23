@@ -12,7 +12,7 @@ By default bees will get attack players when they get angry. Setting `isPassive`
 
 ### **attackDamage** (Optional)
 
-When a bee attacks the player, by default it deals 1 damage to the player and then inflicts poison damage over a period of time. 
+When a bee attacks the player, by default it deals 1 damage to the player and then inflicts poison damage over a period of time. The amount of poison damage isn't configurable, however the amount of damage on sting 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNTA1ODEyMV19
+eyJoaXN0b3J5IjpbMTc4NTU5MTU3MV19
 -->
