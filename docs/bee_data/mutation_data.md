@@ -123,10 +123,33 @@ Use `mutationCount` when you want to specify how many blocks a bee can mutate be
 Example:
 
 ```json
-"mutationInput": "entity:minecraft:cow",
-"mutationOutput": "entity:minecraft:bat"
+"MutationData": {
+	"hasMutation": true,
+	"mutationType": "BLOCK_TO_BLOCK",
+	"mutationInput": "minecraft:stone",
+	"mutationOutput": "minecraft:coal_ore",
+	"mutationCount": 5
+}
+```
+
+<br>
+<br>
+
+## **Template**
+***
+
+Here is a blank template showing all configurable fields in the Mutation Data object:
+
+```json
+"MutationData": {
+	"hasMutation": false,
+	"mutationType": "NONE",
+	"mutationInput": "",
+	"mutationOutput": "",
+	"mutationCount": 10
+}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0NTQwOTEzLDcxMjE4NDU0Miw3MzA5OT
+eyJoaXN0b3J5IjpbNzEwMTM5NjEwLDcxMjE4NDU0Miw3MzA5OT
 gxMTZdfQ==
 -->
