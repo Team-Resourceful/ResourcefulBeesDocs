@@ -46,6 +46,29 @@ Here is an example of it's usage:
 <br>
 <br>
 
+### **Centrifuge Output Weighting** (Optional)
+
+There are three different weight values that can be set for the centrifuge outputs. These correspond with the three different centrifuge outputs available. There is the `mainOutputWeight`, the `secondaryOutputWeight`, and the `bottleOutputWeight`. These values are *optional* and can be used to determine the chance an item has to be output from the centrifuge recipe. Like the breed weight above they are two-digit decimal numbers between 0.00 -> 1.00.
+
+Here is an example:
+
+```json
+"mainOutput": "minecraft:diamond",
+"mainOutputWeight": 0.40,
+"secondaryOutput": "minecraft:nether_star",
+"secondaryOutputWeight": 0.02,
+"bottleOutput": "minecraft:experience_bottle",
+"bottleOutputWeight": 0.70
+```
+<br>
+
+In the example above, the bee's honeycomb when used in the centrifuge will have a 40% chance to output a diamond, a 2% chance to output a nether star as the secondary output, and a 70% chance to output bottles of enchanting. <br>
+
+*Note:* The default value for Main Output is 1.0. The default value for Secondary output is 0.20. The default value for Bottle Output is 0.25.
+
+<br>
+<br>
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTA4ODI5NV19
+eyJoaXN0b3J5IjpbLTgzMTg5Nzc5NF19
 -->
