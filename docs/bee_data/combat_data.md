@@ -28,7 +28,8 @@ Use `removeStingerOnAttack` when you want only a specific bee to either die or n
 
 ### **inflictsPoison** (Optional)
 
-Use `inflictsPoison` when you want only a specific bee to not . The global config value `beeDiesFromSting` by default is set to `true` and overrides this value. Set `beeDiesFromSting` to false if you would like to modify individual bees.
+Use `inflictsPoison` when you want only a specific bee to not . The global config value `beesInflictPoison` by default is set to `true` and overrides this value. Set `beesInflictPoison` to false if you would like to modify individual bees.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYzNjI3NTg4LDE3ODU1OTE1NzFdfQ==
+eyJoaXN0b3J5IjpbMTk0Mjc0ODEyLDY2MzYyNzU4OCwxNzg1NT
+kxNTcxXX0=
 -->
