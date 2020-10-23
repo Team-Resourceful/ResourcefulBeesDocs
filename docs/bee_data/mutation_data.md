@@ -1,5 +1,13 @@
 # **Mutation Data**
 
+## **Mutation Inputs and Outputs** (Required)
+***
+
+
+
+<br>
+<br>
+
 ## **Mutation Types** (Required)
 ***
 
@@ -33,5 +41,5 @@ This is used when a bee mutates a normal block into another normal block. ex. `"
 This is used when a bee mutates an entity into another entity. ex. `"mutationType": "ENTITY_TO_ENTITY"`
 **NOTE:** No other form of entity mutation is planned at this time.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NTAzMjg4Myw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTE3NDU4NjI1NzQsNzMwOTk4MTE2XX0=
 -->
