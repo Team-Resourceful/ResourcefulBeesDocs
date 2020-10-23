@@ -5,7 +5,43 @@
 
 ### **hasMutation** (Required)
 
-Block Mutation is an *optional* feature for bees. It is the modded version of vanilla pollination effects. Rather than a bee potentially applying a growth tick to a flower it flies over, a bee can instead "mutate" a block into another block. To give a bee a mutation `hasMutation` must be set to `true` **and** `mutationT
+Block Mutation is an *optional* feature for bees. It is the modded version of vanilla pollination effects. Rather than a bee potentially applying a growth tick to a flower it flies over, a bee can instead "mutate" a block into another block. To give a bee a mutation `hasMutation` must be set to `true` **and** `mutationType` must be set. Mutation Types are covered below.
+
+<br>
+<br>
+
+## **Mutation Types** (Required)
+***
+
+### **NONE**
+
+This is used when a bee has no mutation. ex. `"mutationType": "NONE"`
+
+
+### **FLUID_TO_FLUID**
+
+This is used when a bee mutates a fluid block into another fluid block. ex. `"mutationType": "FLUID_TO_FLUID"`
+
+
+### **BLOCK_TO_FLUID**
+
+This is used when a bee mutates a normal block into a fluid block. ex. `"mutationType": "BLOCK_TO_FLUID"`
+
+
+### **FLUID_TO_BLOCK**
+
+This is used when a bee mutates a fluid block into a normal block. ex. `"mutationType": "FLUID_TO_BLOCK"`
+
+
+### **BLOCK_TO_BLOCK**
+
+This is used when a bee mutates a normal block into another normal block. ex. `"mutationType": "BLOCK_TO_BLOCK"`
+
+
+### **ENTITY_TO_ENTITY**
+
+This is used when a bee mutates an entity into another entity. ex. `"mutationType": "ENTITY_TO_ENTITY"`
+**NOTE:** No other form of entity mutation is planned at this time.
 
 ## **Mutation Inputs and Outputs** (Required)
 ***
@@ -57,39 +93,6 @@ In this example, the bee will mutate cobblestone into lava.<br>
 
 <br>
 <br>
-
-## **Mutation Types** (Required)
-***
-
-### **NONE**
-
-This is used when a bee has no mutation. ex. `"mutationType": "NONE"`
-
-
-### **FLUID_TO_FLUID**
-
-This is used when a bee mutates a fluid block into another fluid block. ex. `"mutationType": "FLUID_TO_FLUID"`
-
-
-### **BLOCK_TO_FLUID**
-
-This is used when a bee mutates a normal block into a fluid block. ex. `"mutationType": "BLOCK_TO_FLUID"`
-
-
-### **FLUID_TO_BLOCK**
-
-This is used when a bee mutates a fluid block into a normal block. ex. `"mutationType": "FLUID_TO_BLOCK"`
-
-
-### **BLOCK_TO_BLOCK**
-
-This is used when a bee mutates a normal block into another normal block. ex. `"mutationType": "BLOCK_TO_BLOCK"`
-
-
-### **ENTITY_TO_ENTITY**
-
-This is used when a bee mutates an entity into another entity. ex. `"mutationType": "ENTITY_TO_ENTITY"`
-**NOTE:** No other form of entity mutation is planned at this time.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NDU3OTUzNyw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTgxMDc0NzMxNiw3MzA5OTgxMTZdfQ==
 -->
