@@ -1,6 +1,6 @@
 # **Mutation Data**
 
-## **Mutation Inputs and Outputs** (Required)
+## **Enabling Mutations**
 ***
 
 ### **hasMutation** (Required)
@@ -10,8 +10,10 @@ Block Mutation is an *optional* feature for bees. It is the modded version of va
 <br>
 <br>
 
-## **Mutation Types** (Required)
+## **Mutation Types**
 ***
+
+`mutationtype` is a 
 
 ### **NONE**
 
@@ -101,5 +103,5 @@ In this example, the bee will mutate cow into a bat.
 <br>
 <br>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI1MzMwNzQ0LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTIxNTUzMzIxOSw3MzA5OTgxMTZdfQ==
 -->
