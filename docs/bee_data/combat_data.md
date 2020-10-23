@@ -30,9 +30,23 @@ Use `removeStingerOnAttack` when you want only a specific bee to either die or n
 
 Use `inflictsPoison` when you want a specific bee to **only** deal attack damage. The global config value `beesInflictPoison` by default is set to `true` and overrides this value. Set `beesInflictPoison` to `false` if you would like to modify individual bees.
 
+<br>
+<br>
+
 ## **Template**
 ***
+
+Here is a blank template showing all configurable fields in the Combat Data object:
+
+```json
+"CombatData": {  
+  "isPassive": false,  
+  "removeStingerOnAttack": true,
+  "inflictsPoison": true,
+  "attackDamage": 1
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNDI3MjY4LDE5NDI3NDgxMiw2NjM2Mj
-c1ODgsMTc4NTU5MTU3MV19
+eyJoaXN0b3J5IjpbLTE2NzE4MTc0NTMsMTk0Mjc0ODEyLDY2Mz
+YyNzU4OCwxNzg1NTkxNTcxXX0=
 -->
