@@ -5,7 +5,14 @@
 
 ### **isPassive** (Optional)
 
-By default bees will get attack players when they get angry. Setting `isPassive` to true prevents the attack and anger goals from being registered to the bee. This means that the bee won't get angry or attack players at all. 
+By default bees will get attack players when they get angry. Setting `isPassive` to true prevents the attack and anger goals from being registered to the bee. This means that the bee won't get angry or attack players at all. If you want the bee to attack the player but not deal any damage then see the next value below.
+
+<br>
+<br>
+
+### **attackDamage** (Optional)
+
+When a bee attacks the player, by default it deals 1 damage to the player and then inflicts poison damage over a period of time. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MDAxMjc3MV19
+eyJoaXN0b3J5IjpbMTIzNTA1ODEyMV19
 -->
