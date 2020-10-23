@@ -13,7 +13,7 @@ Block Mutation is an *optional* feature for bees. It is the modded version of va
 ## **Mutation Types**
 ***
 
-`mutationtype` is a 
+`mutationType` is a REQUIRED field when giving a bee a mutation.
 
 ### **NONE**
 
@@ -45,7 +45,7 @@ This is used when a bee mutates a normal block into another normal block. ex. `"
 This is used when a bee mutates an entity into another entity. ex. `"mutationType": "ENTITY_TO_ENTITY"`
 **NOTE:** No other form of entity mutation is planned at this time.
 
-## **Mutation Inputs and Outputs** (Required)
+## **Mutation Inputs and Outputs**
 ***
 
 The `mutationInput` represents the block or blocks to be mutated and the `mutationOutput` represents the final form. For example, a bee could mutate simple stone blocks into coal ore blocks or cobblestone into lava. The `mutationInput` has the option of accepting tags, however the `mutationOutput` does not.
@@ -102,6 +102,8 @@ In this example, the bee will mutate cow into a bat.
 
 <br>
 <br>
+
+### **mutationCount** 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNTUzMzIxOSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMzI5ODY0NDg0LDczMDk5ODExNl19
 -->
