@@ -3,7 +3,14 @@
 ## **Mutation Inputs and Outputs** (Required)
 ***
 
-Block Mutation is an *optional* feature for bees. It is the modded version of vanilla pollination effects. Rather than a bee potentially applying a growth tick to a flower it flies over, a bee can instead "mutate" a block into another block. The `mutationInput` represents the block or blocks to be mutated and the `mutationOutput` represents the final form. For example, a bee could mutate simple stone blocks into coal ore blocks or cobblestone into lava. The `mutationInput` has the option of accepting tags, however the `mutationOutput` does not.
+### **hasMutation** (Required)
+
+
+
+## **Mutation Inputs and Outputs** (Required)
+***
+
+The `mutationInput` represents the block or blocks to be mutated and the `mutationOutput` represents the final form. For example, a bee could mutate simple stone blocks into coal ore blocks or cobblestone into lava. The `mutationInput` has the option of accepting tags, however the `mutationOutput` does not.
 
 **NOTE** Entity to Entity mutation is also supported by using the `"entity:` prefix. Entity tags are **not** supported.
 
@@ -51,9 +58,6 @@ In this example, the bee will mutate cobblestone into lava.<br>
 <br>
 <br>
 
-<br>
-<br>
-
 ## **Mutation Types** (Required)
 ***
 
@@ -87,5 +91,5 @@ This is used when a bee mutates a normal block into another normal block. ex. `"
 This is used when a bee mutates an entity into another entity. ex. `"mutationType": "ENTITY_TO_ENTITY"`
 **NOTE:** No other form of entity mutation is planned at this time.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMDIxMDM1OSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTgzNjU4MDgyMSw3MzA5OTgxMTZdfQ==
 -->
