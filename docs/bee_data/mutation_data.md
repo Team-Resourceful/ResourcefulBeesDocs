@@ -59,9 +59,11 @@ Example:
 In this example the bee will mutate a stone block into a coal ore block.
 ```json
 "MutationData": {
-"mutationType": "
-"mutationInput": "minecraft:stone",
-"mutationOutput": "minecraft:coal_ore"
+	"hasMutation": true,
+	"mutationType": "BLOCK_TO_BLOCK",
+	"mutationInput": "minecraft:stone",
+	"mutationOutput": "minecraft:coal_ore"
+}
 ```
 <br>
 
@@ -116,5 +118,5 @@ Example:
 "mutationOutput": "entity:minecraft:bat"
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzODAwODU4OSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbNDIxMTM4Mjc0LDczMDk5ODExNl19
 -->
