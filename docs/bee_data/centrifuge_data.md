@@ -21,6 +21,31 @@ Here are some examples:
 `"mainOutput": "minecraft:nether_star"`  <---- This would make the centrifuge provide nether stars  
 `"mainOutput": "minecraft:barrier"`  <---- This would make the centrifuge provide barrier blocks  
 
+<br>
+<br>
+
+## **Secondary Centrifuge Output** (Optional)
+
+The secondary output is an optional value for the bee. You can have a "waste" item or any other item for the secondary output. This value follows the same rules as shown for the main output. If no value is supplied then the default value of "Beeswax" is provided instead. This value can also have a custom defined weighting.
+
+Here is an example of it's usage:
+
+`"secondaryOutput" : "minecraft:redstone_lamp"`
+
+<br>
+<br>
+
+## **Bottle Centrifuge Output** (Optional)
+
+The bottle output is an optional value for the bee. This output is intended to allow bees to provide a different bottled ingredient such as "Dragons Breath", however, like the other two outputs this value can be set to anything. This value defaults to "Honey Bottle" if not used. This value can also have a custom defined weighting.
+
+Here is an example of it's usage:
+
+`"bottleOutput" : "minecraft:dragon_breath"`
+
+<br>
+<br>
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY0NjAyNjMyXX0=
+eyJoaXN0b3J5IjpbLTIzODE2MTY0NV19
 -->
