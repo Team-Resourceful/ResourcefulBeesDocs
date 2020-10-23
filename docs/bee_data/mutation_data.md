@@ -54,45 +54,45 @@ The `mutationInput` represents the block or blocks to be mutated and the `mutati
 
 Example:
 
-In this example the bee will mutate a stone block into a coal ore block.<br>
+In this example the bee will mutate a stone block into a coal ore block.
 ```json
 "mutationInput": "minecraft:stone",
 "mutationOutput": "minecraft:coal_ore"
 ```
 <br>
 
-In this example the bee will mutate any block tagged as stone into a coal ore block.<br>
+In this example the bee will mutate any block tagged as stone into a coal ore block.
 ```json
 "mutationInput": "tag:forge:stone",
 "mutationOutput": "minecraft:coal_ore"
 ```
 <br>
 
-In this example the bee will mutate a coal block into a bedrock block.<br>
+In this example the bee will mutate a coal block into a bedrock block.
 ```json
 "mutationInput": "minecraft:coal_block",
 "mutationOutput": "minecraft:bedrock"
 ```
 <br>
 
-In this example, the bee will mutate lava into obsidian.<br>
+In this example, the bee will mutate lava into obsidian.
 ```json
 "mutationInput": "minecraft:lava",
 "mutationOutput": "minecraft:obsidian"
 ```
 <br>
 
-In this example, the bee will mutate cobblestone into lava.<br>
+In this example, the bee will mutate cobblestone into lava.
 ```json
 "mutationInput": "minecraft:cobblestone",
 "mutationOutput": "minecraft:lava"
 ```
 <br>
 
-*Note:* Mutation Input and Mutation Output are not limited to just Minecraft blocks. Any block from any mod can be used as long as it has a resource location in the form of "namespace:id". In addition, when using fluids, only fluids that have a block variant can be used. <br>
+*Note:* Mutation Input and Mutation Output are not limited to just Minecraft blocks. Any block from any mod can be used as long as it has a resource location in the form of `namespace:ID`. In addition, when using fluids, only fluids that have a block variant can be used.
 
 <br>
 <br>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMDc0NzMxNiw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTUzODg1NjgyMCw3MzA5OTgxMTZdfQ==
 -->
