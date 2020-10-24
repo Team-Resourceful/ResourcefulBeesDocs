@@ -87,16 +87,18 @@ This example will let the bee spawn in any mountain or hills biome except the de
 
 `minGroupSize` and `maxGroupSize` determine the minimum and maximum number of bees which will spawn at once. By default these values are set to `0` and `3`, respectively.
 
-This example will let the bee spawn in any mountain or hills biome except the desert hills biome with a weight of **two**, a minimu.
+This example will let only a single bee spawn in any mountain or hills biome except the desert hills biome with a weight of **two**.
 ```json
 "SpawnData": {
 	"canSpawnInWorld": true,
 	"biomeWhitelist": "TAG:Mountain, HILLS",
 	"biomeBlacklist": "minecraft:desert_hills",
-	"spawnWeight": 2
+	"spawnWeight": 2,
+	"minGroupSize": 1,
+	"maxGroupSize": 1
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA4NDY2MDgwLDE5Mjg5NTcyMDcsMTY4ND
+eyJoaXN0b3J5IjpbMjM5OTkyMjQwLDE5Mjg5NTcyMDcsMTY4ND
 YzMzA3MV19
 -->
