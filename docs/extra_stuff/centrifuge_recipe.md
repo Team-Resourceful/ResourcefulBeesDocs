@@ -1,6 +1,6 @@
-## 
+## **Creating a Centrifuge Data Pack Recipe**
 
-Here's a datapack recipe example: 
+Here's a data pack recipe example: 
 ```json
 {
   "type": "resourcefulbees:centrifuge",
@@ -32,5 +32,5 @@ Here's a datapack recipe example:
 *    3 : Bottle Output
 ##### Time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjcyNzAwMTFdfQ==
+eyJoaXN0b3J5IjpbNjk0Mzk2MTk4XX0=
 -->
