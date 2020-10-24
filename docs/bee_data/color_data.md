@@ -48,7 +48,7 @@ Below are some examples of color usage.
 <br>
 <br>
 
-## Textures
+## **Textures**
 ***
 
 ### **Primary & Secondary layer textures** (Optional)
@@ -98,7 +98,27 @@ Below are some examples of color usage.
 <br>
 <br>
 
+## **Template**
+***
 
+Here is the Color Data Template:
+
+```json
+"ColorData": {
+	"primaryColor":"#005500",
+	"secondaryColor":"#005500",
+	"honeycombColor":"#005500",
+	"primaryLayerTexture":"/custom/primary_layer",
+	"secondaryLayerTexture":"/custom/secondary_layer",
+	"emissiveLayerTexture":"/creeper/creeper_bee_emissive",
+	"isBeeColored": true,
+	"isRainbowBee": false,
+	"isGlowing" : true,
+	"glowColor" : "#55ff55",
+	"isEnchanted" : false,
+	"glowingPulse" : 2
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNTI2NDE2NCwzMjY2NDQ3NjBdfQ==
+eyJoaXN0b3J5IjpbLTQ1OTMyNzgzMywzMjY2NDQ3NjBdfQ==
 -->
