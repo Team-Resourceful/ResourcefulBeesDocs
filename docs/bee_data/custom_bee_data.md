@@ -128,7 +128,56 @@ Example:
 
 ### **Breed Data** (Optional)
 
-This is a json object 
+This is a json object that groups all breed related options. See Breed Data for more info.
+
+<br>
+<br>
+
+### **Centrifuge Data** (Optional)
+
+This is a json object that groups all centrifuge related options. See Centrifuge Data for more info.
+
+<br>
+<br>
+
+### **Color Data** (Optional)
+
+This is a json object that groups all color related options. See Color Data for more info.
+
+<br>
+<br>
+
+### **Combat Data** (Optional)
+
+This is a json object that groups all combat related options. See Combat Data for more info.
+
+<br>
+<br>
+
+### **Breed Data** (Optional)
+
+This is a json object that groups all breed related options. See Breed Data for more info.
+
+<br>
+<br>
+
+### **Breed Data** (Optional)
+
+This is a json object that groups all breed related options. See Breed Data for more info.
+
+<br>
+<br>
+
+### **Breed Data** (Optional)
+
+This is a json object that groups all breed related options. See Breed Data for more info.
+
+<br>
+<br>
+
+### **Breed Data** (Optional)
+
+This is a json object that groups all breed related options. See Breed Data for more info.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNDk1NjQ0MSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMTU4MDU0NTc2NCwtMjA4ODc0NjYxMl19
 -->
