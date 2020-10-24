@@ -1,12 +1,23 @@
 nav:
   - Home: 'index.md'
-  - Custom Bee Data : 'bee_data/custom_bee_data.md'
-  - Breed Data : 'bee_data/breed_data.md'
-  - Centrifuge Data : 'bee_data/centrifuge_data.md'
-  - Combat Data : 'bee_data/combat_data.md'
-  - Mutation Data : 'bee_data/mutation_data.md'
-  - Spawn Data : 'bee_data/spawn_data.md'
-  - Trait Data : 'bee_data/trait_data.md'
+  - Getting Started : 
+    - Customizing Bees : 'getting_started/bee_creation.md'
+    - Language Files : 'getting_started/language_files.md'
+  - Bee Data :
+    - Custom Bee Data : 'bee_data/custom_bee_data.md'
+    - Breed Data : 'bee_data/breed_data.md'
+    - Centrifuge Data : 'bee_data/centrifuge_data.md'
+    - Combat Data : 'bee_data/combat_data.md'
+    - Mutation Data : 'bee_data/mutation_data.md'
+    - Spawn Data : 'bee_data/spawn_data.md'
+    - Trait Data : 'bee_data/trait_data.md'
+  - Templates :
+    - Bee Template : 'templates/bee_template.md'
+  - Extra Stuff :
+    - Biome Tags : 'extra_stuff/biome_tags.md'
+    - Color Name Options : 'extra_stuff/color_names.md'
+    - Centrifuge Recipes : 'extra_stuff/centrifuge_recipe.md'
+   
 
 site_name: Resourceful Bees Docs
 docs_dir: docs
