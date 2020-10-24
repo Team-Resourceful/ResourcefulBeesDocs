@@ -74,7 +74,7 @@ Sub-directories can be nested like so: `"folder_1/folder_2/folder_3/texture"`
 <br>
 <br>
 
-## Special
+## **Special**
 ***
 
 ### **Glow Color & Enchanted Glow** (Optional)
@@ -97,6 +97,8 @@ Below are some examples of color usage.
 
 <br>
 <br>
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NzM3NzU0NCwzMjY2NDQ3NjBdfQ==
+eyJoaXN0b3J5IjpbMTAxNTI2NDE2NCwzMjY2NDQ3NjBdfQ==
 -->
