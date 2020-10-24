@@ -185,7 +185,12 @@ Through the use of our API other mods can make their own data options. The mods 
 ## **Template**
 ***
 
-Here is a 
+Here is a Custom Bee Data template which shows the format for the core json itself. We will have a separate template page which has a **full template** containing *ALL* configurable options.
+
+```json
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2OTQxNzYxMCwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTEyMjEzMzc3MjIsLTIwODg3NDY2MTJdfQ
+==
 -->
