@@ -65,9 +65,10 @@ This page contains a template for the bee jsons with ALL configurable options. T
 		"breedWeight": 2.5,
 		"parent1": "testbeeparent1",
 		"parent2": "testbeeparent2",
-		"feedItem":
-		"minecraft:poppy",
-		"feedAmount": 5
+		"feedItem": "minecraft:poppy",
+		"feedAmount": 5,
+		"childGrowthDelay": -24000,
+		"breedDelay": 6000
 	},
 	"TraitData": {
 		"hasTraits": true
@@ -75,5 +76,5 @@ This page contains a template for the bee jsons with ALL configurable options. T
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDYzOTM0MjddfQ==
+eyJoaXN0b3J5IjpbMjA1NjA2MzE2N119
 -->
