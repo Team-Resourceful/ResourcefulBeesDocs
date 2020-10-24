@@ -201,24 +201,20 @@ Here is a Custom Bee Data template which shows the format for the core json itse
 		"isBeeColored": false
 	}
 	"MutationData": {  
-		"hasMutation": false,   
+		"hasMutation": false,
+		"mutationType": "NONE"
 	},
 	"CentrifugeData": {  
 		"hasCentrifugeOutput": false,  
 	},  
 	"SpawnData": {  
-		"canSpawnInWorld": ,  
-  "biomeWhitelist": "tag:OVERWORLD",  
-  "biomeBlacklist": "tag:ocean"  
-},  
-"BreedData": {  
-  "isBreedable": true,  
-  "parent1": "Coal, iron, gold",  
-  "parent2": "Skeleton, redstone, rgbee, lapis",  
-  "feedItem": "tag:forge:ores"  
-},  
-"TraitData": {}
+		"canSpawnInWorld": false
+	},
+	"BreedData": {  
+		"isBreedable": false
+	},
+	"TraitData": {}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NzMwMDYxNSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTE3NzA4MzE0NiwtMjA4ODc0NjYxMl19
 -->
