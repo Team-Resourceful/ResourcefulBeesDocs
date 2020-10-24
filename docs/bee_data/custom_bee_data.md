@@ -177,7 +177,15 @@ This is a json object that groups all trait related options. See Trait Data for 
 
 ### **Additional Data** (Optional)
 
-Through the use of our API other mods can make their own data options. The mods would be required to handle their own parsing of the data and syntax for the data. Soon we will be adding Java Docs to our classes to helkp 
+Through the use of our API other mods can make their own data options. The mods would be required to handle their own parsing of the data and syntax for the data. Soon we will be adding Java Docs to our classes to help improve the API experience. Any and all feedback is welcome for improving out API either through PR requests or github issues.
+
+<br>
+<br>
+
+## **Template**
+***
+
+Here is a 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxMTA0NjQ2LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTQ2OTQxNzYxMCwtMjA4ODc0NjYxMl19
 -->
