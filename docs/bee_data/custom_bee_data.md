@@ -71,6 +71,7 @@ This value is *optional.* This value is used to determine the amount of time **i
 <br>
 
 ## **Custom Textures**
+***
 
 Should you wish to provide your own custom bee texture, there is one base layer texture that can be customized. This texture is `baseLayerTexture`. Textures can only be .png file types.
 
@@ -93,6 +94,7 @@ Sub-directories can be nested like so: `"folder_1/folder_2/folder_3/texture"`
 <br>
 
 ## **Additional Data**
+***
 
 ### **Custom Honeycombs** (Optional)
 
@@ -107,6 +109,13 @@ Example:
 "customCombDrop": "minecraft:iron",
 "customBombBlockDrop": "minecraft:iron_block"
 ```
+
+<br>
+<br>
+
+### **Apiary Output Amounts** (Optional)
+
+`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NjIyMjQ0MiwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTQ5MDY4NzYzMCwtMjA4ODc0NjYxMl19
 -->
