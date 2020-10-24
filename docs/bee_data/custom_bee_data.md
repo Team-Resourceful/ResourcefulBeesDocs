@@ -115,13 +115,13 @@ Example:
 
 ### **Apiary Output Amounts** (Optional)
 
-`apiaryOutputAmounts[]` is an integer array. The array consists of **four** values each corresponding tot he appropriate tier apiary. For example the Oreo bee uses this data option:
+`apiaryOutputAmounts[]` is an integer array. The array consists of **four** values each corresponding to the appropriate tier apiary. For example the Oreo bee uses this data option:
 
 ```json
 "apiaryOutputAmounts" : [1,2,3,4]
 ```
 
-**Note:** 
+**Note:** You can specify any value of zero or greater. Specifying a value of `-1` defaults to the global output amounts set in the common config file.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzOTExODA2NCwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTE4NzI2OTAxLC0yMDg4NzQ2NjEyXX0=
 -->
