@@ -35,7 +35,7 @@ This final example lets the bee use only a predefined flower, including modded f
 
 ### **Has Honeycomb?** (Required)
 
-`hasHoneycomb` is a required value. When set to `true` the honeycomb and honeycomb block for the bee will be registered as well as the asos
+`hasHoneycomb` is a required value. When set to `true` the honeycomb and honeycomb block for the bee will be registered as well as the associated crafting recipes. A bee can have honeycombs registered without having centrifuge recipes generated for the comb.
 
 ### **Size Modifier** (Optional)
 
@@ -73,5 +73,5 @@ This value is *optional.* This value is used to determine the amount of time **i
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNjkxMTM2NiwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMjY1MTU3NjIxLC0yMDg4NzQ2NjEyXX0=
 -->
