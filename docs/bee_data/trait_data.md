@@ -13,8 +13,9 @@ As of now, `hasTraits` is the only configurable field in the `TraitData` object.
 
 ```json
 "TraitData": {
-	"hasTraits"
+	"hasTraits": true
+}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyODIwNTQwMV19
+eyJoaXN0b3J5IjpbMTI0MTAzODMxMl19
 -->
