@@ -31,7 +31,7 @@ This example will let the bee spawn in any overworld biome except ocean biomes. 
 ```json
 "SpawnData": {
 	"canSpawnInWorld": true,
-	"biomeWhitelist": "tag:overworld"
+	"biomeWhitelist": "tag:overworld",
 	"biomeBlacklist": "tag:ocean"
 }
 ```
@@ -41,7 +41,7 @@ This example will let the bee spawn in any mountain or hills biome except the de
 ```json
 "SpawnData": {
 	"canSpawnInWorld": true,
-	"biomeWhitelist": "TAG:Mountain, HILLS"
+	"biomeWhitelist": "TAG:Mountain, HILLS",
 	"biomeBlacklist": "minecraft:desert_hills"
 }
 ```
@@ -74,14 +74,19 @@ This example will let the bee spawn in any mountain or hills biome except the de
 ```json
 "SpawnData": {
 	"canSpawnInWorld": true,
-	"biomeWhitelist": "TAG:Mountain, HILLS"
-	"biomeBlacklist": "minecraft:desert_hills"
+	"biomeWhitelist": "TAG:Mountain, HILLS",
+	"biomeBlacklist": "minecraft:desert_hills",
+	"spawnWeight": 2
 }
 ```
 
 <br>
 <br>
+
+### **Group Sizes** (Optional)
+
+`minGroupSize` and `maxGroupSize` determine the minimum and maxim
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI0NDQ5MzI5LDE5Mjg5NTcyMDcsMTY4ND
+eyJoaXN0b3J5IjpbODc0MDQ2NTI1LDE5Mjg5NTcyMDcsMTY4ND
 YzMzA3MV19
 -->
