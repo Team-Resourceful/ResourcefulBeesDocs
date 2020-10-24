@@ -41,11 +41,11 @@ This final example lets the bee use only a predefined flower, including modded f
 
 The size modifier is an optional floating point value that scales the size of the bee. This value ranges from 0.5 to 2.0. Any value entered outside this range will be automatically clamped to the range bounds. This means a value of 0.2 would become 0.5. The default value is 1.0. 
 
-`"sizeModifier": 2.0`  <---- This would make the bee twice the size of a default bee <br>
-`"sizeModifier": 0.5`  <---- This would make the bee half the size of a default bee <br>
-`"sizeModifier": 1.375`  <---- This would make the bee 1 3/8 times the size of a default bee <br>
+`"sizeModifier": 2.0`  <---- This would make the bee twice the size of a vanilla bee
+`"sizeModifier": 0.5`  <---- This would make the bee half the size of a vanilla bee
+`"sizeModifier": 1.375`  <---- This would make the bee 1 3/8 times the size of a vanilla bee
 
-*SPECIAL NOTE:* When a bees size is modified, the child version of that bee also has it's size modified. Check out the coal bee as an example. <br>
+*SPECIAL NOTE:* When a bees size is modified, the child version of that bee also has it's size modified. Check out the coal bee as an example.
 
 <br>
 <br>
@@ -91,6 +91,8 @@ Sub-directories can be nested like so: `"folder_1/folder_2/folder_3/texture"`
 
 <br>
 <br>
+
+## **Custom Textures** (Optional)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk4NzE2Nzc3LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTQ3NjQ1NzQxNywtMjA4ODc0NjYxMl19
 -->
