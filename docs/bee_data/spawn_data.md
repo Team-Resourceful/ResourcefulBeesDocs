@@ -64,8 +64,10 @@ This example will let the bee spawn in plains, frozen river, or beach biomes onl
 ## **Strength in Numbers**
 ***
 
-### **spawnWeight** (Required)
+### **spawnWeight** (Optional)
+
+`spawnWeight` is an integer value which represents the weight of the bee against all other entities 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjY5MDU5NTgsMTkyODk1NzIwNywxNj
-g0NjMzMDcxXX0=
+eyJoaXN0b3J5IjpbLTIyMTA5MDAyOCwxOTI4OTU3MjA3LDE2OD
+Q2MzMwNzFdfQ==
 -->
