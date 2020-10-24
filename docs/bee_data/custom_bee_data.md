@@ -14,7 +14,9 @@ A bees **type** and **name** are used interchangeably. This information is deter
 
 ### **Flower** (Required)
 
-The flower value is used to determine what flower the bee should use for pollen/nectar gathering. We provide a few different options for the flower value and may provide more in the future. Currently, the options available for a flower include three separate tags or a block ID as seen below. In addition, we added general block tag support as well as seen below.
+The flower value is used to determine what flower the bee should use for pollen/nectar gathering. We provide a few different options for the flower value and may provide more in the future. Currently, the options available for a flower include three separate tags or a block ID as seen below. In addition, we've added general block tag support as well.
+
+*Note:* Block tag support does not include fluid tags. Fluids must be specified by the source block 
 
 `"flower": "all"`    <-------- This lets the bee use all available flowers including modded flowers.<br>
 `"flower": "tall"`   <-------- This lets the bee use only flowers with the tag "tall" such as the rose bush.<br>
@@ -29,5 +31,5 @@ This final example lets the bee use only a predefined flower, including modded f
 <br>
 <br>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNjEyNjAzNSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbODUxNzQzMzc3LC0yMDg4NzQ2NjEyXX0=
 -->
