@@ -113,8 +113,8 @@ This example will let only a single bee spawn in any mountain or hills biome exc
 `NIGHT` = light levels of `7-`
 `ANY` = any light level
 
-As of now, this value only controls the light level of the block 
+As of now, this value only controls the light level a block must be at for the bee to spawn. It is *not* representative of the daylight cycle as it may seem on first glance. In a future update we will be using this value to 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTgwNzI3MzgsMTkyODk1NzIwNywxNj
-g0NjMzMDcxXX0=
+eyJoaXN0b3J5IjpbMTc2NzMzNTY5NywxOTI4OTU3MjA3LDE2OD
+Q2MzMwNzFdfQ==
 -->
