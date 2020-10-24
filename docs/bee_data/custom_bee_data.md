@@ -70,7 +70,7 @@ This value is *optional.* This value is used to determine the amount of time **i
 <br>
 <br>
 
-## **Custom Textures** (Optional)
+## **Custom Textures**
 
 Should you wish to provide your own custom bee texture, there is one base layer texture that can be customized. This texture is `baseLayerTexture`. Textures can only be .png file types.
 
@@ -92,7 +92,11 @@ Sub-directories can be nested like so: `"folder_1/folder_2/folder_3/texture"`
 <br>
 <br>
 
-## **Custom Textures** (Optional)
+## **Additional Data**
+
+### **Custom Honeycombs** (Optional)
+
+If you wish to have a bee output something other than a honeycomb you can do so by specifying the `custombComb
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3NjQ1NzQxNywtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTEyODQ0NjgwOCwtMjA4ODc0NjYxMl19
 -->
