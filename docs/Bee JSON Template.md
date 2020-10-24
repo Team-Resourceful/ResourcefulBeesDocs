@@ -23,6 +23,12 @@ This page contains a template for the bee jsons with ALL configurable options. T
 		"isEnchanted" : false,
 		"glowingPulse" : 2
 	},
+	"CombatData": {  
+		"isPassive": false,  
+		"removeStingerOnAttack": true,
+		"inflictsPoison": true,
+		"attackDamage": 1
+	},
 	"MutationData": {
 		"hasMutation":true,
 		"mutationInput" : "minecraft:stone",
@@ -64,8 +70,8 @@ This page contains a template for the bee jsons with ALL configurable options. T
 	"TraitData": {
 		"hasTraits": true
 	}
-	}
+}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjYzODg3ODJdfQ==
+eyJoaXN0b3J5IjpbLTEzOTE5OTg5ODVdfQ==
 -->
