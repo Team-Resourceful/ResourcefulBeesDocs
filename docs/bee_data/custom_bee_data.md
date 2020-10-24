@@ -48,7 +48,12 @@ The size modifier is an optional floating point value that scales the size of th
 
 ### **Bee Traits** (Optional)
 
-There are various *optional* traits available for bees and potentially more to come. Traits affect bees in a variety of ways such as what type of damage it does when it attacks. Traits are added to a bee by specifying their  *Note:* Bee traits are stackable.
+There are various *optional* traits available for bees and potentially more to come. Traits affect bees in a variety of ways such as what type of damage it does when it attacks. Traits are added to a bee by specifying them in the `traits[]` string array. *Note:* Bee traits are stackable.
+
+Examples:
+`"traits" : ["creeper"]`
+`"traits": ["nether", "pigman"]`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2MDY3MjcxNywtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTEwOTQ1NTE0NzEsLTIwODg3NDY2MTJdfQ
+==
 -->
