@@ -1,7 +1,7 @@
 # **Trait Data**
 
-## **has Traits**
+## **Has Traits?**
 ***
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU2MjgxMTIyXX0=
+eyJoaXN0b3J5IjpbLTExOTYzNjQ5NTldfQ==
 -->
