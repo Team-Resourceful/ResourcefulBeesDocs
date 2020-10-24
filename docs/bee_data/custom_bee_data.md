@@ -70,8 +70,34 @@ This value is *optional.* This value is used to determine the amount of time **i
 <br>
 <br>
 
+## **Custom Textures** (Optional)
+
+Should you wish to provide your own bee textures, there are three different textures that can be customized. These textures are `baseLayerTexture`, `primaryLayerTexture`, and `secondaryLayerTexture`. The textures can only be .png file types.
 
 
+
+The base layer texture is the texture used when you don't wish to have the bee colored. It also provides the eyes for the bee. When supplying your own custom texture, the texture file must be located in the `config\resourcefulbees\resources\assets\resourcefulbees\textures\entity` directory found in the mod pack's directory. In addition, *two textures* for each texture variant **must** be present: a normal texture and an angry texture. The angry texture file name must end with "_angry"
+
+For example:<br>
+![Resourceful Bees Custom Texture Filename Example](https://i.imgur.com/2sypgCS.png)
+<br>
+
+The primary and secondary layer textures are the textures used for coloring the bee. If you would like to use different gray-scaled textures then the custom texture files must be located in the `config\resourcefulbees\resources\assets\resourcefulbees\textures\entity` directory found in the mod pack's directory.
+
+*Note:* Sub-directories are supported as you will see in the example .json below
+
+```json
+"primaryLayerTexture": "custom/alternative_primary_layer",
+"secondaryLayerTexture": "custom/alternative_secondary_layer"
+```
+<br>
+
+Sub-directories can be nested like so: `"folder_1/folder_2/folder_3/texture"`
+
+**SPECIAL NOTE:** The file extension is *NOT REQUIRED* in the .json value as that is automatically appended by the mod when rendering. 
+
+<br>
+<br>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY1MTU3NjIxLC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbNjk3NzM2ODYzLC0yMDg4NzQ2NjEyXX0=
 -->
