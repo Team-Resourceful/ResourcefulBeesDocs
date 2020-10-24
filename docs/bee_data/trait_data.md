@@ -3,7 +3,18 @@
 ## **Has Traits?**
 ***
 
-As of now, `hasTraits` is the only configurable field in the `TraitData` object. In 1.17 we will move the `traits[]` array into this object 
+As of now, `hasTraits` is the only configurable field in the `TraitData` object. In 1.17 we will move the `traits[]` array into this object. Set this value to `true` when you want to give a bee special traits.
+
+<br>
+<br>
+
+## **Template**
+***
+
+```json
+"TraitData": {
+	"hasTraits"
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2OTg3NzYxN119
+eyJoaXN0b3J5IjpbLTgyODIwNTQwMV19
 -->
