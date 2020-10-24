@@ -24,10 +24,32 @@ This page contains a template for the bee jsons with ALL configurable options. T
 		"glowingPulse" : 2
 	},
 	"MutationData": {
-	"hasMutation":true,
-	"mutationInput" : "minecraft:stone",
-	"mutationOutput":"minecraft:water", "mutationCount":6, "mutationType":"BLOCK_TO_FLUID" }, "CentrifugeData": { "hasCentrifugeOutput": true, "mainOutput":"minecraft:stone", "secondaryOutput":"minecraft:diamond", "bottleOutput":"minecraft:dragons_breath", "mainOutputWeight":0.9, "secondaryOutputWeight":0.5, "bottleOutputWeight":0.25, "mainOutputCount":1, "secondaryOutputCount":2, "bottleOutputCount":4, "mainInputCount":4 }, "SpawnData": { "canSpawnInWorld":true, "spawnWeight": 10, "biomeWhitelist":"tag:ocean", "biomeBlacklist":"tag:overworld" }, "BreedData": { "isBreedable": true, "breedWeight": 2.5, "parent1": "testbeeparent1", "parent2": "testbeeparent2", "feedItem": "minecraft:poppy", "feedAmount": 5 }, "TraitData": { "hasTraits": true } }
+		"hasMutation":true,
+		"mutationInput" : "minecraft:stone",
+		"mutationOutput":"minecraft:water",
+		"mutationCount":6,
+		"mutationType":"BLOCK_TO_FLUID"
+	},
+	"CentrifugeData": {
+		"hasCentrifugeOutput": true,
+		"mainOutput":"minecraft:stone",
+		"secondaryOutput":"minecraft:diamond",
+		"bottleOutput":"minecraft:dragons_breath",
+		"mainOutputWeight":0.9,
+		"secondaryOutputWeight":0.5,
+		"bottleOutputWeight":0.25,
+		"mainOutputCount":1,
+		"secondaryOutputCount":2,
+		"bottleOutputCount":4,
+		"mainInputCount":4
+	},
+	"SpawnData": {
+		"canSpawnInWorld":true,
+		"spawnWeight": 8,
+		"biomeWhitelist":"tag:ocean",
+		"biomeBlacklist":"tag:overworld"
+	}, "BreedData": { "isBreedable": true, "breedWeight": 2.5, "parent1": "testbeeparent1", "parent2": "testbeeparent2", "feedItem": "minecraft:poppy", "feedAmount": 5 }, "TraitData": { "hasTraits": true } }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNTc0MTIyM119
+eyJoaXN0b3J5IjpbLTE4Mjk4OTQ0NjJdfQ==
 -->
