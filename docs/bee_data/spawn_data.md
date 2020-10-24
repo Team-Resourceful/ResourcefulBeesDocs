@@ -56,13 +56,11 @@ This example will let the bee spawn in plains, frozen river, or beach biomes onl
 ```
 <br>
 
-*Note:* Take notice that letter casing and spaces have no impact on the bee's ability to spawn. However, when using a biome type tag, the prefix "tag:" **must** be included. <br>
-
-*SPECIAL NOTE:* Nests will generate in the biomes where bees are set to spawn. During generation a nest may randomly spawn additional bees consisting only of the bees allowed to spawn in the biome where the nest generated.
+*SPECIAL NOTE:* Nests will generate in the biomes where bees are set to spawn. During generation a nest may come preloaded with additional bees consisting only of the bees allowed to spawn in the biome where the nest generated. Nest generation can be disabled by setting the global config value `generateBeeNests
 
 <br>
 <br>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MjgwNzY2NiwxOTI4OTU3MjA3LDE2OD
+eyJoaXN0b3J5IjpbMTU5NTIyMjAzNCwxOTI4OTU3MjA3LDE2OD
 Q2MzMwNzFdfQ==
 -->
