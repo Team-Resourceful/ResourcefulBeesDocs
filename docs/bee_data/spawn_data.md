@@ -13,18 +13,19 @@
 
 ### **Biome Whitelist && Biome Blacklist** (Optional)
 
-These values are *optional.* The values are comma-separated and used in combination with the "spawn in world" value. This value can be expressed in a variety of ways and as such the values are used to determine the dimension a bee may spawn in as well. It is much easier to show examples of their usage.
+These values are *optional.* The values are comma-separated and used in combination with the `canSpawnInWorld` value. This value can be expressed in a variety of ways and as such the values are used to determine the dimension a bee may spawn in as well. It is much easier to show examples of their usage.
 
 *Note:* You can use either [biome type tags](https://github.com/Dungeon-Derps-Development/ResourcefulBees/wiki/Biome-Tags) or specific biomes, you cannot use both simultaneously.
+*** LINK WILL BE UPDATED SOON!! ***
 
-This example will let the bee spawn in any nether biome.<br>
+This example will let the bee spawn in any nether biome.
 ```json
 "spawnInWorld": true,
 "biomeWhitelist": "tag:nether"
 ```
 <br>
 
-This example will let the bee spawn in any overworld biome except ocean biomes.<br>
+This example will let the bee spawn in any overworld biome except ocean biomes.
 ```json
 "spawnInWorld": true,
 "biomeWhitelist": "tag:overworld"
@@ -32,7 +33,7 @@ This example will let the bee spawn in any overworld biome except ocean biomes.<
 ```
 <br>
 
-This example will let the bee spawn in any mountain or hills biome except the desert hills biome.<br>
+This example will let the bee spawn in any mountain or hills biome except the desert hills biome.
 ```json
 "spawnInWorld": true,
 "biomeWhitelist": "TAG:Mountain, HILLS"
@@ -40,7 +41,7 @@ This example will let the bee spawn in any mountain or hills biome except the de
 ```
 <br>
 
-This example will let the bee spawn in plains, frozen river, or beach biomes only.<br>
+This example will let the bee spawn in plains, frozen river, or beach biomes only.
 ```json
 "spawnInWorld": true,
 "biomeList": "minecraft:plains,minecraft:frozen_river,minecraft:beach"
@@ -54,6 +55,6 @@ This example will let the bee spawn in plains, frozen river, or beach biomes onl
 <br>
 <br>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MDAxMjExMSwxOTI4OTU3MjA3LDE2OD
-Q2MzMwNzFdfQ==
+eyJoaXN0b3J5IjpbODQxOTQzMTU0LDE5Mjg5NTcyMDcsMTY4ND
+YzMzA3MV19
 -->
