@@ -72,7 +72,7 @@ This value is *optional.* This value is used to determine the amount of time **i
 
 ## **Custom Textures** (Optional)
 
-Should you wish to provide your own bee textures, there are three different textures that can be customized. These textures are `baseLayerTexture`, `primaryLayerTexture`, and `secondaryLayerTexture`. The textures can only be .png file types.
+Should you wish to provide your own custom bee texture, there is one base layer texture that can be customized. These textures are `baseLayerTexture`. The textures can only be .png file types.
 
 `primaryLayerTexture` and `secondaryLayerTexture` can only be used in the Color Data object. 
 
@@ -86,8 +86,7 @@ The primary and secondary layer textures are the textures used for coloring the 
 *Note:* Sub-directories are supported as you will see in the example .json below
 
 ```json
-"primaryLayerTexture": "custom/alternative_primary_layer",
-"secondaryLayerTexture": "custom/alternative_secondary_layer"
+"baseLayerTexture": "/creeper/creeper_bee"
 ```
 <br>
 
@@ -98,5 +97,6 @@ Sub-directories can be nested like so: `"folder_1/folder_2/folder_3/texture"`
 <br>
 <br>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3MDY3NTM5OCwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTE3MTE0MjIzMTUsLTIwODg3NDY2MTJdfQ
+==
 -->
