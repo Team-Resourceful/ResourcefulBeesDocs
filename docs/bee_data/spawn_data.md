@@ -6,7 +6,7 @@
 
 ### **canSpawnInWorld** (Required)
 
-`canSpawnInWorld`  must be set to `true` when you want bees to spawn in the world naturally.
+`canSpawnInWorld` must be set to `true` when you want bees to spawn in the world naturally. This means they spawn in the same manner as other passive mobs.
 
 <br>
 <br>
@@ -56,11 +56,13 @@ This example will let the bee spawn in plains, frozen river, or beach biomes onl
 ```
 <br>
 
-*SPECIAL NOTE:* Nests will generate in the biomes where bees are set to spawn. During generation a nest may come preloaded with additional bees consisting only of the bees allowed to spawn in the biome where the nest generated. Nest generation can be disabled by setting the global config value `generateBeeNests
+*SPECIAL NOTE:* Nests will generate in the biomes where bees are set to spawn. During generation a nest may come preloaded with additional bees consisting only of the bees allowed to spawn in the biome where the nest generated. Nest generation can be disabled by setting the global config value `generateBeeNests` to `false`.
 
 <br>
 <br>
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5NTIyMjAzNCwxOTI4OTU3MjA3LDE2OD
+eyJoaXN0b3J5IjpbMTIwODc2OTQyNiwxOTI4OTU3MjA3LDE2OD
 Q2MzMwNzFdfQ==
 -->
