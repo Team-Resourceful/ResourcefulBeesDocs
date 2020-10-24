@@ -33,6 +33,10 @@ This final example lets the bee use only a predefined flower, including modded f
 <br>
 <br>
 
+### **Has Honeycomb?** (Required)
+
+`hasHoneycomb` is a required value. When set to `true` the honeycomb and honeycomb block for the bee will be registered as well as the asos
+
 ### **Size Modifier** (Optional)
 
 The size modifier is an optional floating point value that scales the size of the bee. This value ranges from 0.5 to 2.0. Any value entered outside this range will be automatically clamped to the range bounds. This means a value of 0.2 would become 0.5. The default value is 1.0. 
@@ -69,5 +73,5 @@ This value is *optional.* This value is used to determine the amount of time **i
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMjg0MDUzMSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMTcwNjkxMTM2NiwtMjA4ODc0NjYxMl19
 -->
