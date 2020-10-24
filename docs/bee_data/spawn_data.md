@@ -98,7 +98,17 @@ This example will let only a single bee spawn in any mountain or hills biome exc
 	"maxGroupSize": 1
 }
 ```
+
+<br>
+<br>
+
+## **Additional Options**
+***
+
+### **lightLevel** (Optional)
+
+`lightLevel` is slightly misleading in terms of the value options. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM5OTkyMjQwLDE5Mjg5NTcyMDcsMTY4ND
-YzMzA3MV19
+eyJoaXN0b3J5IjpbLTE4MzA0NTgyMywxOTI4OTU3MjA3LDE2OD
+Q2MzMwNzFdfQ==
 -->
