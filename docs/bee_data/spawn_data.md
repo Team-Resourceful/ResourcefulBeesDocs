@@ -107,8 +107,10 @@ This example will let only a single bee spawn in any mountain or hills biome exc
 
 ### **lightLevel** (Optional)
 
-`lightLevel` is slightly misleading in terms of the value options. 
+`lightLevel` is slightly misleading in terms of the value options. Currently, only three options are available for `lightLevel`: `DAY`, `NIGHT`and `ANY`.
+
+`DAY` = light values of 8
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzA0NTgyMywxOTI4OTU3MjA3LDE2OD
-Q2MzMwNzFdfQ==
+eyJoaXN0b3J5IjpbNzA1MDg2OTM0LDE5Mjg5NTcyMDcsMTY4ND
+YzMzA3MV19
 -->
