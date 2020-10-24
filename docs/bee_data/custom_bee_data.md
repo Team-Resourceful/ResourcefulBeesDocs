@@ -16,7 +16,7 @@ A bees **type** and **name** are used interchangeably. This information is deter
 
 The flower value is used to determine what flower the bee should use for pollen/nectar gathering. We provide a few different options for the flower value and may provide more in the future. Currently, the options available for a flower include three separate tags or a block ID as seen below. In addition, we've added general block tag support as well.
 
-*Note:* Block tag support does not include fluid tags. Fluids must be specified by the source block 
+*Note:* Block tag support does not include fluid tags. Fluids must be specified by the source block name only.
 
 `"flower": "all"`    <-------- This lets the bee use all available flowers including modded flowers.<br>
 `"flower": "tall"`   <-------- This lets the bee use only flowers with the tag "tall" such as the rose bush.<br>
@@ -26,10 +26,14 @@ The flower value is used to determine what flower the bee should use for pollen/
 
 `"flower": "minecraft:poppy"`<br>
 
-This final example lets the bee use only a predefined flower, including modded flowers. This value is not locked only to flowers, however. *ANY* block in the game including modded can be used here. *Note:* Flowers are not a comma-separated list. You get to choose either **ONE** flower, all flowers, tall flowers, or small flowers, in addition to Block Tags.
+This final example lets the bee use only a predefined flower, including modded flowers. This value is not locked only to flowers, however. *ANY* block in the game including modded can be used here since it takes a string value in the form of `namespace:ID`. 
+
+**Note:** Flowers are not a comma-separated list. You get to choose either **ONE** flower, all flowers, tall flowers, or small flowers, in addition to Block Tags.
 
 <br>
 <br>
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODUxNzQzMzc3LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbMzQ3OTU0MTAzLC0yMDg4NzQ2NjEyXX0=
 -->
