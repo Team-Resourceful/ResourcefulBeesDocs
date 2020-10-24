@@ -189,12 +189,16 @@ Here is a Custom Bee Data template which shows the format for the core json itse
 
 ```json
 {
-	"flower": "ALL",  
-	"maxTimeInHive": 2400,  
-	"hasHoneycomb": false,  
+	"flower": "ALL",
+	"maxTimeInHive": 2400,
+	"hasHoneycomb": true,
+	"sizeModifier": 1.0,
 	"baseLayerTexture": "/custom/bee",  
 	"traits" : [""],
+	"customCombDrop": "",
+	"customBombBlockDrop": ""
+	
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1MDE4MzgxNSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMTIyMjIzNjYwOSwtMjA4ODc0NjYxMl19
 -->
