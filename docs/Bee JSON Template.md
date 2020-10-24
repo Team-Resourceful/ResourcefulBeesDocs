@@ -35,7 +35,7 @@ This page contains a template for the bee jsons with ALL configurable options. T
 		"hasMutation":true,
 		"mutationInput" : "minecraft:stone",
 		"mutationOutput":"minecraft:water",
-		"mutationCount":6,
+		"mutationCount":10,
 		"mutationType":"BLOCK_TO_FLUID"
 	},
 	"CentrifugeData": {
@@ -76,5 +76,5 @@ This page contains a template for the bee jsons with ALL configurable options. T
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1NjA2MzE2N119
+eyJoaXN0b3J5IjpbOTI4MDY2MjM2XX0=
 -->
