@@ -188,9 +188,13 @@ Through the use of our API other mods can make their own data options. The mods 
 Here is a Custom Bee Data template which shows the format for the core json itself. We will have a separate template page which has a **full template** containing *ALL* configurable options.
 
 ```json
-
+{
+	"flower": "ALL",  
+	"maxTimeInHive": 2400,  
+	"hasHoneycomb": false,  
+	"baseLayerTexture": "/custom/bee",  
+	"traits" : [""],
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjEzMzc3MjIsLTIwODg3NDY2MTJdfQ
-==
+eyJoaXN0b3J5IjpbLTU1MDE4MzgxNSwtMjA4ODc0NjYxMl19
 -->
