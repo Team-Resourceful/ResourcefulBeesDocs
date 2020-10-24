@@ -8,6 +8,9 @@ This page contains a template for the bee jsons with ALL configurable options. T
 	"sizeModifier":1.0,
 	"traits":["wither","blaze","can_swim","creeper","zombie","pigman","ender","nether", "oreo", "slimy"],
 	"hasHoneycomb":true,
+	"customCombDrop": "",
+	"customBombBlockDrop": "",
+	"apiaryOutputAmounts" : [1,2,3,4],
 	"ColorData": {
 		"primaryColor":"#005500",
 		"secondaryColor":"#005500",
@@ -72,5 +75,5 @@ This page contains a template for the bee jsons with ALL configurable options. T
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwMzIyMTg4OV19
+eyJoaXN0b3J5IjpbLTEzNDYzOTM0MjddfQ==
 -->
