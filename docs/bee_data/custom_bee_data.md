@@ -74,13 +74,12 @@ This value is *optional.* This value is used to determine the amount of time **i
 
 Should you wish to provide your own bee textures, there are three different textures that can be customized. These textures are `baseLayerTexture`, `primaryLayerTexture`, and `secondaryLayerTexture`. The textures can only be .png file types.
 
+`primaryLayerTexture` and `secondaryLayerTexture` can only be used in the Color Data object. 
 
+The base layer texture is the texture used when you don't wish to have the bee colored. It also provides the eyes for the bee. When supplying your own custom texture, the texture file must be located in the `config\resourcefulbees\resources\assets\resourcefulbees\textures\entity` directory found in the mod pack's directory. In addition, *two textures* for each texture variant **must** be present: a normal texture and an angry texture. The angry texture file name must end with `_angry`
 
-The base layer texture is the texture used when you don't wish to have the bee colored. It also provides the eyes for the bee. When supplying your own custom texture, the texture file must be located in the `config\resourcefulbees\resources\assets\resourcefulbees\textures\entity` directory found in the mod pack's directory. In addition, *two textures* for each texture variant **must** be present: a normal texture and an angry texture. The angry texture file name must end with "_angry"
-
-For example:<br>
+For example:
 ![Resourceful Bees Custom Texture Filename Example](https://i.imgur.com/2sypgCS.png)
-<br>
 
 The primary and secondary layer textures are the textures used for coloring the bee. If you would like to use different gray-scaled textures then the custom texture files must be located in the `config\resourcefulbees\resources\assets\resourcefulbees\textures\entity` directory found in the mod pack's directory.
 
@@ -99,5 +98,5 @@ Sub-directories can be nested like so: `"folder_1/folder_2/folder_3/texture"`
 <br>
 <br>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk3NzM2ODYzLC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbMTg3MDY3NTM5OCwtMjA4ODc0NjYxMl19
 -->
