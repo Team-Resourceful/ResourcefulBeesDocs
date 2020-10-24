@@ -6,14 +6,14 @@
 
 ### **canSpawnInWorld** (Required)
 
-This value is *optionally required.* This value must be either `true` or `false` depending on if you want the bee to spawn in the world or not. If the value is true then you **must** include the spawnable biomes in the biome whitelist field as will be seen in the next section.
+`canSpawnInWorld`  must be set to `true` when you want bees to spawn in the world naturally.
 
 <br>
 <br>
 
-### **Biome Whitelist && Biome Blacklist** (Optionally Required)
+### **Biome Whitelist && Biome Blacklist** (Optional)
 
-These values are *optionally required.* The values are comma-separated and used in combination with the "spawn in world" value. This value can be expressed in a variety of ways and as such the values are used to determine the dimension a bee may spawn in as well. It is much easier to show examples of their usage.
+These values are *optional.* The values are comma-separated and used in combination with the "spawn in world" value. This value can be expressed in a variety of ways and as such the values are used to determine the dimension a bee may spawn in as well. It is much easier to show examples of their usage.
 
 *Note:* You can use either [biome type tags](https://github.com/Dungeon-Derps-Development/ResourcefulBees/wiki/Biome-Tags) or specific biomes, you cannot use both simultaneously.
 
@@ -54,6 +54,6 @@ This example will let the bee spawn in plains, frozen river, or beach biomes onl
 <br>
 <br>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyMzgyNTM2MywxOTI4OTU3MjA3LDE2OD
+eyJoaXN0b3J5IjpbLTc4MDAxMjExMSwxOTI4OTU3MjA3LDE2OD
 Q2MzMwNzFdfQ==
 -->
