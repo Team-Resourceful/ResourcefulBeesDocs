@@ -1,4 +1,4 @@
-All tags are based on a specific category listed below
+All tags are based on a specific category listed below **(post 1.16 needs to be added)**
 ### Temperature
 * HOT
 * COLD
@@ -41,7 +41,7 @@ All tags are based on a specific category listed below
 # Vanilla Biomes with associated tags
 
 | Biome         | Tags          |
-| ------------- |:-------------:|
+| ------------- |:--------------|
 | Ocean         | OCEAN, OVERWORLD     |
 | Plains        | PLAINS, OVERWORLD|
 | Desert | HOT, DRY, SANDY, OVERWORLD|
@@ -123,5 +123,5 @@ All tags are based on a specific category listed below
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzg2NjQzMjVdfQ==
+eyJoaXN0b3J5IjpbLTE4NDEwMTM3MjRdfQ==
 -->
