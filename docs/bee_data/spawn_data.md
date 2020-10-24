@@ -115,8 +115,28 @@ This example will let only a single bee spawn in any mountain or hills biome exc
 
 As of now, this value only controls the light level a block must be at for the bee to spawn. It is *not* representative of the daylight cycle as it may seem on first glance. *In a future update* we will be using this value to force bees to only work during specific times of day.
 
-**SPECIAL NOTE:** This value also affects breeding. When the bee is set as breedable, it will only spawn the child if the light level of the block at the time is the correct light level. 
+**SPECIAL NOTE:** This value also affects breeding. When the bee is set as breedable, it will only spawn the child if the light level of the block at the time is the correct light level.
+
+<br>
+<br>
+
+## **Template**
+***
+
+Here is a template for all configurable options in the Spawn Data Object:
+
+```json
+"SpawnData": {
+	"canSpawnInWorld": true,
+	"biomeWhitelist": "TAG:Mountain, HILLS",
+	"biomeBlacklist": "minecraft:desert_hills",
+	"spawnWeight": 2,
+	"minGroupSize": 1,
+	"maxGroupSize": 1,
+	"lightLevel": "ANY"
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDcyMzMzMDMsMTkyODk1NzIwNywxNj
+eyJoaXN0b3J5IjpbLTE5MjExODE5NjMsMTkyODk1NzIwNywxNj
 g0NjMzMDcxXX0=
 -->
