@@ -196,7 +196,8 @@ Here is a Custom Bee Data template which shows the format for the core json itse
 	"baseLayerTexture": "/custom/bee",  
 	"traits" : [""],
 	"customCombDrop": "",
-	"customBombBlockDrop": ""
+	"customBombBlockDrop": "",
+	"apiaryOutputAmounts" : [1,2,3,4],
 	"ColorData": {  
 		"isBeeColored": false
 	}
@@ -216,5 +217,6 @@ Here is a Custom Bee Data template which shows the format for the core json itse
 	"TraitData": {}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzA4MzE0NiwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMTk0OTA5MzQ2LC0xNzcwODMxNDYsLTIwOD
+g3NDY2MTJdfQ==
 -->
