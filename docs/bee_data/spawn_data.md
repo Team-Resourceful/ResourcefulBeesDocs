@@ -61,8 +61,11 @@ This example will let the bee spawn in plains, frozen river, or beach biomes onl
 <br>
 <br>
 
+## **Strength in Numbers**
+***
 
+### **spawnWeight** (Required)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1OTY0MjY4OCwxOTI4OTU3MjA3LDE2OD
-Q2MzMwNzFdfQ==
+eyJoaXN0b3J5IjpbLTE2MjY5MDU5NTgsMTkyODk1NzIwNywxNj
+g0NjMzMDcxXX0=
 -->
