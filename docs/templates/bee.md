@@ -1,4 +1,5 @@
-# Template
+## **Template**
+***
 
 This page contains a template for the bee jsons with ALL configurable options. This should help pack devs with making their own bees since fields only need to be modified or deleted as necessary.
 
