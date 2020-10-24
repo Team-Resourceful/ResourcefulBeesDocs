@@ -66,8 +66,8 @@ This example will let the bee spawn in plains, frozen river, or beach biomes onl
 
 ### **spawnWeight** (Optional)
 
-`spawnWeight` is an integer value which represents the weight of the bee against all other entities registered to spawn in the biomes where the bee can spawn. The value is **not** a percent representation meaning any value greater than zero can be used here. By default the value is set as `8` which puts the weighting just below chickens and pigs which are se
+`spawnWeight` is an integer value which represents the weighting of the bee against all other entities registered to spawn in the biomes where the bee can spawn. The value is **not** a percent representation meaning any value greater than zero can be used here. By default the value is set as `8` which puts the weighting just below chickens and pigs which are set at `10`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NzQwNTk1MywxOTI4OTU3MjA3LDE2OD
+eyJoaXN0b3J5IjpbLTg4OTI0MzQxMywxOTI4OTU3MjA3LDE2OD
 Q2MzMwNzFdfQ==
 -->
