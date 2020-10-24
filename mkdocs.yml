@@ -11,6 +11,8 @@ nav:
     - Mutation Data : 'bee_data/mutation_data.md'
     - Spawn Data : 'bee_data/spawn_data.md'
     - Trait Data : 'bee_data/trait_data.md'
+  - Templates :
+    - Bee Template : 'templates/bee.md'
   - Extra Stuff :
     - Biome Tags : 'extra_stuff/biome_tags.md'
     - Color Name Options : 'extra_stuff/color_names.md'
