@@ -53,7 +53,21 @@ There are various *optional* traits available for bees and potentially more to c
 Examples:
 `"traits" : ["creeper"]`
 `"traits": ["nether", "pigman"]`
+
+<br>
+<br>
+
+### **Max Time in Hive** (Optional)
+
+This value is *optional.* This value is used to determine the amount of time **in ticks** the bee must spend in the hive before it generates a honeycomb. This value is represented as an integer value. The minimum value allowed is `600` ticks with no maximum. This value defaults to `2400` ticks, like the vanilla bee, if not set.
+
+`"maxTimeInHive": 1000` <------ This means the bee will have to stay in the hive for `1000` ticks before generating a honeycomb.
+
+<br>
+<br>
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTQ1NTE0NzEsLTIwODg3NDY2MTJdfQ
-==
+eyJoaXN0b3J5IjpbMTYyMjg0MDUzMSwtMjA4ODc0NjYxMl19
 -->
