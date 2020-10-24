@@ -197,8 +197,28 @@ Here is a Custom Bee Data template which shows the format for the core json itse
 	"traits" : [""],
 	"customCombDrop": "",
 	"customBombBlockDrop": ""
-	
+	"ColorData": {  
+		"isBeeColored": false
+	}
+	"MutationData": {  
+		"hasMutation": false,   
+	},
+	"CentrifugeData": {  
+		"hasCentrifugeOutput": false,  
+	},  
+	"SpawnData": {  
+		"canSpawnInWorld": ,  
+  "biomeWhitelist": "tag:OVERWORLD",  
+  "biomeBlacklist": "tag:ocean"  
+},  
+"BreedData": {  
+  "isBreedable": true,  
+  "parent1": "Coal, iron, gold",  
+  "parent2": "Skeleton, redstone, rgbee, lapis",  
+  "feedItem": "tag:forge:ores"  
+},  
+"TraitData": {}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyMjIzNjYwOSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTM5NzMwMDYxNSwtMjA4ODc0NjYxMl19
 -->
