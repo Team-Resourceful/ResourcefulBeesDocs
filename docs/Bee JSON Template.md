@@ -47,9 +47,25 @@ This page contains a template for the bee jsons with ALL configurable options. T
 		"canSpawnInWorld":true,
 		"spawnWeight": 8,
 		"biomeWhitelist":"tag:ocean",
-		"biomeBlacklist":"tag:overworld"
-	}, "BreedData": { "isBreedable": true, "breedWeight": 2.5, "parent1": "testbeeparent1", "parent2": "testbeeparent2", "feedItem": "minecraft:poppy", "feedAmount": 5 }, "TraitData": { "hasTraits": true } }
+		"biomeBlacklist":"tag:overworld",
+		"minGroupSize": 1,
+		"maxGroupSize": 1,
+		"lightLevel": "ANY"
+	},
+	"BreedData": {
+		"isBreedable": true,
+		"breedWeight": 2.5,
+		"parent1": "testbeeparent1",
+		"parent2": "testbeeparent2",
+		"feedItem":
+		"minecraft:poppy",
+		"feedAmount": 5
+	},
+	"TraitData": {
+		"hasTraits": true
+	}
+	}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Mjk4OTQ0NjJdfQ==
+eyJoaXN0b3J5IjpbLTEwNjYzODg3ODJdfQ==
 -->
