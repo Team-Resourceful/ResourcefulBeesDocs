@@ -98,6 +98,8 @@ Sub-directories can be nested like so: `"folder_1/folder_2/folder_3/texture"`
 
 If you wish to have a bee output something other than a honeycomb you can do so by specifying the `custombCombDrop` and `customCombBlockDrop` fields. The Oreo bee makes use of this by outputting cookies instead of honeycombs. You **must** still set `hasHoneycomb` to true. Internally, we will know if you've supplied custom outputs and adjust accordingly.
 
+These fields use the `namespace:ID` format.
+
 Example:
 
 ```json
@@ -106,5 +108,5 @@ Example:
 "customBombBlockDrop": "minecraft:iron_block"
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk2NjQ4MTY5LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTg1NjIyMjQ0MiwtMjA4ODc0NjYxMl19
 -->
