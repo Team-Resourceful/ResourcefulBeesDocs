@@ -96,7 +96,7 @@ Sub-directories can be nested like so: `"folder_1/folder_2/folder_3/texture"`
 
 ### **Custom Honeycombs** (Optional)
 
-If you wish to have a bee output something other than a honeycomb you can do so by specifying the `custombComb
+If you wish to have a bee output something other than a honeycomb you can do so by specifying the `custombCombDrop` and `customCombBlockDrop` fields. The Oreo bee makes use of this by outputting cookies instead of honeycombs. You **must** still set `hasHoneycomb` to true. Internally, we will know if you've supplied custom outputs and adjust accord
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODQ0NjgwOCwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMzczMTQxNTE0LC0yMDg4NzQ2NjEyXX0=
 -->
