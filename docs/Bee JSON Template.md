@@ -4,10 +4,9 @@ This page contains a template for the bee jsons with ALL configurable options. T
 { 
 	"flower":"ALL",
 	"baseLayerTexture":"/creeper/creeper_bee",
-	"maxTimeInHive":600,
-	"attackDamage":4.0,
-	"sizeModifier":1.5,
-	"traits":["wither","blaze","canswim","creeper","zombie","pigman","ender","nether"],
+	"maxTimeInHive":2400,
+	"sizeModifier":1.0,
+	"traits":["wither","blaze","can_swim","creeper","zombie","pigman","ender","nether", "oreo", "slimy"],
 	"hasHoneycomb":true,
 	"ColorData": {
 		"primaryColor":"#005500",
@@ -73,5 +72,5 @@ This page contains a template for the bee jsons with ALL configurable options. T
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTE5OTg5ODVdfQ==
+eyJoaXN0b3J5IjpbMTAwMzIyMTg4OV19
 -->
