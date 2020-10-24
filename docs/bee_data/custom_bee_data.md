@@ -115,7 +115,9 @@ Example:
 
 ### **Apiary Output Amounts** (Optional)
 
-`
+`apiaryOutputAmounts[]` is an integer array. The array consists of **four** values each corresponding tot he appropriate tier apiary. For example the Oreo bee uses this data option:
+
+`"apiaryOutputAmo
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MDY4NzYzMCwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMTkxOTQ1NDA5MCwtMjA4ODc0NjYxMl19
 -->
