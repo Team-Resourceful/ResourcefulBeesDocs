@@ -154,30 +154,30 @@ This is a json object that groups all combat related options. See Combat Data fo
 <br>
 <br>
 
-### **Breed Data** (Optional)
+### **Mutation Data** (Optional)
 
-This is a json object that groups all breed related options. See Breed Data for more info.
-
-<br>
-<br>
-
-### **Breed Data** (Optional)
-
-This is a json object that groups all breed related options. See Breed Data for more info.
+This is a json object that groups all mutation related options. See Mutation Data for more info.
 
 <br>
 <br>
 
-### **Breed Data** (Optional)
+### **Spawn Data** (Optional)
 
-This is a json object that groups all breed related options. See Breed Data for more info.
+This is a json object that groups all spawn related options. See Spawn Data for more info.
 
 <br>
 <br>
 
-### **Breed Data** (Optional)
+### **Trait Data** (Optional)
 
-This is a json object that groups all breed related options. See Breed Data for more info.
+This is a json object that groups all trait related options. See Trait Data for more info.
+
+<br>
+<br>
+
+### **Additional Data** (Optional)
+
+through the use of our API other mods can make their own data 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MDU0NTc2NCwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMjgyNDgyMDcyLC0yMDg4NzQ2NjEyXX0=
 -->
