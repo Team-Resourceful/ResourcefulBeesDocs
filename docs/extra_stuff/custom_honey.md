@@ -71,6 +71,36 @@ Example
 
 Default: false
 
+### honeyBlockRecipe (optional)
+
+This value determines if a recipe for a honey block and back to bottles is generated.
+
+Example of honeyBlockRecipe usage.
+
+`"honeyBlockRecipe": false`  
+
+Default: true
+
+### generateHoneyBlock (optional)
+
+This value determines if a honey block is generated.
+
+Example of generateHoneyBlock usage.
+
+`"generateHoneyBlock": false`  
+
+Default: true
+
+### generateHoneyFluid (optional)
+
+This value determines if honey fluid and a honey bucket are generated.
+
+Example of generateHoneyFluid usage.
+
+`"generateHoneyFluid": false`  
+
+Default: true
+
 ## Custom Effects
 
 ### effects (optional)  
