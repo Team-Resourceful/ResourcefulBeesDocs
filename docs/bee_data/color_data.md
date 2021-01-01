@@ -74,6 +74,13 @@ Sub-directories can be nested like so: `"folder_1/folder_2/folder_3/texture"`
 <br>
 <br>
 
+## **Models**
+***
+
+### **ORE** (Optional)
+
+
+
 ## **Special**
 ***
 
@@ -102,7 +109,7 @@ Below are some examples of color usage.
 
 Set `isRainbowBee` to `true` when you want the bee to cycle through a rainbow of colors. Setting this option removes the need for a primary and secondary color. 
 
-`"isRainbowBee": true
+`"isRainbowBee": true`<br>
 
 <br>
 <br>
@@ -130,5 +137,5 @@ Here is the Color Data Template:
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NDkyNzY4OSwzMjY2NDQ3NjBdfQ==
+eyJoaXN0b3J5IjpbMTg0MjMwMzU0OSwzMjY2NDQ3NjBdfQ==
 -->
