@@ -1,6 +1,6 @@
 ## **Valid Apiary Tag**
 ***
-This is the default Valid Apiary Tag provided by the mod. Any discrepancies should be considered as pack developer changes. Changes can be made using any normal data pack.
+This is the default `valid_apiary` tag provided by the mod. Any discrepancies should be considered as pack developer changes. Changes can be made using data packs.
 
 ```json
 {  
@@ -38,5 +38,5 @@ This is the default Valid Apiary Tag provided by the mod. Any discrepancies shou
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzE0ODQ2MzZdfQ==
+eyJoaXN0b3J5IjpbLTE1Njg3MDcxNDFdfQ==
 -->
