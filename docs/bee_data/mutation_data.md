@@ -43,16 +43,16 @@ This is used when a bee mutates a normal block into another normal block. ex. `"
 ### **ENTITY_TO_ENTITY**
 
 This is used when a bee mutates an entity into another entity. ex. `"mutationType": "ENTITY_TO_ENTITY"`
-**NOTE:** No other form of entity mutation is planned at this time.
+_Note: No other form of entity mutation is planned at this time._
 
 ## **Mutation Inputs and Outputs**
 ***
 
 The `mutationInput` represents the block or blocks to be mutated and the `mutationOutput` represents the final form. For example, a bee could mutate simple stone blocks into coal ore blocks or cobblestone into lava. The `mutationInput` has the option of accepting tags, however the `mutationOutput` does not.
 
-**NOTE** Entity to Entity mutation is also supported by using the `"entity:` prefix. Entity tags are **not** supported.
+_Note: Entity to Entity mutation is also supported by using the_ `"entity:` _prefix. Entity tags are_ **not** _supported._
 
-**Note 2** In a future update we will support multiple weighted outputs. This page will be updated when they are implemented.
+_Note 2: In a future update we will support multiple weighted outputs. This page will be updated when they are implemented._
 
 Example:
 
@@ -111,7 +111,7 @@ In this example, the bee will mutate cow into a bat.
 ```
 <br>
 
-_Note: Mutation Input and Mutation Output are not limited to just Minecraft blocks. Any block from any mod can be used as long as it has a resource location in the form of `namespace:ID`. In addition, when using fluids, only fluids that have a block variant can be used._
+_Note: Mutation Input and Mutation Output are not limited to just Minecraft blocks. Any block from any mod can be used as long as it has a resource location in the form of_ `namespace:ID`_. In addition, when using fluids, only fluids that have a block variant can be used._
 
 <br>
 <br>
@@ -150,6 +150,6 @@ Here is a blank template showing all configurable fields in the Mutation Data ob
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4ODcyMTg2Miw3MTAxMzk2MTAsNzEyMT
-g0NTQyLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTE0OTQwODA5NzgsNzEwMTM5NjEwLDcxMj
+E4NDU0Miw3MzA5OTgxMTZdfQ==
 -->
