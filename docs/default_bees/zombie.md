@@ -1,41 +1,39 @@
-##  **ZombBee**  
+##  **Zombee**  
 
 ***  
 
-This is the default Netherite Bee configuration provided by the mod. Any discrepancies should be considered as pack developer changes. This mod provides eighteen bee configurations out of the box as samples of how the customization system works. Feel free to use them as-is or change them as you wish!  
+This is the default Zombee configuration provided by the mod. Any discrepancies should be considered as pack developer changes. This mod provides eighteen bee configurations out of the box as samples of how the customization system works. Feel free to use them as-is or change them as you wish!  
   
 
 ```json  
 {  
-  "flower": "minecraft:wither_rose",  
+  "flower": "tag:minecraft:bee_growables",  
   "maxTimeInHive": 600,  
   "hasHoneycomb": true,  
-  "baseLayerTexture": "ores/netherite/netherite_bee",  
-  "traits": ["nether", "wither"],  
+  "baseLayerTexture": "zombie/zombie_bee",  
+  "traits": ["zombie"],  
   "ColorData": {  
   "isBeeColored": false,  
-  "honeycombColor": "#654740"  
+  "honeycombColor": "#2F4E32"  
   },  
   "MutationData": {  
   "hasMutation": true,  
-  "mutationInput": "minecraft:blackstone",  
-  "mutationOutput": "minecraft:gilded_blackstone",  
+  "mutationInput": "minecraft:stone",  
+  "mutationOutput": "minecraft:cobblestone",  
   "mutationType": "BLOCK_TO_BLOCK"  
   },  
   "CentrifugeData": {  
   "hasCentrifugeOutput": true,  
-  "mainOutput": "minecraft:netherite_ingot",  
-  "mainOutputWeight": 0.05  
+  "mainOutput": "minecraft:rotten_flesh"  
   },  
   "SpawnData": {  
   "canSpawnInWorld": true,  
-  "biomeWhitelist": "tag:nether",  
+  "biomeWhitelist": "tag:OVERWORLD",  
+  "biomeBlacklist": "tag:ocean",  
   "lightLevel": "NIGHT"  
   },  
   "BreedData": {  
-  "isBreedable": true,  
-  "parent1": "Wither",  
-  "parent2": "Diamond"  
+  "isBreedable": true  
   },  
   "TraitData": {  
   "hasTraits": true  
@@ -43,5 +41,5 @@ This is the default Netherite Bee configuration provided by the mod. Any discrep
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNjEwNDQwXX0=
+eyJoaXN0b3J5IjpbMjYwNzkzMzQxXX0=
 -->
