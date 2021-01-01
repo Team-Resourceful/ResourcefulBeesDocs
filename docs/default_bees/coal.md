@@ -9,34 +9,34 @@ This is the default Coal Bee configuration provided by the mod. Any discrepancie
   "hasHoneycomb": true,  
   "baseLayerTexture": "ores/coal/coal_bee",  
   "ColorData": {  
-  "isBeeColored": false,  
-  "honeycombColor": "#303030",  
-  "modelType": "ORE"  
+	  "isBeeColored": false,  
+	  "honeycombColor": "#303030",  
+	  "modelType": "ORE"  
   },  
   "MutationData": {  
-  "hasMutation": true,  
-  "mutationInput": "tag:forge:stone",  
-  "mutationOutput": "minecraft:coal_ore",  
-  "mutationType": "BLOCK_TO_BLOCK"  
+	  "hasMutation": true,  
+	  "mutationInput": "tag:forge:stone",  
+	  "mutationOutput": "minecraft:coal_ore",  
+	  "mutationType": "BLOCK_TO_BLOCK"  
   },  
   "CentrifugeData": {  
-  "hasCentrifugeOutput": true,  
-  "mainOutput": "minecraft:coal",  
-  "mainOutputCount": 16  
+	  "hasCentrifugeOutput": true,  
+	  "mainOutput": "minecraft:coal",  
+	  "mainOutputCount": 16  
   },  
   "SpawnData": {  
-  "canSpawnInWorld": true,  
-  "biomeWhitelist": "tag:overworld",  
-  "biomeBlacklist": "tag:ocean"  
+	  "canSpawnInWorld": true,  
+	  "biomeWhitelist": "tag:overworld",  
+	  "biomeBlacklist": "tag:ocean"  
   },  
   "BreedData": {  
-  "feedItem": "minecraft:poppy",  
-  "feedAmount": 4,  
-  "isBreedable": true  
+	  "feedItem": "minecraft:poppy",  
+	  "feedAmount": 4,  
+	  "isBreedable": true  
   },  
   "TraitData": {}  
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MTg3NzQ2OF19
+eyJoaXN0b3J5IjpbMTUwODI2OTkwMF19
 -->
