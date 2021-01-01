@@ -9,30 +9,30 @@ This is the default Emerald Bee configuration provided by the mod. Any discrepan
   "traits": ["ender"],  
   "maxTimeInHive": 1800,  
   "ColorData": {  
-  "isBeeColored": true,  
-  "honeycombColor": "#339786",  
-  "primaryColor": "#339786",  
-  "secondaryColor": "#303030"  
+	  "isBeeColored": true,  
+	  "honeycombColor": "#339786",  
+	  "primaryColor": "#339786",  
+	  "secondaryColor": "#303030"  
   },  
   "MutationData": {  
-  "hasMutation": true,  
-  "mutationInput": "minecraft:obsidian",  
-  "mutationOutput": "minecraft:end_stone",  
-  "mutationType": "BLOCK_TO_BLOCK"  
+	  "hasMutation": true,  
+	  "mutationInput": "minecraft:obsidian",  
+	  "mutationOutput": "minecraft:end_stone",  
+	  "mutationType": "BLOCK_TO_BLOCK"  
   },  
   "CentrifugeData": {  
-  "hasCentrifugeOutput": true,  
-  "mainOutput": "minecraft:ender_pearl",  
-  "bottleOutput" : "minecraft:dragon_breath"  
+	  "hasCentrifugeOutput": true,  
+	  "mainOutput": "minecraft:ender_pearl",  
+	  "bottleOutput" : "minecraft:dragon_breath"  
   },  
   "SpawnData": {  
-  "canSpawnInWorld": true,  
-  "biomeWhitelist": "TAG:end",  
-  "lightLevel": "NIGHT",  
-  "spawnWeight": 20  
+	  "canSpawnInWorld": true,  
+	  "biomeWhitelist": "TAG:end",  
+	  "lightLevel": "NIGHT",  
+	  "spawnWeight": 20  
   },  
-  "BreedData": {  
-  "isBreedable": true  
+"BreedData": {  
+	  "isBreedable": true  
   },  
   "TraitData": {  
   "hasTraits": true  
@@ -40,5 +40,5 @@ This is the default Emerald Bee configuration provided by the mod. Any discrepan
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzODA4OTM3Ml19
+eyJoaXN0b3J5IjpbLTE1MzI5NTcxNTZdfQ==
 -->
