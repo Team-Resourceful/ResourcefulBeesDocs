@@ -69,7 +69,7 @@ The primary and secondary layer textures are the textures used for coloring the 
 
 Sub-directories can be nested like so: `"folder_1/folder_2/folder_3/texture"`
 
-**SPECIAL NOTE:** The file extension is *NOT REQUIRED* in the .json value as that is automatically appended by the mod when rendering. 
+_Note: The file extension is *NOT REQUIRED* in the .json value as that is automatically appended by the mod when rendering._
 
 <br>
 <br>
@@ -154,6 +154,6 @@ Here is the Color Data Template:
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc2NTY1MTU5LDg4MTU5MjQ4MSwzMjY2ND
+eyJoaXN0b3J5IjpbMzAyNDQwNDgwLDg4MTU5MjQ4MSwzMjY2ND
 Q3NjBdfQ==
 -->
