@@ -1,47 +1,44 @@
-##  **Netherite Bee**  
+##  **Skeleton Bee**  
 
 ***  
 
-This is the default Netherite Bee configuration provided by the mod. Any discrepancies should be considered as pack developer changes. This mod provides eighteen bee configurations out of the box as samples of how the customization system works. Feel free to use them as-is or change them as you wish!  
+This is the default Skeleton Bee configuration provided by the mod. Any discrepancies should be considered as pack developer changes. This mod provides eighteen bee configurations out of the box as samples of how the customization system works. Feel free to use them as-is or change them as you wish!  
   
 
 ```json  
 {  
-  "flower": "minecraft:wither_rose",  
+  "flower": "small",  
   "maxTimeInHive": 600,  
   "hasHoneycomb": true,  
-  "baseLayerTexture": "ores/netherite/netherite_bee",  
-  "traits": ["nether", "wither"],  
+  "baseLayerTexture": "skeleton/skeleton_bee",  
   "ColorData": {  
   "isBeeColored": false,  
-  "honeycombColor": "#654740"  
+  "honeycombColor": "#F6F2E6"  
   },  
   "MutationData": {  
   "hasMutation": true,  
-  "mutationInput": "minecraft:blackstone",  
-  "mutationOutput": "minecraft:gilded_blackstone",  
+  "mutationInput": "minecraft:stone",  
+  "mutationOutput": "minecraft:gravel",  
   "mutationType": "BLOCK_TO_BLOCK"  
   },  
   "CentrifugeData": {  
   "hasCentrifugeOutput": true,  
-  "mainOutput": "minecraft:netherite_ingot",  
-  "mainOutputWeight": 0.05  
+  "mainOutput": "minecraft:bone"  
   },  
   "SpawnData": {  
   "canSpawnInWorld": true,  
-  "biomeWhitelist": "tag:nether",  
+  "biomeWhitelist": "tag:OVERWORLD",  
+  "biomeBlacklist": "tag:ocean",  
   "lightLevel": "NIGHT"  
   },  
   "BreedData": {  
   "isBreedable": true,  
-  "parent1": "Wither",  
-  "parent2": "Diamond"  
+  "feedItem": "small",  
+  "feedAmount": 8  
   },  
-  "TraitData": {  
-  "hasTraits": true  
-  }  
+  "TraitData": {}  
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODYwNjMwNTJdfQ==
+eyJoaXN0b3J5IjpbLTE1MjQ1NDYwMzldfQ==
 -->
