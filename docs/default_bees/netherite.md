@@ -13,35 +13,35 @@ This is the default Netherite Bee configuration provided by the mod. Any discrep
   "baseLayerTexture": "ores/netherite/netherite_bee",  
   "traits": ["nether", "wither"],  
   "ColorData": {  
-  "isBeeColored": false,  
-  "honeycombColor": "#654740"  
+	  "isBeeColored": false,  
+	  "honeycombColor": "#654740"  
   },  
   "MutationData": {  
-  "hasMutation": true,  
-  "mutationInput": "minecraft:blackstone",  
-  "mutationOutput": "minecraft:gilded_blackstone",  
-  "mutationType": "BLOCK_TO_BLOCK"  
+	  "hasMutation": true,  
+	  "mutationInput": "minecraft:blackstone",  
+	  "mutationOutput": "minecraft:gilded_blackstone",  
+	  "mutationType": "BLOCK_TO_BLOCK"  
   },  
   "CentrifugeData": {  
-  "hasCentrifugeOutput": true,  
-  "mainOutput": "minecraft:netherite_ingot",  
-  "mainOutputWeight": 0.05  
+	  "hasCentrifugeOutput": true,  
+	  "mainOutput": "minecraft:netherite_ingot",  
+	  "mainOutputWeight": 0.05  
   },  
   "SpawnData": {  
-  "canSpawnInWorld": true,  
-  "biomeWhitelist": "tag:nether",  
-  "lightLevel": "NIGHT"  
+	  "canSpawnInWorld": true,  
+	  "biomeWhitelist": "tag:nether",  
+	  "lightLevel": "NIGHT"  
   },  
   "BreedData": {  
-  "isBreedable": true,  
-  "parent1": "Wither",  
-  "parent2": "Diamond"  
+	  "isBreedable": true,  
+	  "parent1": "Wither",  
+	  "parent2": "Diamond"  
   },  
   "TraitData": {  
-  "hasTraits": true  
+	  "hasTraits": true  
   }  
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODYwNjMwNTJdfQ==
+eyJoaXN0b3J5IjpbLTIwNjExMTQ4MTJdfQ==
 -->
