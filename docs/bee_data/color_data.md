@@ -117,7 +117,7 @@ Below are some examples of color usage.
 
 `isEnchanted` set to true sets the bee to have the enchantment glint effect.
 
-**Note:** `isGlowing` and `isEnchanted` are incompatible.
+_Note:_ `isGlowing` and `isEnchanted` _are incompatible._
 
 <br>
 <br>
@@ -154,6 +154,6 @@ Here is the Color Data Template:
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjM2MTIyNTUsODgxNTkyNDgxLDMyNj
-Y0NDc2MF19
+eyJoaXN0b3J5IjpbNTc2NTY1MTU5LDg4MTU5MjQ4MSwzMjY2ND
+Q3NjBdfQ==
 -->
