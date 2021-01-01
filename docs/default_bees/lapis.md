@@ -9,32 +9,32 @@ This is the default Lapis Bee configuration provided by the mod. Any discrepanci
   "hasHoneycomb": true,  
   "baseLayerTexture": "ores/lapis/lapis_bee",  
   "ColorData": {  
-  "isBeeColored": false,  
-  "honeycombColor": "#345ec3",  
-  "modelType": "ORE"  
+	  "isBeeColored": false,  
+	  "honeycombColor": "#345ec3",  
+	  "modelType": "ORE"  
   },  
   "MutationData": {  
-  "hasMutation": true,  
-  "mutationInput": "minecraft:stone",  
-  "mutationOutput": "minecraft:lapis_ore",  
-  "mutationType": "BLOCK_TO_BLOCK"  
+	  "hasMutation": true,  
+	  "mutationInput": "minecraft:stone",  
+	  "mutationOutput": "minecraft:lapis_ore",  
+	  "mutationType": "BLOCK_TO_BLOCK"  
   },  
   "CentrifugeData": {  
-  "hasCentrifugeOutput": true,  
-  "mainOutput": "minecraft:lapis_lazuli",  
-  "mainOutputCount": 8  
+	  "hasCentrifugeOutput": true,  
+	  "mainOutput": "minecraft:lapis_lazuli",  
+	  "mainOutputCount": 8  
   },  
   "SpawnData": {  
-  "canSpawnInWorld": true,  
-  "biomeWhitelist": "tag:OVERWORLD",  
-  "biomeBlacklist": "tag:ocean"  
+	  "canSpawnInWorld": true,  
+	  "biomeWhitelist": "tag:OVERWORLD",  
+	  "biomeBlacklist": "tag:ocean"  
   },  
   "BreedData": {  
-  "isBreedable": true  
+	  "isBreedable": true  
   },  
   "TraitData": {}  
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3MDkzMjg4MV19
+eyJoaXN0b3J5IjpbLTEwMjg2MjcwNV19
 -->
