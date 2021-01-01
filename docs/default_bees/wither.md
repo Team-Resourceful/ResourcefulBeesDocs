@@ -13,33 +13,33 @@ This is the default Wither Bee configuration provided by the mod. Any discrepanc
   "baseLayerTexture": "wither/wither_bee",  
   "traits": ["nether", "wither"],  
   "ColorData": {  
-  "isBeeColored": false,  
-  "honeycombColor": "#444444"  
+	  "isBeeColored": false,  
+	  "honeycombColor": "#444444"  
   },  
   "MutationData": {  
-  "hasMutation": true,  
-  "mutationInput": "minecraft:lava",  
-  "mutationOutput": "minecraft:obsidian",  
-  "mutationType": "FLUID_TO_BLOCK"  
+	  "hasMutation": true,  
+	  "mutationInput": "minecraft:lava",  
+	  "mutationOutput": "minecraft:obsidian",  
+	  "mutationType": "FLUID_TO_BLOCK"  
   },  
   "CentrifugeData": {  
-  "hasCentrifugeOutput": true,  
-  "mainOutput": "minecraft:nether_star",  
-  "mainOutputWeight": 0.01  
+	  "hasCentrifugeOutput": true,  
+	  "mainOutput": "minecraft:nether_star",  
+	  "mainOutputWeight": 0.01  
   },  
   "SpawnData": {},  
   "BreedData": {  
-  "isBreedable": true,  
-  "parent1": "Coal",  
-  "parent2": "Skeleton",  
-  "feedItem": "minecraft:rotten_flesh",  
-  "feedAmount": 12  
+	  "isBreedable": true,  
+	  "parent1": "Coal",  
+	  "parent2": "Skeleton",  
+	  "feedItem": "minecraft:rotten_flesh",  
+	  "feedAmount": 12  
   },  
   "TraitData": {  
-  "hasTraits": true  
+	  "hasTraits": true  
   }  
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE5MzIyMjAxXX0=
+eyJoaXN0b3J5IjpbLTE4MDcxNTk3NTldfQ==
 -->
