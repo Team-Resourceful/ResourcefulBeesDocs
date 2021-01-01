@@ -12,33 +12,33 @@ This is the default Skeleton Bee configuration provided by the mod. Any discrepa
   "hasHoneycomb": true,  
   "baseLayerTexture": "skeleton/skeleton_bee",  
   "ColorData": {  
-  "isBeeColored": false,  
-  "honeycombColor": "#F6F2E6"  
+	  "isBeeColored": false,  
+	  "honeycombColor": "#F6F2E6"  
   },  
   "MutationData": {  
-  "hasMutation": true,  
-  "mutationInput": "minecraft:stone",  
-  "mutationOutput": "minecraft:gravel",  
-  "mutationType": "BLOCK_TO_BLOCK"  
+	  "hasMutation": true,  
+	  "mutationInput": "minecraft:stone",  
+	  "mutationOutput": "minecraft:gravel",  
+	  "mutationType": "BLOCK_TO_BLOCK"  
   },  
   "CentrifugeData": {  
-  "hasCentrifugeOutput": true,  
-  "mainOutput": "minecraft:bone"  
+	  "hasCentrifugeOutput": true,  
+	  "mainOutput": "minecraft:bone"  
   },  
   "SpawnData": {  
-  "canSpawnInWorld": true,  
-  "biomeWhitelist": "tag:OVERWORLD",  
-  "biomeBlacklist": "tag:ocean",  
-  "lightLevel": "NIGHT"  
+	  "canSpawnInWorld": true,  
+	  "biomeWhitelist": "tag:OVERWORLD",  
+	  "biomeBlacklist": "tag:ocean",  
+	  "lightLevel": "NIGHT"  
   },  
   "BreedData": {  
-  "isBreedable": true,  
-  "feedItem": "small",  
-  "feedAmount": 8  
+	  "isBreedable": true,  
+	  "feedItem": "small",  
+	  "feedAmount": 8  
   },  
   "TraitData": {}  
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjQ1NDYwMzldfQ==
+eyJoaXN0b3J5IjpbNTYzNzYxMjAxXX0=
 -->
