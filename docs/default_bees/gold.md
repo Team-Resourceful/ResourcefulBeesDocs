@@ -4,41 +4,36 @@ This is the default Gold Bee configuration provided by the mod. Any discrepancie
 
 ```json
 {  
-  "flower": "minecraft:chorus_flower",  
+  "flower": "ALL",  
   "hasHoneycomb": true,  
-  "traits": ["ender"],  
-  "maxTimeInHive": 1800,  
+  "maxTimeInHive": 800,  
+  "baseLayerTexture": "ores/gold/gold_bee",  
   "ColorData": {  
-  "isBeeColored": true,  
-  "honeycombColor": "#339786",  
-  "primaryColor": "#339786",  
-  "secondaryColor": "#303030"  
+  "isBeeColored": false,  
+  "honeycombColor": "#FFDC00",  
+  "modelType": "ORE"  
   },  
   "MutationData": {  
   "hasMutation": true,  
-  "mutationInput": "minecraft:obsidian",  
-  "mutationOutput": "minecraft:end_stone",  
+  "mutationInput": "minecraft:stone",  
+  "mutationOutput": "minecraft:gold_ore",  
   "mutationType": "BLOCK_TO_BLOCK"  
   },  
   "CentrifugeData": {  
   "hasCentrifugeOutput": true,  
-  "mainOutput": "minecraft:ender_pearl",  
-  "bottleOutput" : "minecraft:dragon_breath"  
+  "mainOutput": "minecraft:gold_ingot"  
   },  
   "SpawnData": {  
   "canSpawnInWorld": true,  
-  "biomeWhitelist": "TAG:end",  
-  "lightLevel": "NIGHT",  
-  "spawnWeight": 20  
+  "biomeWhitelist": "tag:OVERWORLD",  
+  "biomeBlacklist": "tag:ocean"  
   },  
   "BreedData": {  
   "isBreedable": true  
   },  
-  "TraitData": {  
-  "hasTraits": true  
-  }  
+  "TraitData": {}  
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTA3MTY5NF19
+eyJoaXN0b3J5IjpbLTMxNzA4OTI5Nl19
 -->
