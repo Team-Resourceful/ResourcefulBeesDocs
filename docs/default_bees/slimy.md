@@ -1,41 +1,32 @@
-##  **Netherite Bee**  
+##  **Slimy Bee**  
 
 ***  
 
-This is the default Netherite Bee configuration provided by the mod. Any discrepancies should be considered as pack developer changes. This mod provides eighteen bee configurations out of the box as samples of how the customization system works. Feel free to use them as-is or change them as you wish!  
+This is the default Slimy Bee configuration provided by the mod. Any discrepancies should be considered as pack developer changes. This mod provides eighteen bee configurations out of the box as samples of how the customization system works. Feel free to use them as-is or change them as you wish!  
   
 
 ```json  
 {  
-  "flower": "minecraft:wither_rose",  
-  "maxTimeInHive": 600,  
-  "hasHoneycomb": true,  
-  "baseLayerTexture": "ores/netherite/netherite_bee",  
-  "traits": ["nether", "wither"],  
+  "flower": "all",  
+  "hasHoneycomb": false,  
+  "traits": ["slimy"],  
+  "maxTimeInHive": 1200,  
+  "baseLayerTexture": "slime/slime_bee",  
   "ColorData": {  
-  "isBeeColored": false,  
-  "honeycombColor": "#654740"  
+  "modelType": "GELATINOUS",  
+  "gelLayerTexture": "/slime/slime_gel_Layer"  
   },  
   "MutationData": {  
   "hasMutation": true,  
-  "mutationInput": "minecraft:blackstone",  
-  "mutationOutput": "minecraft:gilded_blackstone",  
-  "mutationType": "BLOCK_TO_BLOCK"  
-  },  
-  "CentrifugeData": {  
-  "hasCentrifugeOutput": true,  
-  "mainOutput": "minecraft:netherite_ingot",  
-  "mainOutputWeight": 0.05  
-  },  
-  "SpawnData": {  
-  "canSpawnInWorld": true,  
-  "biomeWhitelist": "tag:nether",  
-  "lightLevel": "NIGHT"  
+  "mutationInput": "minecraft:honey_block",  
+  "mutationOutput": "minecraft:slime_block",  
+  "mutationType": "BLOCK_TO_BLOCK",  
+  "mutationCount": 15  
   },  
   "BreedData": {  
   "isBreedable": true,  
-  "parent1": "Wither",  
-  "parent2": "Diamond"  
+  "parent1": "rgbee",  
+  "parent2": "zombie"  
   },  
   "TraitData": {  
   "hasTraits": true  
@@ -43,5 +34,5 @@ This is the default Netherite Bee configuration provided by the mod. Any discrep
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODYwNjMwNTJdfQ==
+eyJoaXN0b3J5IjpbLTEzMzY3Njc3MzBdfQ==
 -->
