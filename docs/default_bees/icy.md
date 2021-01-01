@@ -10,32 +10,32 @@ This is the default Icy Bee configuration provided by the mod. Any discrepancies
   "maxTimeInHive": 1200,  
   "sizeModifier": 0.75,  
   "ColorData": {  
-  "isBeeColored": true,  
-  "honeycombColor": "#92b9fe",  
-  "primaryColor": "#92b9fe",  
-  "secondaryColor": "#303030"  
+	  "isBeeColored": true,  
+	  "honeycombColor": "#92b9fe",  
+	  "primaryColor": "#92b9fe",  
+	  "secondaryColor": "#303030"  
   },  
   "MutationData": {  
-  "hasMutation": true,  
-  "mutationInput": "minecraft:water",  
-  "mutationOutput": "minecraft:ice",  
-  "mutationType": "FLUID_TO_BLOCK",  
-  "mutationCount": 20  
+	  "hasMutation": true,  
+	  "mutationInput": "minecraft:water",  
+	  "mutationOutput": "minecraft:ice",  
+	  "mutationType": "FLUID_TO_BLOCK",  
+	  "mutationCount": 20  
   },  
   "CentrifugeData": {  
-  "hasCentrifugeOutput": false  
+	  "hasCentrifugeOutput": false  
   },  
   "SpawnData": {  
-  "canSpawnInWorld": false  
+	  "canSpawnInWorld": false  
   },  
   "BreedData": {  
-  "isBreedable": true  
+	  "isBreedable": true  
   },  
   "TraitData": {  
-  "hasTraits": true  
+	  "hasTraits": true  
   }  
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NzIyMDk4NF19
+eyJoaXN0b3J5IjpbLTUyMDY3OTE4NF19
 -->
