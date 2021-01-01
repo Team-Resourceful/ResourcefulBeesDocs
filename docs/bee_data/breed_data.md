@@ -52,7 +52,7 @@ Using the example above the bee would have 3 possible sets of parents:
 
 This value is an  _optional_  value that is used to determine the weighting that the child bee has versus all other bees the **same** two parents can make. The value is represented as a `double` and can be any number greater than zero. This value determines the weighting that the child bee has when breeding. The default for this value is 10.
 
-_Note: Breed weight is relative to the child not the parents. This means that comma-separated lists of parents all give the same weight to the child
+_Note: Breed weight cannot be customized per pair of parents._
 
 Suppose for example that we have two parents: `Iron` and `Gold` and that these two parents can make three different bee types: `Diamond`, `Emerald`, and `Redstone`:
 
@@ -156,8 +156,8 @@ Here is a blank template showing all configurable fields in the Breed Data objec
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MjQ3NTg0NywtMTIxMTc5OTA3LDg0OD
-c2MTE1MywxMTY5MjY3Mzc5LC0xNzc2NTY4MDIzLDI4NTc1Mzk2
-NiwtMTk5Mjk0NTQxOCwtMTExMzk3ODgxMCwxMDc4MDUwNTIsLT
-c1MzkxNzMwMSw4MTAwMTc3MTldfQ==
+eyJoaXN0b3J5IjpbLTE0NDY1MTkyMzcsLTEyMTE3OTkwNyw4ND
+g3NjExNTMsMTE2OTI2NzM3OSwtMTc3NjU2ODAyMywyODU3NTM5
+NjYsLTE5OTI5NDU0MTgsLTExMTM5Nzg4MTAsMTA3ODA1MDUyLC
+03NTM5MTczMDEsODEwMDE3NzE5XX0=
 -->
