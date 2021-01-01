@@ -1,42 +1,47 @@
-## **Creeper Bee**
+## **Creeper Bee (Beeper)**
 ***
-This is the default Coal Bee configuration provided by the mod. Any discrepancies should be considered as pack developer changes. This mod provides twenty bee configurations out of the box as samples of how the customization system works. Feel free to use them as-is or change them as you wish!
+This is the default Creeper Bee configuration provided by the mod. Any discrepancies should be considered as pack developer changes. This mod provides twenty bee configurations out of the box as samples of how the customization system works. Feel free to use them as-is or change them as you wish!
 
 ```json
 {  
   "flower": "ALL",  
   "maxTimeInHive": 600,  
   "hasHoneycomb": true,  
-  "baseLayerTexture": "ores/coal/coal_bee",  
+  "baseLayerTexture": "/creeper/creeper_bee",  
+  "traits" : ["creeper"],  
   "ColorData": {  
-	  "isBeeColored": false,  
-	  "honeycombColor": "#303030",  
-	  "modelType": "ORE"  
+  "isBeeColored": false,  
+  "honeycombColor": "#0C9F0A",  
+  "isGlowing": true,  
+  "glowColor": "#E2D3D3",  
+  "glowingPulse": 2,  
+  "emissiveLayerTexture": "/creeper/creeper_bee_emissive"  
   },  
   "MutationData": {  
-	  "hasMutation": true,  
-	  "mutationInput": "tag:forge:stone",  
-	  "mutationOutput": "minecraft:coal_ore",  
-	  "mutationType": "BLOCK_TO_BLOCK"  
+  "hasMutation": true,  
+  "mutationInput": "tag:minecraft:lava",  
+  "mutationOutput": "minecraft:mossy_cobblestone",  
+  "mutationType": "FLUID_TO_BLOCK"  
   },  
   "CentrifugeData": {  
-	  "hasCentrifugeOutput": true,  
-	  "mainOutput": "minecraft:coal",  
-	  "mainOutputCount": 16  
+  "hasCentrifugeOutput": true,  
+  "mainOutput": "minecraft:gunpowder",  
+  "mainOutputCount": 4  
   },  
   "SpawnData": {  
-	  "canSpawnInWorld": true,  
-	  "biomeWhitelist": "tag:overworld",  
-	  "biomeBlacklist": "tag:ocean"  
+  "canSpawnInWorld": true,  
+  "biomeWhitelist": "tag:OVERWORLD",  
+  "biomeBlacklist": "tag:ocean",  
+  "lightLevel": "NIGHT"  
   },  
   "BreedData": {  
-	  "feedItem": "minecraft:poppy",  
-	  "feedAmount": 4,  
-	  "isBreedable": true  
+  "isBreedable": true  
   },  
-  "TraitData": {}  
+  "TraitData": {  
+  "hasTraits": true  
+  }  
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NzE0NDYwN119
+eyJoaXN0b3J5IjpbLTY5OTg2MTYwXX0=
 -->
