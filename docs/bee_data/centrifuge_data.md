@@ -124,9 +124,11 @@ Here is a blank template showing all configurable fields in the Breed Data objec
 	"secondaryOutputCount": 1,
 	"bottleOutput": "minecraft:honey_bottle",
 	"bottleOutputWeight": 0.25,
-	"bottleOutputCount": 1
+	"bottleOutputCount": 1,
+	"recipeTime": 200,
+	"hasFluidoutput": false
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDg1Mjc1ODAsLTEwMzA3NDQ0N119
+eyJoaXN0b3J5IjpbLTEyMDM4Njg3ODksLTEwMzA3NDQ0N119
 -->
