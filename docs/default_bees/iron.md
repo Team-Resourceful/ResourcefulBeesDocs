@@ -9,31 +9,31 @@ This is the default Iron Bee configuration provided by the mod. Any discrepancie
   "maxTimeInHive": 600,  
   "baseLayerTexture": "ores/iron/iron_bee",  
   "ColorData": {  
-  "isBeeColored": false,  
-  "honeycombColor": "#ffcc99",  
-  "modelType": "ORE"  
+	  "isBeeColored": false,  
+	  "honeycombColor": "#ffcc99",  
+	  "modelType": "ORE"  
   },  
   "MutationData": {  
-  "hasMutation": true,  
-  "mutationInput": "minecraft:stone",  
-  "mutationOutput": "minecraft:iron_ore",  
-  "mutationType": "BLOCK_TO_BLOCK"  
+	  "hasMutation": true,  
+	  "mutationInput": "minecraft:stone",  
+	  "mutationOutput": "minecraft:iron_ore",  
+	  "mutationType": "BLOCK_TO_BLOCK"  
   },  
   "CentrifugeData": {  
-  "hasCentrifugeOutput": true,  
-  "mainOutput": "minecraft:iron_ingot"  
+	  "hasCentrifugeOutput": true,  
+	  "mainOutput": "minecraft:iron_ingot"  
   },  
   "SpawnData": {  
-  "canSpawnInWorld": true,  
-  "biomeWhitelist": "tag:OVERWORLD",  
-  "biomeBlacklist": "tag:ocean"  
+	  "canSpawnInWorld": true,  
+	  "biomeWhitelist": "tag:OVERWORLD",  
+	  "biomeBlacklist": "tag:ocean"  
   },  
   "BreedData": {  
-  "isBreedable": true  
+	  "isBreedable": true  
   },  
   "TraitData": {}  
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMzg0MjY1OV19
+eyJoaXN0b3J5IjpbLTE1NDU0ODc5NzldfQ==
 -->
