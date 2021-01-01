@@ -24,9 +24,9 @@ _Note: For new mod installs, run the game at least once so all necessary config 
    "entity.resourcefulbees.blaze_bee": "Blaze Bee"
 }
 ```
-* You can either restart the game or 
+* You can either restart the game or use F3+T to reload assets and have the language file take effect.
 
-**NOTE** You do not need multiple lang files you only need one and just add new lines for each new bee you would like to add so it would look like this: 
+_Note: You do not need multiple language files. You only need one and just add new lines for each new bee you would like to add so it would look like this: _
 ```json
 {
    "block.resourcefulbees.blaze_honeycomb_block": "Blaze Honeycomb Block",
@@ -39,7 +39,10 @@ _Note: For new mod installs, run the game at least once so all necessary config 
    "entity.resourcefulbees.pig_bee": "Pig Bee"
 }
 ```
+
+## **English Lang Generator**
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2ODU2MTMwNCwxMTYxMjM0MjIxLDEyOT
+eyJoaXN0b3J5IjpbLTcwNzkwOTI4MywxMTYxMjM0MjIxLDEyOT
 cwMDQ5MjVdfQ==
 -->
