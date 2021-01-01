@@ -2,46 +2,39 @@
 
 ***  
 
-This is the default R configuration provided by the mod. Any discrepancies should be considered as pack developer changes. This mod provides eighteen bee configurations out of the box as samples of how the customization system works. Feel free to use them as-is or change them as you wish!  
+This is the default RGBee configuration provided by the mod. Any discrepancies should be considered as pack developer changes. This mod provides eighteen bee configurations out of the box as samples of how the customization system works. Feel free to use them as-is or change them as you wish!  
   
 
 ```json  
 {  
-  "flower": "minecraft:wither_rose",  
+  "flower": "ALL",  
   "maxTimeInHive": 600,  
   "hasHoneycomb": true,  
-  "baseLayerTexture": "ores/netherite/netherite_bee",  
-  "traits": ["nether", "wither"],  
   "ColorData": {  
-  "isBeeColored": false,  
-  "honeycombColor": "#654740"  
+  "isBeeColored": true,  
+  "honeycombColor": "#ffffff",  
+  "isRainbowBee": true,  
+  "isGlowing": true  
   },  
-  "MutationData": {  
-  "hasMutation": true,  
-  "mutationInput": "minecraft:blackstone",  
-  "mutationOutput": "minecraft:gilded_blackstone",  
-  "mutationType": "BLOCK_TO_BLOCK"  
-  },  
+  "MutationData": {},  
   "CentrifugeData": {  
   "hasCentrifugeOutput": true,  
-  "mainOutput": "minecraft:netherite_ingot",  
-  "mainOutputWeight": 0.05  
+  "mainOutput": "minecraft:red_dye",  
+  "secondaryOutput": "minecraft:green_dye",  
+  "bottleOutput": "resourcefulbees:rainbow_honey_bottle",  
+  "bottleOutputWeight": 0.02  
   },  
   "SpawnData": {  
   "canSpawnInWorld": true,  
-  "biomeWhitelist": "tag:nether",  
-  "lightLevel": "NIGHT"  
+  "biomeWhitelist": "TAG:OVerWorld",  
+  "biomeBlacklist": "tag:ocean"  
   },  
   "BreedData": {  
-  "isBreedable": true,  
-  "parent1": "Wither",  
-  "parent2": "Diamond"  
+  "isBreedable": true  
   },  
-  "TraitData": {  
-  "hasTraits": true  
-  }  
+  "TraitData": {}  
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjYxODg1MzNdfQ==
+eyJoaXN0b3J5IjpbMjEyODI5MTQ3MF19
 -->
