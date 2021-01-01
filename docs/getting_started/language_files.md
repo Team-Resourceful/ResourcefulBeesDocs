@@ -12,7 +12,7 @@ _Note: For new mod installs, run the game at least once so all necessary config 
 * Open this folder and verify there is a file inside called `pack.mcmeta` - this file is needed for the loading of the language files. If you do not see this file then reload the mod/pack to generate it.
 * Inside the `resources` folder we need to add the following nested folders: `assets/resourcefulbees/lang`
 * The structure should appear as the following image: 
-* ![](https://i.imgur.com/Sq9sp1e.png)
+  ![](https://i.imgur.com/Sq9sp1e.png)
 
 After you have the folder structure setup we are now going to make a file called `en_us.json` or have the file named to the language you have your game set to you can find all available language codes [here](https://minecraft.gamepedia.com/Language) under the **Available languages** section.
 
@@ -41,5 +41,5 @@ Now just restart the game and you have made your custom bees, items and blocks h
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA1OTcxMTcxLDEyOTcwMDQ5MjVdfQ==
+eyJoaXN0b3J5IjpbMTE2MTIzNDIyMSwxMjk3MDA0OTI1XX0=
 -->
