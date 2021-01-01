@@ -28,7 +28,7 @@ Here are some examples:
 
 Set `hasFluidOutput` to `true` when you want the main centrifuge output to be a fluid instead of an item.
 
-This example will output 2100 :<br>
+This example will output 2100mb of lava per honeycomb centrifuge process:<br>
 ```json
 "CentrifugeData": {  
   "hasCentrifugeOutput": true,  
@@ -144,6 +144,6 @@ Here is a blank template showing all configurable fields in the Breed Data objec
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzODg3MDc3OCwtMTIwMzg2ODc4OSwtMT
-AzMDc0NDQ3XX0=
+eyJoaXN0b3J5IjpbLTE5NTAzOTA2LC0xMjAzODY4Nzg5LC0xMD
+MwNzQ0NDddfQ==
 -->
