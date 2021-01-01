@@ -5,39 +5,34 @@ This is the default Emerald Bee configuration provided by the mod. Any discrepan
 ```json
 {  
   "flower": "ALL",  
-  "maxTimeInHive": 600,  
   "hasHoneycomb": true,  
-  "baseLayerTexture": "ores/diamond/diamond_bee",  
+  "baseLayerTexture": "ores/emerald/emerald_bee",  
   "ColorData": {  
   "isBeeColored": false,  
-  "honeycombColor": "#00ffff",  
+  "honeycombColor": "#18eb09",  
   "modelType": "ORE"  
   },  
   "MutationData": {  
   "hasMutation": true,  
-  "mutationInput": "minecraft:lava",  
-  "mutationOutput": "minecraft:water",  
-  "mutationType": "FLUID_TO_FLUID"  
+  "mutationInput": "minecraft:stone",  
+  "mutationOutput": "minecraft:lava",  
+  "mutationType": "BLOCK_TO_FLUID"  
   },  
   "CentrifugeData": {  
   "hasCentrifugeOutput": true,  
-  "mainOutput": "minecraft:diamond",  
-  "mainOutputCount": 1  
+  "mainOutput": "minecraft:emerald"  
   },  
   "SpawnData": {  
   "canSpawnInWorld": true,  
-  "biomeWhitelist": "tag:OVERWORLD",  
-  "biomeBlacklist": "tag:ocean"  
+  "biomeWhitelist": "TAG:Mountain,Hills"  
   },  
   "BreedData": {  
   "isBreedable": true,  
-  "parent1": "Coal",  
-  "parent2": "Skeleton",  
-  "feedItem": "tag:forge:ores"  
+  "spawnWeight": 4  
   },  
   "TraitData": {}  
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzQ2MjgzNzhdfQ==
+eyJoaXN0b3J5IjpbMjAwMzE1MDI2NV19
 -->
