@@ -12,29 +12,29 @@ This is the default RGBee configuration provided by the mod. Any discrepancies s
   "hasHoneycomb": true,  
   "ColorData": {  
   "isBeeColored": true,  
-  "honeycombColor": "#ffffff",  
-  "isRainbowBee": true,  
-  "isGlowing": true  
+	  "honeycombColor": "#ffffff",  
+	  "isRainbowBee": true,  
+	  "isGlowing": true  
   },  
   "MutationData": {},  
   "CentrifugeData": {  
-  "hasCentrifugeOutput": true,  
-  "mainOutput": "minecraft:red_dye",  
-  "secondaryOutput": "minecraft:green_dye",  
-  "bottleOutput": "resourcefulbees:rainbow_honey_bottle",  
-  "bottleOutputWeight": 0.02  
+	  "hasCentrifugeOutput": true,  
+	  "mainOutput": "minecraft:red_dye",  
+	  "secondaryOutput": "minecraft:green_dye",  
+	  "bottleOutput": "resourcefulbees:rainbow_honey_bottle",  
+	  "bottleOutputWeight": 0.02  
   },  
   "SpawnData": {  
-  "canSpawnInWorld": true,  
-  "biomeWhitelist": "TAG:OVerWorld",  
-  "biomeBlacklist": "tag:ocean"  
+	  "canSpawnInWorld": true,  
+	  "biomeWhitelist": "TAG:OVerWorld",  
+	  "biomeBlacklist": "tag:ocean"  
   },  
   "BreedData": {  
-  "isBreedable": true  
+	  "isBreedable": true  
   },  
   "TraitData": {}  
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyODI5MTQ3MF19
+eyJoaXN0b3J5IjpbLTYzMjg5NzEyMl19
 -->
