@@ -1,4 +1,4 @@
-##  **Netherite Bee**  
+##  **ZombBee**  
 
 ***  
 
@@ -43,5 +43,5 @@ This is the default Netherite Bee configuration provided by the mod. Any discrep
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODYwNjMwNTJdfQ==
+eyJoaXN0b3J5IjpbMTYxNjEwNDQwXX0=
 -->
