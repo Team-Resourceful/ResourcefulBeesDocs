@@ -1,7 +1,7 @@
 ## **Template**
 ***
 
-This page contains a template for the bee jsons with ALL configurable options. This should help pack devs with making their own bees since fields only need to be modified or deleted as necessary.
+This page contains a template for the bee jsons with ALL configurable options. This should help pack devs with making their own bees since elements only need to be modified or deleted as necessary.
 
 ```json
 { 
@@ -79,5 +79,5 @@ This page contains a template for the bee jsons with ALL configurable options. T
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMjQ1NjI4Nl19
+eyJoaXN0b3J5IjpbLTg0NDczMDU2LDE4MjI0NTYyODZdfQ==
 -->
