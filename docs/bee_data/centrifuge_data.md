@@ -38,6 +38,9 @@ This example will output 2100mb of lava per honeycomb centrifuge process:<br>
 },
 ```
 
+<br>
+<br>
+
 ### **Secondary Centrifuge Output** (Optional)
 
 The secondary output is an optional value for the bee. You can have a "waste" item or any other item for the secondary output. This value follows the same rules as shown for the main output. If no value is supplied then the default value of "Beeswax" is provided instead. This value can also have a custom defined weighting.
@@ -52,6 +55,8 @@ Here is an example of it's usage:
 ### **Bottle Centrifuge Output** (Optional)
 
 The bottle output is an optional value for the bee. This output is intended to allow bees to provide a different bottled ingredient such as "Dragons Breath", however, like the other two outputs this value can be set to anything. This value defaults to "Honey Bottle" if not used. This value can also have a custom defined weighting.
+
+_Note: Regardless of the output if a player chooses not to supply bottles then 250mb of honey will be added to an internal honey tank.
 
 Here is an example of it's usage:
 
@@ -144,6 +149,6 @@ Here is a blank template showing all configurable fields in the Breed Data objec
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTAzOTA2LC0xMjAzODY4Nzg5LC0xMD
-MwNzQ0NDddfQ==
+eyJoaXN0b3J5IjpbMTY3MTM2MjE2MywtMTk1MDM5MDYsLTEyMD
+M4Njg3ODksLTEwMzA3NDQ0N119
 -->
