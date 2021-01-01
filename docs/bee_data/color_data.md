@@ -82,7 +82,9 @@ Currently we do not allow for full-fledged model customization, however, we do p
 
 ### **ORE** (Optional)
 
+The `ORE` `modelType` should be used when you want the bee to have "ore crystals" rendered on its back.
 
+`"modelType": "ORE"`
 
 
 ## **Special**
@@ -141,5 +143,5 @@ Here is the Color Data Template:
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg4MzY2NzcxLDMyNjY0NDc2MF19
+eyJoaXN0b3J5IjpbLTIwMzgzMTk4NjAsMzI2NjQ0NzYwXX0=
 -->
