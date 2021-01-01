@@ -7,41 +7,37 @@ This is the default Diamond Bee configuration provided by the mod. Any discrepan
   "flower": "ALL",  
   "maxTimeInHive": 600,  
   "hasHoneycomb": true,  
-  "baseLayerTexture": "/creeper/creeper_bee",  
-  "traits" : ["creeper"],  
+  "baseLayerTexture": "ores/diamond/diamond_bee",  
   "ColorData": {  
   "isBeeColored": false,  
-  "honeycombColor": "#0C9F0A",  
-  "isGlowing": true,  
-  "glowColor": "#E2D3D3",  
-  "glowingPulse": 2,  
-  "emissiveLayerTexture": "/creeper/creeper_bee_emissive"  
+  "honeycombColor": "#00ffff",  
+  "modelType": "ORE"  
   },  
   "MutationData": {  
   "hasMutation": true,  
-  "mutationInput": "tag:minecraft:lava",  
-  "mutationOutput": "minecraft:mossy_cobblestone",  
-  "mutationType": "FLUID_TO_BLOCK"  
+  "mutationInput": "minecraft:lava",  
+  "mutationOutput": "minecraft:water",  
+  "mutationType": "FLUID_TO_FLUID"  
   },  
   "CentrifugeData": {  
   "hasCentrifugeOutput": true,  
-  "mainOutput": "minecraft:gunpowder",  
-  "mainOutputCount": 4  
+  "mainOutput": "minecraft:diamond",  
+  "mainOutputCount": 1  
   },  
   "SpawnData": {  
   "canSpawnInWorld": true,  
   "biomeWhitelist": "tag:OVERWORLD",  
-  "biomeBlacklist": "tag:ocean",  
-  "lightLevel": "NIGHT"  
+  "biomeBlacklist": "tag:ocean"  
   },  
   "BreedData": {  
-  "isBreedable": true  
+  "isBreedable": true,  
+  "parent1": "Coal",  
+  "parent2": "Skeleton",  
+  "feedItem": "tag:forge:ores"  
   },  
-  "TraitData": {  
-  "hasTraits": true  
-  }  
+  "TraitData": {}  
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTYwNzcyNjZdfQ==
+eyJoaXN0b3J5IjpbLTM1NDU4NTI3NF19
 -->
