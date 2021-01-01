@@ -24,6 +24,10 @@ Here are some examples:
 <br>
 <br>
 
+### **Fluid Outputs** (Optional)
+
+Set `hasFluidOutput` to `true` when you want the main centrifuge output to be a fluid 
+
 ### **Secondary Centrifuge Output** (Optional)
 
 The secondary output is an optional value for the bee. You can have a "waste" item or any other item for the secondary output. This value follows the same rules as shown for the main output. If no value is supplied then the default value of "Beeswax" is provided instead. This value can also have a custom defined weighting.
@@ -130,5 +134,6 @@ Here is a blank template showing all configurable fields in the Breed Data objec
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDM4Njg3ODksLTEwMzA3NDQ0N119
+eyJoaXN0b3J5IjpbLTE1NjUzMjIzNCwtMTIwMzg2ODc4OSwtMT
+AzMDc0NDQ3XX0=
 -->
