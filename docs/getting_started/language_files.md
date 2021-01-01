@@ -13,7 +13,8 @@ _Note: For new mod installs, run the game at least once so all necessary config 
 * Inside the `resources` folder we need to add the following nested folders: `assets/resourcefulbees/lang`
 * The structure should appear as the following image: 
   ![](https://i.imgur.com/Sq9sp1e.png)
-* Inside the `lang` folder you will createYou can find all available language codes [here](https://minecraft.gamepedia.com/Language) under the **Available languages** section.
+* Inside the `lang` folder, creating a file called `en_us.json` will create an English US language file.
+* Or you can specify a different language using any one of the language codes found [here](https://minecraft.gamepedia.com/Language) under the **Available languages** section.
 
 After you have made the language file corresponding to the language you're making the lang file for you'll need to fill the file with something like this:
 ```json
@@ -40,6 +41,6 @@ Now just restart the game and you have made your custom bees, items and blocks h
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzQwMzA0NjIsMTE2MTIzNDIyMSwxMj
-k3MDA0OTI1XX0=
+eyJoaXN0b3J5IjpbLTU1MTA3NzI0NiwxMTYxMjM0MjIxLDEyOT
+cwMDQ5MjVdfQ==
 -->
