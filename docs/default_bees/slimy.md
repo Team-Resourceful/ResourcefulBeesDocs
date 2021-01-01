@@ -24,15 +24,15 @@ This is the default Slimy Bee configuration provided by the mod. Any discrepanci
   "mutationCount": 15  
   },  
   "BreedData": {  
-  "isBreedable": true,  
-  "parent1": "rgbee",  
-  "parent2": "zombie"  
+	  "isBreedable": true,  
+	  "parent1": "rgbee",  
+	  "parent2": "zombie"  
   },  
   "TraitData": {  
-  "hasTraits": true  
+	  "hasTraits": true  
   }  
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzY3Njc3MzBdfQ==
+eyJoaXN0b3J5IjpbLTExMzMxNjcxMzhdfQ==
 -->
