@@ -80,7 +80,7 @@ Sub-directories can be nested like so: `"folder_1/folder_2/folder_3/texture"`
 Currently we do not allow for full-fledged model customization, however, we do provide a few model options out of the box:<br>
 
 
-### **ORE** (Optional)
+### **Ore** (Optional)
 
 The `ORE` `modelType` should be used when you want the bee to have "ore crystals" rendered on its back.
 
@@ -154,5 +154,6 @@ Here is the Color Data Template:
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgxNTkyNDgxLDMyNjY0NDc2MF19
+eyJoaXN0b3J5IjpbLTE0NjM2MTIyNTUsODgxNTkyNDgxLDMyNj
+Y0NDc2MF19
 -->
