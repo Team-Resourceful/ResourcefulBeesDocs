@@ -77,7 +77,11 @@ Sub-directories can be nested like so: `"folder_1/folder_2/folder_3/texture"`
 ## **Models**
 ***
 
+Currently we do not allow for full-fledged model customization, however, we do provide a few model options out of the box:<br>
+
+
 ### **ORE** (Optional)
+
 
 
 
@@ -137,5 +141,5 @@ Here is the Color Data Template:
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MjMwMzU0OSwzMjY2NDQ3NjBdfQ==
+eyJoaXN0b3J5IjpbNzg4MzY2NzcxLDMyNjY0NDc2MF19
 -->
