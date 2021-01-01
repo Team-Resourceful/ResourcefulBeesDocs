@@ -1,6 +1,6 @@
 ***
 
-This page contains a template for the honey jsons with ALL configurable options. This should help pack devs with making their own honey since fields only need to be modified or deleted as necessary.
+This page contains a template for the honey jsons with ALL configurable options. This should help pack devs with making their own honey since elements only need to be modified or deleted as necessary.
 
 ```json
 {
@@ -34,3 +34,6 @@ This page contains a template for the honey jsons with ALL configurable options.
   ]
 }
 ```
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE4MDI1NTYxMThdfQ==
+-->
