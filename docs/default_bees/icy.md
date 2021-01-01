@@ -1,35 +1,32 @@
-## **Gold Bee**
+## **Icy Bee**
 ***
-This is the default Gold Bee configuration provided by the mod. Any discrepancies should be considered as pack developer changes. This mod provides eighteen bee configurations out of the box as samples of how the customization system works. Feel free to use them as-is or change them as you wish!
+This is the default Icy Bee configuration provided by the mod. Any discrepancies should be considered as pack developer changes. This mod provides eighteen bee configurations out of the box as samples of how the customization system works. Feel free to use them as-is or change them as you wish!
 
 ```json
 {  
-  "flower": "minecraft:chorus_flower",  
-  "hasHoneycomb": true,  
-  "traits": ["ender"],  
-  "maxTimeInHive": 1800,  
+  "flower": "all",  
+  "hasHoneycomb": false,  
+  "traits": ["can_swim"],  
+  "maxTimeInHive": 1200,  
+  "sizeModifier": 0.75,  
   "ColorData": {  
   "isBeeColored": true,  
-  "honeycombColor": "#339786",  
-  "primaryColor": "#339786",  
+  "honeycombColor": "#92b9fe",  
+  "primaryColor": "#92b9fe",  
   "secondaryColor": "#303030"  
   },  
   "MutationData": {  
   "hasMutation": true,  
-  "mutationInput": "minecraft:obsidian",  
-  "mutationOutput": "minecraft:end_stone",  
-  "mutationType": "BLOCK_TO_BLOCK"  
+  "mutationInput": "minecraft:water",  
+  "mutationOutput": "minecraft:ice",  
+  "mutationType": "FLUID_TO_BLOCK",  
+  "mutationCount": 20  
   },  
   "CentrifugeData": {  
-  "hasCentrifugeOutput": true,  
-  "mainOutput": "minecraft:ender_pearl",  
-  "bottleOutput" : "minecraft:dragon_breath"  
+  "hasCentrifugeOutput": false  
   },  
   "SpawnData": {  
-  "canSpawnInWorld": true,  
-  "biomeWhitelist": "TAG:end",  
-  "lightLevel": "NIGHT",  
-  "spawnWeight": 20  
+  "canSpawnInWorld": false  
   },  
   "BreedData": {  
   "isBreedable": true  
@@ -40,5 +37,5 @@ This is the default Gold Bee configuration provided by the mod. Any discrepancie
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTA3MTY5NF19
+eyJoaXN0b3J5IjpbMTU3NzIyMDk4NF19
 -->
