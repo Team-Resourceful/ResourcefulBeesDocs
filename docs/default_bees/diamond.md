@@ -9,35 +9,35 @@ This is the default Diamond Bee configuration provided by the mod. Any discrepan
   "hasHoneycomb": true,  
   "baseLayerTexture": "ores/diamond/diamond_bee",  
   "ColorData": {  
-  "isBeeColored": false,  
-  "honeycombColor": "#00ffff",  
-  "modelType": "ORE"  
+	  "isBeeColored": false,  
+	  "honeycombColor": "#00ffff",  
+	  "modelType": "ORE"  
   },  
   "MutationData": {  
-  "hasMutation": true,  
-  "mutationInput": "minecraft:lava",  
-  "mutationOutput": "minecraft:water",  
-  "mutationType": "FLUID_TO_FLUID"  
+	  "hasMutation": true,  
+	  "mutationInput": "minecraft:lava",  
+	  "mutationOutput": "minecraft:water",  
+	  "mutationType": "FLUID_TO_FLUID"  
   },  
   "CentrifugeData": {  
-  "hasCentrifugeOutput": true,  
-  "mainOutput": "minecraft:diamond",  
-  "mainOutputCount": 1  
+	  "hasCentrifugeOutput": true,  
+	  "mainOutput": "minecraft:diamond",  
+	  "mainOutputCount": 1  
   },  
   "SpawnData": {  
-  "canSpawnInWorld": true,  
-  "biomeWhitelist": "tag:OVERWORLD",  
-  "biomeBlacklist": "tag:ocean"  
+	  "canSpawnInWorld": true,  
+	  "biomeWhitelist": "tag:OVERWORLD",  
+	  "biomeBlacklist": "tag:ocean"  
   },  
   "BreedData": {  
-  "isBreedable": true,  
-  "parent1": "Coal",  
-  "parent2": "Skeleton",  
-  "feedItem": "tag:forge:ores"  
+	  "isBreedable": true,  
+	  "parent1": "Coal",  
+	  "parent2": "Skeleton",  
+	  "feedItem": "tag:forge:ores"  
   },  
   "TraitData": {}  
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NDU4NTI3NF19
+eyJoaXN0b3J5IjpbMTg5MDUyNTYxNF19
 -->
