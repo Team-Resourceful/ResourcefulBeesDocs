@@ -116,9 +116,10 @@ Here is the Color Data Template:
 	"isGlowing" : true,
 	"glowColor" : "#55ff55",
 	"isEnchanted" : false,
-	"glowingPulse" : 2
+	"glowingPulse" : 2,
+	"modelType": "DEFAULT"
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1OTMyNzgzMywzMjY2NDQ3NjBdfQ==
+eyJoaXN0b3J5IjpbLTM1NjUyOTU0MywzMjY2NDQ3NjBdfQ==
 -->
