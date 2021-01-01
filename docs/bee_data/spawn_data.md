@@ -67,7 +67,7 @@ This example will let the bee spawn in plains, frozen river, or beach biomes onl
 
 `spawnWeight` is an integer value which represents the weighting of the bee against all other entities registered to spawn in the biomes where the bee can spawn. The value is **not** a percent representation meaning any value greater than zero can be used here. By default the value is set as `8` which puts the weighting just below chickens and pigs which are set at `10`.
 
-_Note: Because this value determines the weight of the entity spawn against all other entities, this means the bee will have a 100% chance to spawn when it is the **only** entity registered to spawn in the biome.
+_Note: Because this value determines the weight of the entity spawn against all other entities, this means the bee will have a 100% chance to spawn when it is the_ **only** _entity registered to spawn in the biome._
 
 This example will let the bee spawn in any mountain or hills biome except the desert hills biome with a weight of **two**.
 ```json
@@ -136,6 +136,6 @@ Here is a template for all configurable options in the Spawn Data Object:
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2NjQyNTA4NywtMTkyMTE4MTk2MywxOT
-I4OTU3MjA3LDE2ODQ2MzMwNzFdfQ==
+eyJoaXN0b3J5IjpbNzU0Nzc3MjQyLC0xOTIxMTgxOTYzLDE5Mj
+g5NTcyMDcsMTY4NDYzMzA3MV19
 -->
