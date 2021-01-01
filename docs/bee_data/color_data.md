@@ -84,12 +84,19 @@ Currently we do not allow for full-fledged model customization, however, we do p
 
 The `ORE` `modelType` should be used when you want the bee to have "ore crystals" rendered on its back.
 
-Ex:`"modelType": "ORE"`
+Ex: `"modelType": "ORE"`
+
+<br>
+<br>
 
 ### **Gelatinous** (Optional)
 
-The `GELATINOUS` `modelType` should be used when you want the bee to have a slime or honey block type appearance. This model type 
+The `GELATINOUS` `modelType` should be used when you want the bee to have a slime or honey block type appearance. This model type renders a translucent "gel layer."
 
+Ex: `"modelType": "GELATINOUS"`
+
+<br>
+<br>
 
 ## **Special**
 ***
@@ -147,5 +154,5 @@ Here is the Color Data Template:
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTY2NDE2NjQsMzI2NjQ0NzYwXX0=
+eyJoaXN0b3J5IjpbODgxNTkyNDgxLDMyNjY0NDc2MF19
 -->
