@@ -52,7 +52,9 @@ This page contains a template for the bee jsons with ALL configurable options. T
 		"mainOutputCount":1,
 		"secondaryOutputCount":2,
 		"bottleOutputCount":4,
-		"mainInputCount":4
+		"mainInputCount":4,
+		"recipeTime": 200,
+		"hasFluidoutput": false
 	},
 	"SpawnData": {
 		"canSpawnInWorld":true,
@@ -79,5 +81,6 @@ This page contains a template for the bee jsons with ALL configurable options. T
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NDczMDU2LDE4MjI0NTYyODZdfQ==
+eyJoaXN0b3J5IjpbMjA1NTk2NzU5MywtODQ0NzMwNTYsMTgyMj
+Q1NjI4Nl19
 -->
