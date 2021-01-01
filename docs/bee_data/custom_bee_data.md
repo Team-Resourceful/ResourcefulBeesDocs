@@ -76,9 +76,10 @@ This value is *optional.* This value is used to determine the amount of time **i
 ## **Custom Textures**
 ***
 
-Should you wish to provide your own custom bee texture, there is one base layer texture that can be customized. This texture is `baseLayerTexture`. Textures can only be .png file types.
+Should you wish to provide your own custom bee texture, there is one `baseLayerTexture` that can be customized.
+_Note: Textures can only be .png file types._
 
-The base layer texture is the texture used when you don't wish to have the bee colored. It also provides the eyes for the bee. When supplying your own custom texture, the texture file must be located in the `config\resourcefulbees\resources\assets\resourcefulbees\textures\entity` directory found in the mod pack's directory. In addition, *two textures* for each texture variant **must** be present: a normal texture and an angry texture. The angry texture file name must end with `_angry`
+The base layer texture is the texture used when you don't wish to have the bee colored. It also provides the eyes for the bee when u. When supplying your own custom texture, the texture file must be located in the `config\resourcefulbees\resources\assets\resourcefulbees\textures\entity` directory found in the mod pack's directory. In addition, *two textures* for each texture variant **must** be present: a normal texture and an angry texture. The angry texture file name must end with `_angry`
 
 For example:
 ![Resourceful Bees Custom Texture Filename Example](https://i.imgur.com/2sypgCS.png)
@@ -220,6 +221,6 @@ Here is a Custom Bee Data template which shows the format for the core json itse
 	"TraitData": {}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE4OTU5Mzc2LC0xNzcwODMxNDYsLTIwOD
-g3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbMTczNzk4NDc0MywtMTc3MDgzMTQ2LC0yMD
+g4NzQ2NjEyXX0=
 -->
