@@ -46,7 +46,7 @@ The size modifier is an optional floating point value that scales the size of th
 
 `"sizeModifier": 2.0`  <---- This would make the bee twice the size of a vanilla bee<br>
 `"sizeModifier": 0.5`  <---- This would make the bee half the size of a vanilla bee<br>
-`"sizeModifier": 1.375`  <---- This would make the bee 1 3/8 times the size of a vanilla bee
+`"sizeModifier": 1.375`  <---- This would make the bee 1 3/8 times the size of a vanilla bee<br>
 
 *SPECIAL NOTE:* When a bees size is modified, the child version of that bee also has it's size modified. Check out the coal bee as an example.
 
@@ -57,9 +57,9 @@ The size modifier is an optional floating point value that scales the size of th
 
 There are various *optional* traits available for bees and potentially more to come. Traits affect bees in a variety of ways such as what type of damage it does when it attacks. Traits are added to a bee by specifying them in the `traits[]` string array. *Note:* Bee traits are stackable.
 
-Examples:
-`"traits" : ["creeper"]`
-`"traits": ["nether", "pigman"]`
+Examples:<br>
+`"traits" : ["creeper"]`<br>
+`"traits": ["nether", "pigman"]`<br>
 
 <br>
 <br>
@@ -220,6 +220,6 @@ Here is a Custom Bee Data template which shows the format for the core json itse
 	"TraitData": {}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NDYzMTYwLC0xNzcwODMxNDYsLTIwOD
+eyJoaXN0b3J5IjpbMzE4OTU5Mzc2LC0xNzcwODMxNDYsLTIwOD
 g3NDY2MTJdfQ==
 -->
