@@ -43,10 +43,10 @@ _Note: You do not need multiple language files. You only need one and just add n
 ## **English Lang Generator**
 ***
 
-As a convenience feature, we have provided an English Lang generator that will output a language file in the proper location with translations for every custom bee used. In the `client.toml` config file is an option to enable or disable the generator.
+As a convenience feature, we have provided an English Lang generator that will output a language file in the proper location with translations for every custom bee used. In the `client.toml` config file is an option to enable or disable the generator. This generator only needs to be run **once** after all custom bees have been added.
 
-_Note: The generator uses the file names for generating the translations which overwrite any custom names that may have been supplied._
+_Note: The generator uses the .json file names for generating the translations._
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjk0NjgzNCwxMTYxMjM0MjIxLDEyOT
+eyJoaXN0b3J5IjpbMTcwMDM4NTEzNiwxMTYxMjM0MjIxLDEyOT
 cwMDQ5MjVdfQ==
 -->
