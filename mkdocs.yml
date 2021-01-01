@@ -14,10 +14,30 @@ nav:
     - Trait Data : 'bee_data/trait_data.md'
   - Templates :
     - Bee Template : 'data_templates/bee_template.md'
+    - Honey Template: 'data_templates/honey_template.md'
   - Extra Stuff :
     - Biome Tags : 'extra_stuff/biome_tags.md'
     - Color Name Options : 'extra_stuff/color_names.md'
     - Centrifuge Recipes : 'extra_stuff/centrifuge_recipe.md'
+  - Default Bees :
+    - Coal Bee : 'default_bees/coal.md'
+    - Creeper Bee : 'default_bees/creeper.md'
+    - Diamond Bee : 'default_bees/diamond.md'
+    - Emerald Bee : 'default_bees/emerald.md'
+    - Ender Bee : 'default_bees/ender.md'
+    - Gold Bee : 'default_bees/gold.md'
+    - Icy Bee : 'default_bees/icy.md'
+    - Iron Bee : 'default_bees/iron.md
+    - Lapis Bee : 'default_bees/lapis.md'
+    - Nether Quartz Bee : 'default_bees/nether_quartz.md'
+    - Netherite Bee : 'default_bees/netherite.md'
+    - Pigman Bee : 'default_bees/pigman.md'
+    - Redstone Bee : 'default_bees/redstone.md'
+    - RGBee : 'default_bees/rgbee.md'
+    - Skeleton Bee : 'default_bees/skeleton.md'
+    - Slimy Bee : 'default_bees/slimy.md'
+    - Wither Bee : 'default_bees/wither.md'
+    - Zombee : 'default_bees/zombie.md'
    
 
 site_name: Resourceful Bees Docs
