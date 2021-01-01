@@ -1,6 +1,6 @@
 ## **Valid Apiary Tag**
 ***
-This is the default `valid_apiary` tag provided by the mod. Any discrepancies should be considered as pack developer changes. Changes can be made using data packs. The block tag is what is actually checked for when building the apiary. The item tag is what JEI will display when you search by the tag. This is simply because not all block tags have an item tag variant.
+This is the default `valid_apiary` tag provided by the mod. Any discrepancies should be considered as pack developer changes. Changes can be made using data packs. The block tag is what is actually checked for when building the apiary. The item tag is what JEI will display when you search by the tag. Any differences between the two is simply because not all block tags have an item tag variant.
 
 <br>
 
@@ -99,5 +99,5 @@ This is the default `valid_apiary` tag provided by the mod. Any discrepancies sh
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2MTMzNjU4Nl19
+eyJoaXN0b3J5IjpbMTY4MDIwOTg4MV19
 -->
