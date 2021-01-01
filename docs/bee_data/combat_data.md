@@ -5,14 +5,14 @@
 
 ### **isPassive** (Optional)
 
-By default bees will get attack players when they get angry. Setting `isPassive` to true prevents the attack and anger goals from being registered to the bee. This means that the bee won't get angry or attack players at all. If you want the bee to attack the player but not deal any damage then see the next value below.
+By default bees will attack players when they get angry. Setting `isPassive` to true prevents the attack and anger AI goals from being registered to the bee. This means that the bee won't get angry or attack players at all. If you want the bee to attack the player but not deal any damage then see the next option below.
 
 <br>
 <br>
 
 ### **attackDamage** (Optional)
 
-When a bee attacks the player, by default it deals 1 damage to the player and then inflicts poison damage over a period of time. The amount of poison damage isn't configurable, however the amount of damage on sting is configurable by using `attackDamage`. This can be any float value zero or greater.
+When a bee attacks the player, by default, it deals 1 damage to the player and then inflicts poison damage over a period of time. The amount of poison damage isn't configurable, however the amount of damage on sting is configurable by using `attackDamage`. This can be any floating point integer zero or greater.
 
 **Note:** Zero damage is useful for when you want a bee to have positive trait effects given to the player instead of damaging the player such as the Oreo Bee.
 
@@ -47,6 +47,6 @@ Here is a blank template showing all configurable fields in the Combat Data obje
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzE4MTc0NTMsMTk0Mjc0ODEyLDY2Mz
-YyNzU4OCwxNzg1NTkxNTcxXX0=
+eyJoaXN0b3J5IjpbNDE4NjQ1MTc0LC0xNjcxODE3NDUzLDE5ND
+I3NDgxMiw2NjM2Mjc1ODgsMTc4NTU5MTU3MV19
 -->
