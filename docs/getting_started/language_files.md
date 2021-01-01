@@ -6,7 +6,7 @@ When creating custom bees, a language file needs to be created and entries provi
 
 _Note: For new mod installs, run the game at least once so all necessary config files and folders can be generated_
 ***
-Locate the `resourcefulbees` config folder inside 
+Locate the `resourcefulbees` config folder inside the main config folder to begin the process of adding a language file. Before we begin we need to verify that specific resource and data pack files have been generated.
 
 Then go to the config directory and find the `resourcefulbees` folder and inside of there you will see 2 folders `bees` and `resources` you will need to go into the `resources` folder and you'll see a file called `pack.mcmeta` this file is needed for the loading of the language files if you do not see this file reload the mod to generate it.
 Now that you've located the resource folder you will need to make a folder inside of the resource folder called `assets` then you'll need to create another folder called `resourcefulbees` inside of that folder and then you'll need to make one final folder called `lang` inside of that folder. You'll have a folder structure looking like this: 
@@ -40,5 +40,5 @@ Now just restart the game and you have made your custom bees, items and blocks h
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTEwMTY2NzIsMTI5NzAwNDkyNV19
+eyJoaXN0b3J5IjpbNzg4NDQ4ODQwLDEyOTcwMDQ5MjVdfQ==
 -->
