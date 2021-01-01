@@ -100,7 +100,13 @@ Below are some examples of color usage.
 
 ### **is Rainbow Bee** (Optional)
 
-Set 
+Set `isRainbowBee` to `true` when you want the bee to cycle through a rainbow of colors. Setting this option removes the need for a primary and secondary color. 
+
+`"isRainbowBee": true
+
+<br>
+<br>
+
 ## **Template**
 ***
 
@@ -124,5 +130,5 @@ Here is the Color Data Template:
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE1MzcxNjYzLDMyNjY0NDc2MF19
+eyJoaXN0b3J5IjpbMTQ4NDkyNzY4OSwzMjY2NDQ3NjBdfQ==
 -->
