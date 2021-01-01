@@ -26,18 +26,18 @@ This is the default Nether Quartz Bee configuration provided by the mod. Any dis
 	  "mainOutputCount": 2  
   },  
   "SpawnData": {  
-  "canSpawnInWorld": true,  
-  "biomeWhitelist": "tag:nether",  
-  "lightLevel": "NIGHT"  
+	  "canSpawnInWorld": true,  
+	  "biomeWhitelist": "tag:nether",  
+	  "lightLevel": "NIGHT"  
   },  
   "BreedData": {  
-  "isBreedable": true  
+	  "isBreedable": true  
   },  
   "TraitData": {  
-  "hasTraits": true  
+	  "hasTraits": true  
   }  
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTc0ODE3NTBdfQ==
+eyJoaXN0b3J5IjpbMTAxMDIxNDk3OF19
 -->
