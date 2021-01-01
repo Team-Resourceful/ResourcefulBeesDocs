@@ -1,6 +1,6 @@
-## **Ender Bee**
+## **Gold Bee**
 ***
-This is the default Emerald Bee configuration provided by the mod. Any discrepancies should be considered as pack developer changes. This mod provides twenty bee configurations out of the box as samples of how the customization system works. Feel free to use them as-is or change them as you wish!
+This is the default Gold Bee configuration provided by the mod. Any discrepancies should be considered as pack developer changes. This mod provides eighteen bee configurations out of the box as samples of how the customization system works. Feel free to use them as-is or change them as you wish!
 
 ```json
 {  
@@ -40,5 +40,5 @@ This is the default Emerald Bee configuration provided by the mod. Any discrepan
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzODA4OTM3Ml19
+eyJoaXN0b3J5IjpbLTE0OTA3MTY5NF19
 -->
