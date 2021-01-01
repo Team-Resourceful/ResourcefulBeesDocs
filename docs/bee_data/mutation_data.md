@@ -111,7 +111,7 @@ In this example, the bee will mutate cow into a bat.
 ```
 <br>
 
-*Note:* Mutation Input and Mutation Output are not limited to just Minecraft blocks. Any block from any mod can be used as long as it has a resource location in the form of `namespace:ID`. In addition, when using fluids, only fluids that have a block variant can be used.
+_Note: Mutation Input and Mutation Output are not limited to just Minecraft blocks. Any block from any mod can be used as long as it has a resource location in the form of `namespace:ID`. In addition, when using fluids, only fluids that have a block variant can be used._
 
 <br>
 <br>
@@ -150,6 +150,6 @@ Here is a blank template showing all configurable fields in the Mutation Data ob
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzEwMTM5NjEwLDcxMjE4NDU0Miw3MzA5OT
-gxMTZdfQ==
+eyJoaXN0b3J5IjpbMTk4ODcyMTg2Miw3MTAxMzk2MTAsNzEyMT
+g0NTQyLDczMDk5ODExNl19
 -->
