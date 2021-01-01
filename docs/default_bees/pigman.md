@@ -13,32 +13,32 @@ This is the default Pigman Bee configuration provided by the mod. Any discrepanc
   "baseLayerTexture": "pigman/pigman_bee",  
   "traits": ["nether", "pigman"],  
   "ColorData": {  
-  "isBeeColored": false,  
-  "honeycombColor": "#885956"  
+	  "isBeeColored": false,  
+	  "honeycombColor": "#885956"  
   },  
   "MutationData": {  
-  "hasMutation": true,  
-  "mutationInput": "minecraft:netherrack",  
-  "mutationOutput": "minecraft:glowstone",  
-  "mutationType": "BLOCK_TO_BLOCK"  
+	  "hasMutation": true,  
+	  "mutationInput": "minecraft:netherrack",  
+	  "mutationOutput": "minecraft:glowstone",  
+	  "mutationType": "BLOCK_TO_BLOCK"  
   },  
   "CentrifugeData": {  
-  "hasCentrifugeOutput": true,  
-  "mainOutput": "minecraft:glowstone_dust"  
+	  "hasCentrifugeOutput": true,  
+	  "mainOutput": "minecraft:glowstone_dust"  
   },  
   "SpawnData": {  
-  "canSpawnInWorld": true,  
-  "biomeWhitelist": "tag:nether",  
-  "lightLevel": "NIGHT"  
+	  "canSpawnInWorld": true,  
+	  "biomeWhitelist": "tag:nether",  
+	  "lightLevel": "NIGHT"  
   },  
   "BreedData": {  
-  "isBreedable": true  
+	  "isBreedable": true  
   },  
   "TraitData": {  
-  "hasTraits": true  
+	  "hasTraits": true  
   }  
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDQ3OTk4MTRdfQ==
+eyJoaXN0b3J5IjpbMTkzNDAwMDk0Nl19
 -->
