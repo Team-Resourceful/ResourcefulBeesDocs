@@ -56,7 +56,7 @@ Here is an example of it's usage:
 
 The bottle output is an optional value for the bee. This output is intended to allow bees to provide a different bottled ingredient such as "Dragons Breath", however, like the other two outputs this value can be set to anything. This value defaults to "Honey Bottle" if not used. This value can also have a custom defined weighting.
 
-_Note: Regardless of the output if a player chooses not to supply bottles then 250mb of honey will be added to an internal honey tank.
+_Note: Regardless of the output, if a player chooses not to supply the centrifuge with bottles, then 250mb of honey will be added to an internal honey tank._
 
 Here is an example of it's usage:
 
@@ -149,6 +149,6 @@ Here is a blank template showing all configurable fields in the Breed Data objec
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3MTM2MjE2MywtMTk1MDM5MDYsLTEyMD
-M4Njg3ODksLTEwMzA3NDQ0N119
+eyJoaXN0b3J5IjpbLTEyNDk4MTgyMjUsLTE5NTAzOTA2LC0xMj
+AzODY4Nzg5LC0xMDMwNzQ0NDddfQ==
 -->
