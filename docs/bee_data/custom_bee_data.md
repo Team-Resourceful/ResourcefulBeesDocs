@@ -48,7 +48,7 @@ The size modifier is an optional floating point value that scales the size of th
 `"sizeModifier": 0.5`  <---- This would make the bee half the size of a vanilla bee<br>
 `"sizeModifier": 1.375`  <---- This would make the bee 1 3/8 times the size of a vanilla bee<br>
 
-*SPECIAL NOTE:* When a bees size is modified, the child version of that bee also has it's size modified. Check out the coal bee as an example.
+_Note: When a bees size is modified, the child version of that bee also has its size modified. Check out the icy bee as an example._
 
 <br>
 <br>
@@ -181,7 +181,7 @@ This is a json object that groups all trait related options. See Trait Data for 
 
 ### **Additional Data** (Optional)
 
-Through the use of our API other mods can make their own data options. The mods would be required to handle their own parsing of the data and syntax for the data. Soon we will be adding Java Docs to our classes to help improve the API experience. Any and all feedback is welcome for improving out API either through PR requests or github issues.
+Through the use of our API other mods can make their own data options. The mods would be required to handle their own parsing of the data and syntax for the data. Soon we will be adding Java Docs to our classes to help improve the API experience. Any and all feedback is welcome for improving our API either through PR requests or github issues.
 
 <br>
 <br>
@@ -221,6 +221,6 @@ Here is a Custom Bee Data template which shows the format for the core json itse
 	"TraitData": {}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjA4NDg3MzMsLTE3NzA4MzE0NiwtMj
-A4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMjEzODIxODE0MywtMTc3MDgzMTQ2LC0yMD
+g4NzQ2NjEyXX0=
 -->
