@@ -2,7 +2,9 @@
 ***
 
 When creating custom bees, a language file needs to be created and entries provided so all corresponding items and blocks  have proper names otherwise they will look something like this:<br>
-`item.resourcefulbees.blaze_honeycomb`< so I'm going to teach you how to add the needed lang files to turn the long names into simple more readable names.
+`item.resourcefulbees.blaze_honeycomb`<br>
+
+_Note: For new mod installs, run the game at least once so all necessary config files and folders can be generated_
 ***
 First make sure you've loaded the mod once so that the necessary folders are created.
 Then go to the config directory and find the `resourcefulbees` folder and inside of there you will see 2 folders `bees` and `resources` you will need to go into the `resources` folder and you'll see a file called `pack.mcmeta` this file is needed for the loading of the language files if you do not see this file reload the mod to generate it.
@@ -37,5 +39,5 @@ Now just restart the game and you have made your custom bees, items and blocks h
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTEwMjUxNTA2LDEyOTcwMDQ5MjVdfQ==
+eyJoaXN0b3J5IjpbLTYxODkzNzU0MCwxMjk3MDA0OTI1XX0=
 -->
