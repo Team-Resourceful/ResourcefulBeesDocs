@@ -26,7 +26,8 @@ This page contains a template for the bee jsons with ALL configurable options. T
 		"isGlowing" : true,
 		"glowColor" : "#55ff55",
 		"isEnchanted" : false,
-		"glowingPulse" : 2
+		"glowingPulse" : 2,
+		"modelType": "DEFAULT"
 	},
 	"CombatData": {  
 		"isPassive": false,  
@@ -81,6 +82,6 @@ This page contains a template for the bee jsons with ALL configurable options. T
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1NTk2NzU5MywtODQ0NzMwNTYsMTgyMj
+eyJoaXN0b3J5IjpbMjA3NTAxNzQwMywtODQ0NzMwNTYsMTgyMj
 Q1NjI4Nl19
 -->
