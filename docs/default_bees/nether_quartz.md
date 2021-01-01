@@ -9,21 +9,21 @@ This is the default Nether Quartz Bee configuration provided by the mod. Any dis
   "hasHoneycomb": true,  
   "traits": ["nether"],  
   "ColorData": {  
-  "isBeeColored": true,  
-  "honeycombColor": "#D4CABA",  
-  "primaryColor": "#D4CABA",  
-  "secondaryColor": "#303030"  
+	  "isBeeColored": true,  
+	  "honeycombColor": "#D4CABA",  
+	  "primaryColor": "#D4CABA",  
+	  "secondaryColor": "#303030"  
   },  
   "MutationData": {  
-  "hasMutation": true,  
-  "mutationInput": "minecraft:netherrack",  
-  "mutationOutput": "minecraft:nether_quartz_ore",  
-  "mutationType": "BLOCK_TO_BLOCK"  
+	  "hasMutation": true,  
+	  "mutationInput": "minecraft:netherrack",  
+	  "mutationOutput": "minecraft:nether_quartz_ore",  
+	  "mutationType": "BLOCK_TO_BLOCK"  
   },  
   "CentrifugeData": {  
-  "hasCentrifugeOutput": true,  
-  "mainOutput": "minecraft:quartz",  
-  "mainOutputCount": 2  
+	  "hasCentrifugeOutput": true,  
+	  "mainOutput": "minecraft:quartz",  
+	  "mainOutputCount": 2  
   },  
   "SpawnData": {  
   "canSpawnInWorld": true,  
@@ -39,5 +39,5 @@ This is the default Nether Quartz Bee configuration provided by the mod. Any dis
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MDQwMDY5MF19
+eyJoaXN0b3J5IjpbLTEyMTc0ODE3NTBdfQ==
 -->
