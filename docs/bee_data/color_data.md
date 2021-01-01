@@ -98,6 +98,9 @@ Below are some examples of color usage.
 <br>
 <br>
 
+### **is Rainbow Bee** (Optional)
+
+Set 
 ## **Template**
 ***
 
@@ -121,5 +124,5 @@ Here is the Color Data Template:
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NjUyOTU0MywzMjY2NDQ3NjBdfQ==
+eyJoaXN0b3J5IjpbODE1MzcxNjYzLDMyNjY0NDc2MF19
 -->
