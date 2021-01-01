@@ -9,31 +9,31 @@ This is the default Gold Bee configuration provided by the mod. Any discrepancie
   "maxTimeInHive": 800,  
   "baseLayerTexture": "ores/gold/gold_bee",  
   "ColorData": {  
-  "isBeeColored": false,  
-  "honeycombColor": "#FFDC00",  
-  "modelType": "ORE"  
+	  "isBeeColored": false,  
+	  "honeycombColor": "#FFDC00",  
+	  "modelType": "ORE"  
   },  
   "MutationData": {  
-  "hasMutation": true,  
-  "mutationInput": "minecraft:stone",  
-  "mutationOutput": "minecraft:gold_ore",  
-  "mutationType": "BLOCK_TO_BLOCK"  
+	  "hasMutation": true,  
+	  "mutationInput": "minecraft:stone",  
+	  "mutationOutput": "minecraft:gold_ore",  
+	  "mutationType": "BLOCK_TO_BLOCK"  
   },  
   "CentrifugeData": {  
-  "hasCentrifugeOutput": true,  
-  "mainOutput": "minecraft:gold_ingot"  
+	  "hasCentrifugeOutput": true,  
+	  "mainOutput": "minecraft:gold_ingot"  
   },  
   "SpawnData": {  
-  "canSpawnInWorld": true,  
-  "biomeWhitelist": "tag:OVERWORLD",  
-  "biomeBlacklist": "tag:ocean"  
+	  "canSpawnInWorld": true,  
+	  "biomeWhitelist": "tag:OVERWORLD",  
+	  "biomeBlacklist": "tag:ocean"  
   },  
   "BreedData": {  
-  "isBreedable": true  
+	  "isBreedable": true  
   },  
   "TraitData": {}  
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNzA4OTI5Nl19
+eyJoaXN0b3J5IjpbLTUxOTQzNzY4XX0=
 -->
