@@ -26,7 +26,17 @@ Here are some examples:
 
 ### **Fluid Outputs** (Optional)
 
-Set `hasFluidOutput` to `true` when you want the main centrifuge output to be a fluid 
+Set `hasFluidOutput` to `true` when you want the main centrifuge output to be a fluid instead of an item.
+
+This example will output 2100 :<br>
+```json
+"CentrifugeData": {  
+  "hasCentrifugeOutput": true,  
+  "mainOutput": "minecraft:lava",  
+  "mainOutputCount": 2100,  
+  "hasFluidOutput": true  
+},
+```
 
 ### **Secondary Centrifuge Output** (Optional)
 
@@ -134,6 +144,6 @@ Here is a blank template showing all configurable fields in the Breed Data objec
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjUzMjIzNCwtMTIwMzg2ODc4OSwtMT
+eyJoaXN0b3J5IjpbMTEzODg3MDc3OCwtMTIwMzg2ODc4OSwtMT
 AzMDc0NDQ3XX0=
 -->
