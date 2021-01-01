@@ -37,12 +37,15 @@ This final example lets the bee use only a predefined flower, including modded f
 
 `hasHoneycomb` is a required value. When set to `true` the honeycomb and honeycomb block for the bee will be registered as well as the associated crafting recipes. A bee can have honeycombs registered without having centrifuge recipes generated for the comb.
 
+<br>
+<br>
+
 ### **Size Modifier** (Optional)
 
 The size modifier is an optional floating point value that scales the size of the bee. This value ranges from 0.5 to 2.0. Any value entered outside this range will be automatically clamped to the range bounds. This means a value of 0.2 would become 0.5. The default value is 1.0. 
 
-`"sizeModifier": 2.0`  <---- This would make the bee twice the size of a vanilla bee
-`"sizeModifier": 0.5`  <---- This would make the bee half the size of a vanilla bee
+`"sizeModifier": 2.0`  <---- This would make the bee twice the size of a vanilla bee<br>
+`"sizeModifier": 0.5`  <---- This would make the bee half the size of a vanilla bee<br>
 `"sizeModifier": 1.375`  <---- This would make the bee 1 3/8 times the size of a vanilla bee
 
 *SPECIAL NOTE:* When a bees size is modified, the child version of that bee also has it's size modified. Check out the coal bee as an example.
@@ -217,6 +220,6 @@ Here is a Custom Bee Data template which shows the format for the core json itse
 	"TraitData": {}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0OTA5MzQ2LC0xNzcwODMxNDYsLTIwOD
+eyJoaXN0b3J5IjpbLTc4NDYzMTYwLC0xNzcwODMxNDYsLTIwOD
 g3NDY2MTJdfQ==
 -->
