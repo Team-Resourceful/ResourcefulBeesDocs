@@ -1,40 +1,43 @@
 ## **Nether Quartz Bee**
 ***
-This is the default Lapis Bee configuration provided by the mod. Any discrepancies should be considered as pack developer changes. This mod provides eighteen bee configurations out of the box as samples of how the customization system works. Feel free to use them as-is or change them as you wish!
+This is the default Nether Quartz Bee configuration provided by the mod. Any discrepancies should be considered as pack developer changes. This mod provides eighteen bee configurations out of the box as samples of how the customization system works. Feel free to use them as-is or change them as you wish!
 
 ```json
 {  
-  "flower": "ALL",  
-  "maxTimeInHive": 600,  
+  "flower": "minecraft:nether_wart",  
+  "maxTimeInHive": 1000,  
   "hasHoneycomb": true,  
-  "baseLayerTexture": "ores/lapis/lapis_bee",  
+  "traits": ["nether"],  
   "ColorData": {  
-  "isBeeColored": false,  
-  "honeycombColor": "#345ec3",  
-  "modelType": "ORE"  
+  "isBeeColored": true,  
+  "honeycombColor": "#D4CABA",  
+  "primaryColor": "#D4CABA",  
+  "secondaryColor": "#303030"  
   },  
   "MutationData": {  
   "hasMutation": true,  
-  "mutationInput": "minecraft:stone",  
-  "mutationOutput": "minecraft:lapis_ore",  
+  "mutationInput": "minecraft:netherrack",  
+  "mutationOutput": "minecraft:nether_quartz_ore",  
   "mutationType": "BLOCK_TO_BLOCK"  
   },  
   "CentrifugeData": {  
   "hasCentrifugeOutput": true,  
-  "mainOutput": "minecraft:lapis_lazuli",  
-  "mainOutputCount": 8  
+  "mainOutput": "minecraft:quartz",  
+  "mainOutputCount": 2  
   },  
   "SpawnData": {  
   "canSpawnInWorld": true,  
-  "biomeWhitelist": "tag:OVERWORLD",  
-  "biomeBlacklist": "tag:ocean"  
+  "biomeWhitelist": "tag:nether",  
+  "lightLevel": "NIGHT"  
   },  
   "BreedData": {  
   "isBreedable": true  
   },  
-  "TraitData": {}  
+  "TraitData": {  
+  "hasTraits": true  
+  }  
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NjE4MTU1M119
+eyJoaXN0b3J5IjpbMTA0MDQwMDY5MF19
 -->
