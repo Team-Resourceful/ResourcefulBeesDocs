@@ -13,15 +13,15 @@ This is the default Slimy Bee configuration provided by the mod. Any discrepanci
   "maxTimeInHive": 1200,  
   "baseLayerTexture": "slime/slime_bee",  
   "ColorData": {  
-  "modelType": "GELATINOUS",  
-  "gelLayerTexture": "/slime/slime_gel_Layer"  
+	  "modelType": "GELATINOUS",  
+	  "gelLayerTexture": "/slime/slime_gel_Layer"  
   },  
   "MutationData": {  
-  "hasMutation": true,  
-  "mutationInput": "minecraft:honey_block",  
-  "mutationOutput": "minecraft:slime_block",  
-  "mutationType": "BLOCK_TO_BLOCK",  
-  "mutationCount": 15  
+	  "hasMutation": true,  
+	  "mutationInput": "minecraft:honey_block",  
+	  "mutationOutput": "minecraft:slime_block",  
+	  "mutationType": "BLOCK_TO_BLOCK",  
+	  "mutationCount": 15  
   },  
   "BreedData": {  
 	  "isBreedable": true,  
@@ -34,5 +34,5 @@ This is the default Slimy Bee configuration provided by the mod. Any discrepanci
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzMxNjcxMzhdfQ==
+eyJoaXN0b3J5IjpbLTEyODEzNjAyODJdfQ==
 -->
