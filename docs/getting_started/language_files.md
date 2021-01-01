@@ -41,8 +41,10 @@ _Note: You do not need multiple language files. You only need one and just add n
 ```
 
 ## **English Lang Generator**
+***
 
+As a convenience feature, we have provided an English Lang generator that will output a lang file in proper location for every custom bee used. The generator can be accessed 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNzkwOTI4MywxMTYxMjM0MjIxLDEyOT
+eyJoaXN0b3J5IjpbMTk1Mjg4MTgxNSwxMTYxMjM0MjIxLDEyOT
 cwMDQ5MjVdfQ==
 -->
