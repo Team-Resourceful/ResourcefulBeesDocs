@@ -31,14 +31,14 @@ This is the default Emerald Bee configuration provided by the mod. Any discrepan
 	  "lightLevel": "NIGHT",  
 	  "spawnWeight": 20  
   },  
-"BreedData": {  
+  "BreedData": {  
 	  "isBreedable": true  
   },  
   "TraitData": {  
-  "hasTraits": true  
+	  "hasTraits": true  
   }  
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzI5NTcxNTZdfQ==
+eyJoaXN0b3J5IjpbNDAwNTYzOTA4XX0=
 -->
