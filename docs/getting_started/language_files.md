@@ -16,17 +16,17 @@ _Note: For new mod installs, run the game at least once so all necessary config 
 * Inside the `lang` folder, creating a file called `en_us.json` will create an English US language file.
 * You can specify a different language using any one of the language codes found [here](https://minecraft.gamepedia.com/Language) under the **Available languages** section.
 * Every custom bee added should have language entries similar to the Blaze example below:
-```json
+* ````json
 {
    "block.resourcefulbees.blaze_honeycomb_block": "Blaze Honeycomb Block",
    "item.resourcefulbees.blaze_honeycomb": "Blaze Honeycomb",
    "item.resourcefulbees.blaze_spawn_egg": "Blaze Bee Spawn Egg",
    "entity.resourcefulbees.blaze_bee": "Blaze Bee"
 }
-```
+````
 * You can either restart the game or use F3+T to reload assets and have the language file take effect.
 
-*Note: You do not need multiple language files. You only need one with new lines added for each custom bee:* 
+*Note: You do not need multiple language files. You only need one with new lines added for each custom bee:*<br> 
 ```json
 {
    "block.resourcefulbees.blaze_honeycomb_block": "Blaze Honeycomb Block",
@@ -47,6 +47,6 @@ As a convenience feature, we have provided an English Lang generator that will o
 
 _Note: The generator uses the .json file names for generating the translations._
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MTQyMjEwMCwxNzAwMzg1MTM2LDExNj
-EyMzQyMjEsMTI5NzAwNDkyNV19
+eyJoaXN0b3J5IjpbMTA5Njg5MjAsMTcwMDM4NTEzNiwxMTYxMj
+M0MjIxLDEyOTcwMDQ5MjVdfQ==
 -->
