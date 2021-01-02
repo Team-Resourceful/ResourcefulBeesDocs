@@ -12,7 +12,7 @@ _Note: For new mod installs, run the game at least once so all necessary config 
 * Open this folder and verify there is a file inside called `pack.mcmeta` - this file is needed for the loading of the language files. If you do not see this file then reload the mod/pack to generate it.
 * Inside the `resources` folder we need to add the following nested folders: `assets/resourcefulbees/lang`
 * The structure should appear as the following image: 
-* ![](https://i.imgur.com/Sq9sp1e.png)
+* ![](https://i.imgur.com/aJFidH0.png)
 * Inside the `lang` folder, creating a file called `en_us.json` will create an English US language file.
 * You can specify a different language using any one of the language codes found [here](https://minecraft.gamepedia.com/Language) under the **Available languages** section.
 * Every custom bee added should have language entries similar to the Blaze example below:
