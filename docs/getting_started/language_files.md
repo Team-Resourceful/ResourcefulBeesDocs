@@ -17,6 +17,7 @@ _Note: For new mod installs, run the game at least once so all necessary config 
 * You can specify a different language using any one of the language codes found [here](https://minecraft.gamepedia.com/Language) under the **Available languages** section.
 * Every custom bee added should have language entries similar to the Blaze example below:
 * 
+* 
 		```json
 		{
 		   "block.resourcefulbees.blaze_honeycomb_block": "Blaze Honeycomb Block",
@@ -48,6 +49,6 @@ As a convenience feature, we have provided an English Lang generator that will o
 
 _Note: The generator uses the .json file names for generating the translations._
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2Njk5NDA1NCwxNzAwMzg1MTM2LDExNj
-EyMzQyMjEsMTI5NzAwNDkyNV19
+eyJoaXN0b3J5IjpbLTIwOTgzMzY4MTgsMTcwMDM4NTEzNiwxMT
+YxMjM0MjIxLDEyOTcwMDQ5MjVdfQ==
 -->
