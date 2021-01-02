@@ -44,10 +44,10 @@ _Note: For new mod installs, run the game at least once so all necessary config 
 ## **English Lang Generator**
 ***
 
-As a convenience feature, we have provided an English Lang generator that will output a language file in the proper location with translations for every custom bee used. In the `client.toml` config file is an option to enable or disable the generator. This generator only needs to be run **once** after all custom bees have been added. dfsdfdsfsdfsdf
+As a convenience feature, we have provided an English Lang generator that will output a language file in the proper location with translations for every custom bee used. In the `client.toml` config file is an option to enable or disable the generator. This generator only needs to be run **once** after all custom bees have been added.
 
 _Note: The generator uses the .json file names for generating the translations._
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDY4OTk0NDQsMTcwMDM4NTEzNiwxMT
-YxMjM0MjIxLDEyOTcwMDQ5MjVdfQ==
+eyJoaXN0b3J5IjpbLTE0MzQ0MTM5NCwxNzAwMzg1MTM2LDExNj
+EyMzQyMjEsMTI5NzAwNDkyNV19
 -->
