@@ -21,9 +21,21 @@ The custom dictionary system does not auto-discover modded biomes and as such re
 
 ### **Dictionary JSON format**
 
+The basic format is simply a `biomes` array list containing the associated biome registry ID's
 ```json
-
+{  
+  "biomes": [  
+  "minecraft:mushroom_field_shore",  
+  "minecraft:beach",  
+  "minecraft:stone_shore",  
+  "minecraft:snowy_beach"  
+  ]  
+}
 ```
+
+### **Dictionary Name**
+
+This name 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNjI0ODQ5NV19
+eyJoaXN0b3J5IjpbNTk2MDE3NDQ0XX0=
 -->
