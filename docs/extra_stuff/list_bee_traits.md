@@ -3,7 +3,12 @@
 
 ### **wither**
 
+* Makes bee immune to wither damage
+* When bee stings player wither effect is applied
+
 ### **blaze**
+
+* Makes bee immune to Lava, 
 
 ### **can_swim**
 
@@ -25,5 +30,5 @@
 
 ### **desert**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDM1NjQwNl19
+eyJoaXN0b3J5IjpbNjU3MDc0NTY0XX0=
 -->
