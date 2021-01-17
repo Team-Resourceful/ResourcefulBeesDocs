@@ -1,6 +1,8 @@
 ## **Creating a Centrifuge Data Pack Recipe**
 ***
 
+Below are all of the default bee traits included with the mod and what they do.
+
 ### **wither**
 
 * Makes bee immune to wither damage
@@ -48,9 +50,12 @@
 
 ### **slimy**
 
-* Bee drips slim
+* Bee drips slime particles
+* Bee makes squishy noises when colliding with players
 
 ### **desert**
+
+* Grants immunity to Cactus damage sources
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMzQwNTg4OF19
+eyJoaXN0b3J5IjpbLTM0OTI0MDQyXX0=
 -->
