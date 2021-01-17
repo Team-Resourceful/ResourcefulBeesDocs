@@ -8,9 +8,14 @@
 
 ### **blaze**
 
-* Makes bee immune to Lava, 
+* Makes bee immune to Lava, Fire, and Hot Floors
+* Sets player on fire when attacking
+* Sets self on fire as visual effect
+* Has blaze particle effects
 
 ### **can_swim**
+
+* 
 
 ### **creeper**
 
@@ -30,5 +35,5 @@
 
 ### **desert**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU3MDc0NTY0XX0=
+eyJoaXN0b3J5IjpbLTY5OTc2NDY1OV19
 -->
