@@ -35,7 +35,7 @@ The basic format is simply a `biomes` array list containing the associated biome
 
 ### **Dictionary Name**
 
-This name 
+This name of the JSON file determines the name of the dictionary name. The example above is the default `Beach.json` included with the mod. This 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk2MDE3NDQ0XX0=
+eyJoaXN0b3J5IjpbODk0NTU4MjUzXX0=
 -->
