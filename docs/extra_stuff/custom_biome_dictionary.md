@@ -19,7 +19,11 @@ The custom dictionary system does not auto-discover modded biomes and as such re
 ## **Editing Dictionary JSON's**
 ***
 
+### **Dictionary JSON format**
 
+```json
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0Nzc1NDkyM119
+eyJoaXN0b3J5IjpbLTgzNjI0ODQ5NV19
 -->
