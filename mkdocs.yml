@@ -16,7 +16,9 @@ nav:
     - Bee Template : 'data_templates/bee_template.md'
     - Honey Template: 'data_templates/honey_template.md'
   - Extra Stuff :
+    - List Of Bee Traits: 'extra_stuff/list_bee_traits.md'
     - Biome Tags : 'extra_stuff/biome_tags.md'
+    - Custom Biome Dictionary: 'extra_stuff/custom_biome_dictionary.md'
     - Color Name Options : 'extra_stuff/color_names.md'
     - Centrifuge Recipes : 'extra_stuff/centrifuge_recipe.md'
     - Valid Apiary Tag : 'extra_stuff/valid_apiary_tag.md'
