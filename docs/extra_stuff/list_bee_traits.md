@@ -15,15 +15,23 @@
 
 ### **can_swim**
 
-* 
+* Adds immunity to drowning damage
 
 ### **creeper**
 
+* Causes random size explosion when attacking players
+
 ### **zombie**
+
+* Causes hunger when attacking players
 
 ### **pigman**
 
+* Causes mining fatigue when attacking players
+
 ### **ender**
+
+* 
 
 ### **nether**
 
@@ -35,5 +43,5 @@
 
 ### **desert**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5OTc2NDY1OV19
+eyJoaXN0b3J5IjpbNTIzNTY4NjEyXX0=
 -->
