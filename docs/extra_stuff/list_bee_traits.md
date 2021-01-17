@@ -31,7 +31,8 @@
 
 ### **ender**
 
-* 
+* Causes bee to randomly teleport up to 4 blocks away when not within a 10 block range of a hive or an ender beecon's coverage.
+* Adds portal particle 
 
 ### **nether**
 
@@ -43,5 +44,5 @@
 
 ### **desert**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIzNTY4NjEyXX0=
+eyJoaXN0b3J5IjpbLTEwNjkwNzA0NTJdfQ==
 -->
