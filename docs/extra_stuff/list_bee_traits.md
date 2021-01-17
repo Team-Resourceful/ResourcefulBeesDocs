@@ -32,17 +32,25 @@
 ### **ender**
 
 * Causes bee to randomly teleport up to 4 blocks away when not within a 10 block range of a hive or an ender beecon's coverage.
-* Adds portal particle 
+* Adds portal particle effects to bee
 
 ### **nether**
 
+* Makes bee immune to Lava, Fire, and Hot Floors
+
 ### **oreo**
+
+* Applies Instant Health II when attacking player
 
 ### **kitten**
 
+* Applies Speed II when attacking player
+
 ### **slimy**
+
+* Bee drips slim
 
 ### **desert**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjkwNzA0NTJdfQ==
+eyJoaXN0b3J5IjpbLTMzMzQwNTg4OF19
 -->
