@@ -10,10 +10,12 @@ With a default mod installation, `useForgeBiomeDictionaries` is set to `true` in
 <br>
 <br>
 
-### 
+### **Custom Biome Dictionary Basics**
+
+With the 
 
 ## **Default Configuration**
 ***
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MjM3NzEzMl19
+eyJoaXN0b3J5IjpbLTEzNDUwNDk0MV19
 -->
