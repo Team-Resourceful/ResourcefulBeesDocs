@@ -12,10 +12,10 @@ With a default mod installation, `useForgeBiomeDictionaries` is set to `true` in
 
 ### **Custom Biome Dictionary Basics**
 
-With the 
+To use the custom biome dictionary system, set `useForgeBiomeDictionaries` to `false`. This will enable the base implementation which can then be modified by adding, removing, or editing the jsons in the biome_dictionary directory. 
 
 ## **Default Configuration**
 ***
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDUwNDk0MV19
+eyJoaXN0b3J5IjpbLTYxMzU1OTgwMl19
 -->
