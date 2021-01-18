@@ -1,4 +1,4 @@
-## **Creating a Centrifuge Data Pack Recipe**
+## **Bee Traits**
 ***
 
 Below are all of the default bee traits included with the mod and what they do.
@@ -57,5 +57,5 @@ Below are all of the default bee traits included with the mod and what they do.
 
 * Grants immunity to Cactus damage sources
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0OTI0MDQyXX0=
+eyJoaXN0b3J5IjpbLTE1MTA5OTM3NDgsLTM0OTI0MDQyXX0=
 -->
