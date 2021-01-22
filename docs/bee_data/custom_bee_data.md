@@ -111,7 +111,7 @@ Example:
 ```json
 "hasHoneycomb": true,
 "customCombDrop": "minecraft:iron",
-"customBombBlockDrop": "minecraft:iron_block"
+"customCombBlockDrop": "minecraft:iron_block"
 ```
 
 <br>
