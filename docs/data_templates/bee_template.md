@@ -12,7 +12,7 @@ This page contains a template for the bee jsons with ALL configurable options. T
 	"traits":["wither","blaze","can_swim","creeper","zombie","pigman","ender","nether", "oreo", "slimy"],
 	"hasHoneycomb":true,
 	"customCombDrop": "",
-	"customBombBlockDrop": "",
+	"customCombBlockDrop": "",
 	"apiaryOutputAmounts" : [1,2,3,4],
 	"ColorData": {
 		"primaryColor":"#005500",
