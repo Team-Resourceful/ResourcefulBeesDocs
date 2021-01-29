@@ -162,22 +162,22 @@ Here is a blank template showing all configurable fields in the Breed Data objec
 
 ```json
 "CentrifugeData": {
-	"hasCentrifugeOutput": true,
-	"mainInputCount": 1,
-	"mainOutput": "",
-	"mainOutputWeight": 1.00,
-	"mainOutputCount": 1,
+  "hasCentrifugeOutput": true,
+  "mainInputCount": 1,
+  "mainOutput": "",
+  "mainOutputWeight": 1.00,
+  "mainOutputCount": 1,
   "mainNBTData": {},
-	"secondaryOutput": "resourcefulbees:wax",
-	"secondaryOutputWeight": 0.20,
-	"secondaryOutputCount": 1,
+  "secondaryOutput": "resourcefulbees:wax",
+  "secondaryOutputWeight": 0.20,
+  "secondaryOutputCount": 1,
   "secondaryNBTData": {},
-	"bottleOutput": "minecraft:honey_bottle",
-	"bottleOutputWeight": 0.25,
-	"bottleOutputCount": 1,
+  "bottleOutput": "minecraft:honey_bottle",
+  "bottleOutputWeight": 0.25,
+  "bottleOutputCount": 1,
   "bottleNBTData": {},
-	"recipeTime": 200,
-	"hasFluidoutput": false
+  "recipeTime": 200,
+  "hasFluidoutput": false
 }
 ```
 <!--stackedit_data:
