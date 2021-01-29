@@ -188,22 +188,22 @@ Default : 1
 
 This is where you specify the outputs for your mutations, you can have as many different outputs as you want.
 
-**outputID**
-this is where you specify the output id of your mutation.
+**outputID**  
+this is where you specify the output id of your mutation.  
 
-**Note:** If your output is an entity, you need to prefix it with `entity:`
+**Note:** If your output is an entity, you need to prefix it with `entity:`  
 
-**chance** (optional)
+**chance** (optional)  
 This is where you set the individual success chance for your mutation outputs
 
 Default: 1
 
-**weight** (optional)
+**weight** (optional)  
 This is where you set the individual weight for your mutation outputs
 
 Default: 1
 
-**nbtData** (optional)
+**nbtData** (optional)  
 NBT data, yes NBT data, this is where you can now set the nbt data for your mutation outputs
 
 **Effects**  
