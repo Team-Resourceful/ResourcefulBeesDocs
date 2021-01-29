@@ -12,7 +12,7 @@ This value is used to determine if a bee should have its primary and secondary c
 
 ### **Honeycomb Color** (Optionally Required)
 
-The color value for the honeycomb is only a required value when the bee has the `hasHoneycomb` value set to true in the main data. 
+The color value for the honeycomb is only a required value when the bee has the `hasHoneycomb` value set to true in the main data.
 
 This value can be expressed in multiple ways but is encoded in the .json as a string. It can be expressed as a hexadecimal value with, or without, preceding tags, an integer value, or a named color from the available list found [here.](https://github.com/Resourceful-Bees/ResourcefulBees/wiki/Optional-Colors-Names) The color value is used to determine the bee's honeycomb color and honeycomb block color.
 
@@ -29,9 +29,9 @@ Below are some examples of color usage.
 
 ### **Primary Color & Secondary Color** (Optionally Required)
 
-The primary and secondary color values are required only when you want the bee to be colored using the boolean value `isBeeColored`. 
+The primary and secondary color values are required only when you want the bee to be colored using the boolean value `isBeeColored`.
 
-These values can be expressed in multiple ways but are encoded in the .json as strings. They can be expressed as a hexadecimal value with, or without, preceding tags, an integer value, or a named color from the available list found [here.](https://github.com/Resourceful-Bees/ResourcefulBees/wiki/Optional-Colors-Names) The color values are used to colorize the primary layer and secondary layer textures for the bee. 
+These values can be expressed in multiple ways but are encoded in the .json as strings. They can be expressed as a hexadecimal value with, or without, preceding tags, an integer value, or a named color from the available list found [here.](https://github.com/Resourceful-Bees/ResourcefulBees/wiki/Optional-Colors-Names) The color values are used to colorize the primary layer and secondary layer textures for the bee.
 
 Below are some examples of color usage.
 
@@ -41,7 +41,7 @@ Below are some examples of color usage.
 `"secondaryColor": "0xff00ff"` <br>
 `"secondaryColor": "white"` <br>
 
-*Note:* The secondary color is not required if you would like a single color bee with black stripes. 
+*Note:* The secondary color is not required if you would like a single color bee with black stripes.
 
 *Note:* The primary and secondary color are also used for coloring the bee in the bee jar and the spawn egg so supplying the primary and secondary colors with values will make those look better.
 
@@ -98,12 +98,48 @@ Ex: `"modelType": "GELATINOUS"`
 <br>
 <br>
 
+### **Dragon** (Optional)
+
+The `DRAGON` `modelType` should be used when you want the bee to have dragon horns and spines rendered on it's back.
+
+Ex: `"modelType": "DRAGON"`
+
+<br>
+<br>
+
+### **Queen** (Optional)
+
+The `QUEEN` `modelType` should be used when you want the bee to have a pretty crown rendered on it's head.
+
+Ex: `"modelType": "QUEEN"`
+
+<br>
+<br>
+
+### **Villager** (Optional)
+
+The `VILLAGER` `modelType` should be used when you want the bee to have a nose rendered on it's face, it looks at you disapprovingly.
+
+Ex: `"modelType": "VILLAGER"`
+
+<br>
+<br>
+
+### **Mushroom** (Optional)
+
+The `MUSHROOM` `modelType` should be used when you want the bee to have 2 mushrooms on it's back and a nice layer of mycelium or other foliage on it's back.
+
+Ex: `"modelType": "MUSHROOM"`
+
+<br>
+<br>
+
 ## **Special**
 ***
 
 ### **Glow Color & Enchanted Glow** (Optional)
 
-The color value for glowing is only a required value when the bee has the `isGlowing` value set to `true`. 
+The color value for glowing is only a required value when the bee has the `isGlowing` value set to `true`.
 
 This value can be expressed in multiple ways but is encoded in the .json as a string. It can be expressed as a hexadecimal value with, or without, preceding tags, an integer value, or a named color from the available list found [here.](https://github.com/Resourceful-Bees/ResourcefulBees/wiki/Optional-Colors-Names) The color value is used to determine the bee's honeycomb color and honeycomb block color.
 
@@ -124,7 +160,7 @@ _Note:_ `isGlowing` and `isEnchanted` _are incompatible._
 
 ### **is Rainbow Bee** (Optional)
 
-Set `isRainbowBee` to `true` when you want the bee to cycle through a rainbow of colors. Setting this option removes the need for a primary and secondary color. 
+Set `isRainbowBee` to `true` when you want the bee to cycle through a rainbow of colors. Setting this option removes the need for a primary and secondary color.
 
 `"isRainbowBee": true`<br>
 

@@ -4,12 +4,12 @@
 This page contains a template for the bee jsons with ALL configurable options. This should help pack devs with making their own bees since elements only need to be modified or deleted as necessary.
 
 ```json
-{ 
+{
 	"flower":"ALL",
 	"baseLayerTexture":"/creeper/creeper_bee",
 	"maxTimeInHive":2400,
 	"sizeModifier":1.0,
-	"traits":["wither","blaze","can_swim","creeper","zombie","pigman","ender","nether", "oreo", "slimy"],
+	"traits":["wither","blaze","can_swim","creeper","zombie","pigman","ender","nether", "oreo", "kitten", "slimy", "desert"],
 	"hasHoneycomb":true,
 	"customCombDrop": "",
 	"customCombBlockDrop": "",
@@ -40,13 +40,78 @@ This page contains a template for the bee jsons with ALL configurable options. T
 		"mutationInput" : "minecraft:stone",
 		"mutationOutput":"minecraft:water",
 		"mutationCount":10,
-		"mutationType":"BLOCK_TO_FLUID"
+		"mutationType":"BLOCK_TO_FLUID",
+		"mutations" : [
+			{
+        "type": "BLOCK_TO_BLOCK",
+        "inputID": "tag:minecraft:sand",
+        "outputs": [
+          {"outputID": "minecraft:white_stained_glass"},
+          {"outputID": "minecraft:orange_stained_glass"},
+          {"outputID": "minecraft:magenta_stained_glass"},
+          {"outputID": "minecraft:light_blue_stained_glass"},
+          {"outputID": "minecraft:yellow_stained_glass"},
+          {"outputID": "minecraft:lime_stained_glass"},
+          {"outputID": "minecraft:pink_stained_glass"},
+          {"outputID": "minecraft:gray_stained_glass"},
+          {"outputID": "minecraft:light_gray_stained_glass"},
+          {"outputID": "minecraft:cyan_stained_glass"},
+          {"outputID": "minecraft:purple_stained_glass"},
+          {"outputID": "minecraft:blue_stained_glass"},
+          {"outputID": "minecraft:brown_stained_glass"},
+          {"outputID": "minecraft:green_stained_glass"},
+          {"outputID": "minecraft:red_stained_glass"},
+          {"outputID": "minecraft:black_stained_glass"}
+        ]
+      },
+			{
+        "type": "BLOCK_TO_BLOCK",
+        "inputID": "tag:forge:stone",
+        "defaultWeight": 10,
+        "defaultChance" : 0.75,
+        "outputs": [
+          {"outputID": "minecraft:redstone_ore", "weight": 1, "chance": 0.25}
+          {"outputID": "minecraft:lapis_ore", "weight": 3, "chance": 0.40}
+        ]
+      },
+      {
+        "type": "BLOCK_TO_BLOCK",
+        "inputID": "minecraft:honey_block",
+        "outputs": [
+          {"outputID": "minecraft:glass", "chance": 0.5}
+        ]
+      }
+			{
+        "type": "BLOCK_TO_ITEM",
+        "inputID": "tag:forge:ores/diamond",
+        "outputs": [
+          {
+            "outputID": "minecraft:potion",
+            "nbtData": {
+              "Potion": "resourcefulbees:calming"
+            }
+          }
+        ]
+      },
+			{
+        "type": "ENTITY_TO_ENTITY",
+        "inputID": "entity:cow",
+        "outputs": [
+          {
+            "outputID": "entity:mooshroom",
+            "nbtData": {
+              "Type": "brown"
+            }
+          }
+        ]
+      }
+		]
 	},
 	"CentrifugeData": {
 		"hasCentrifugeOutput": true,
 		"mainOutput":"minecraft:stone",
 		"secondaryOutput":"minecraft:diamond",
-		"bottleOutput":"minecraft:dragons_breath",
+		"bottleOutput": "minecraft:potion",
 		"mainOutputWeight":0.9,
 		"secondaryOutputWeight":0.5,
 		"bottleOutputWeight":0.25,
@@ -54,6 +119,19 @@ This page contains a template for the bee jsons with ALL configurable options. T
 		"secondaryOutputCount":2,
 		"bottleOutputCount":4,
 		"mainInputCount":4,
+		"mainNBTData": {
+			"display":{
+				"Name": "{\"text\":\"A Stone\"}"
+			}
+		},
+		"secondaryNBTData": {
+			"display":{
+				"Name": "{\"text\":\"Crystal Diamond\"}"
+			}
+		},
+		"bottleNBTData" : {
+			"Potion": "resourcefulbees:calming"
+		},
 		"recipeTime": 200,
 		"hasFluidoutput": false
 	},
@@ -69,6 +147,7 @@ This page contains a template for the bee jsons with ALL configurable options. T
 	"BreedData": {
 		"isBreedable": true,
 		"breedWeight": 2.5,
+		"breedChance": 0.1,
 		"parent1": "testbeeparent1",
 		"parent2": "testbeeparent2",
 		"feedItem": "minecraft:poppy",

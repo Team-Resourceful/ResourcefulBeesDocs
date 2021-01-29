@@ -26,7 +26,7 @@ The flower value is used to determine what flower the bee should use for pollen/
 
 `"flower": "minecraft:poppy"`<br>
 
-This final example lets the bee use only a predefined flower, including modded flowers. This value is not locked only to flowers, however. *ANY* block in the game including modded can be used here since it takes a string value in the form of `namespace:ID`. 
+This final example lets the bee use only a predefined flower, including modded flowers. This value is not locked only to flowers, however. *ANY* block in the game including modded can be used here since it takes a string value in the form of `namespace:ID`.
 
 **Note:** Flowers are not a comma-separated list. You get to choose either **ONE** flower, all flowers, tall flowers, or small flowers, in addition to Block Tags.
 
@@ -42,7 +42,7 @@ This final example lets the bee use only a predefined flower, including modded f
 
 ### **Size Modifier** (Optional)
 
-The size modifier is an optional floating point value that scales the size of the bee. This value ranges from 0.5 to 2.0. Any value entered outside this range will be automatically clamped to the range bounds. This means a value of 0.2 would become 0.5. The default value is 1.0. 
+The size modifier is an optional floating point value that scales the size of the bee. This value ranges from 0.5 to 2.0. Any value entered outside this range will be automatically clamped to the range bounds. This means a value of 0.2 would become 0.5. The default value is 1.0.
 
 `"sizeModifier": 2.0`  <---- This would make the bee twice the size of a vanilla bee<br>
 `"sizeModifier": 0.5`  <---- This would make the bee half the size of a vanilla bee<br>
@@ -92,7 +92,17 @@ For example:
 
 Sub-directories can be nested like so: `"folder_1/folder_2/folder_3/texture"`
 
-**SPECIAL NOTE:** The file extension is *NOT REQUIRED* in the .json value as that is automatically appended by the mod when rendering. 
+**SPECIAL NOTE:** The file extension is *NOT REQUIRED* in the .json value as that is automatically appended by the mod when rendering.
+
+<br>
+<br>
+
+## **Base Model Type** (Optional)
+
+If you want to change the base model of the bee, you can use the following value to change it, there are currently only two options `DEFAULT`, and `KITTEN`. Default is your default basic bee, and kitten makes them gain little cat ears, a little nose and some soft fluffy feet.
+
+Examples:<br>
+`"baseModelType" : "KITTEN"`<br>
 
 <br>
 <br>
