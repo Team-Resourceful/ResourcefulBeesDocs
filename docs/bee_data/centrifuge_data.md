@@ -5,7 +5,7 @@
 
 ### **Has Centrifuge Output?** (Required)
 
-`hasCentrifugeOutput` is a `true`/`false` value that when set to `true` allows a recipe to be generated for the honeycomb and honeycomb block. This value is **only** required *if* you want the bee's honeycomb to have centrifuge recipes generated, otherwise the entirety of the `centrifugeData` object can be left out of the bees json. 
+`hasCentrifugeOutput` is a `true`/`false` value that when set to `true` allows a recipe to be generated for the honeycomb and honeycomb block. This value is **only** required *if* you want the bee's honeycomb to have centrifuge recipes generated, otherwise the entirety of the `centrifugeData` object can be left out of the bees json.
 
 <br>
 <br>
@@ -126,6 +126,35 @@ In the example above, the centrifuge recipe will have a 40% chance to output **t
 
 *Note:* The default for all four values is `1`
 
+## **NBT data**
+
+You can now add item nbt data to all of the item outputs in centrifuge recipes
+
+There are three separate parameters to edit the nbt data for each of the outputs each pertaining to one of the ouput slots.  
+
+`mainNBTData: {}`  
+`secondaryNBTData: {}`  
+`bottleNBTData: {}`  
+
+Examples:  
+```Json
+"mainNBTData": {
+  "display":{
+    "Name": "{\"text\":\"A Stone\"}"
+  }
+},
+"secondaryNBTData": {
+  "display":{
+    "Name": "{\"text\":\"Crystal Diamond\"}"
+  }
+},
+"bottleNBTData" : {
+  "Potion": "resourcefulbees:calming"
+},
+```
+<br>
+<br>
+
 ## **Template**
 ***
 
@@ -138,12 +167,15 @@ Here is a blank template showing all configurable fields in the Breed Data objec
 	"mainOutput": "",
 	"mainOutputWeight": 1.00,
 	"mainOutputCount": 1,
+  "mainNBTData": {},
 	"secondaryOutput": "resourcefulbees:wax",
 	"secondaryOutputWeight": 0.20,
 	"secondaryOutputCount": 1,
+  "secondaryNBTData": {},
 	"bottleOutput": "minecraft:honey_bottle",
 	"bottleOutputWeight": 0.25,
 	"bottleOutputCount": 1,
+  "bottleNBTData": {},
 	"recipeTime": 200,
 	"hasFluidoutput": false
 }
