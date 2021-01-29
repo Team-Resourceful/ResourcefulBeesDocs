@@ -40,6 +40,11 @@ This is used when a bee mutates a fluid block into a normal block. ex. `"mutatio
 This is used when a bee mutates a normal block into another normal block. ex. `"mutationType": "BLOCK_TO_BLOCK"`
 
 
+### **BLOCK_TO_ITEM**
+
+This is used when a bee mutates a normal block into a dropped item. ex. `"mutationType": "BLOCK_TO_ITEM"`
+
+
 ### **ENTITY_TO_ENTITY**
 
 This is used when a bee mutates an entity into another entity. ex. `"mutationType": "ENTITY_TO_ENTITY"`
@@ -135,6 +140,159 @@ Example:
 <br>
 <br>
 
+## **Multi Mutate** (Optional)
+
+A completely new way to register mutations, this system allows you to register as many mutations for a single bee as you want.
+
+### **type**
+
+This is where you put the type of mutation you want to add.
+
+Examples:
+`"type": "BLOCK_TO_BLOCK"`
+`"type": "BLOCK_TO_ITEM"`
+`"type": "ENTITY_TO_ENTITY"`
+
+### **inputID**
+
+This is the id of the thing you want to mutate from
+
+**Note:** if you want to mutate a tag, you need to prefix with `tag:`, if you want to mutate an entity you need to prefix with `entity:`
+
+Examples:
+`"inputID": "minecraft:stone"`
+`"inputID": "tag:forge:stone"`
+`"inputID": "entity:minecraft:pig"`
+
+### **defaultWeight** (optional)
+
+This will set the default weight that you will get an output if you do not specify a weight in the outputs.
+
+Examples:
+`"defaultWeight": 10`
+`"defaultWeight": 2`
+
+Default : 1
+
+### **defaultChance** (optional)
+
+This will set the default weight that you will succeed in a mutation if you do not specify a chance in the outputs.
+
+Examples:
+`"defaultChance": 1`
+`"defaultChance": 0.5`
+
+Default : 1
+
+### **outputs**
+
+This is where you specify the outputs for your mutations, you can have as many different outputs as you want.
+
+**outputID**
+this is where you specify the output id of your mutation.
+
+**Note:** If your output is an entity, you need to prefix it with `entity:`
+
+**chance** (optional)
+This is where you set the individual success chance for your mutation outputs
+
+Default: 1
+
+**weight** (optional)
+This is where you set the individual weight for your mutation outputs
+
+Default: 1
+
+**nbtData** (optional)
+NBT data, yes NBT data, this is where you can now set the nbt data for your mutation outputs
+
+**Effects**
+- Entity tags for `ENTITY_TO_ENTITY` Mutations
+- Item tags for `BLOCK_TO_ITEM` Mutations
+- Tile entity tags for `BLOCK_TO_BLOCK` and `FLUID_TO_BLOCK` Mutations
+
+Examples:
+```json
+"outputs":[
+	{"outputID": "minecraft:stone", "chance": 1, "weight": 10},
+	{"outputID": "minecraft:diamond", "chance": 0.1, "weight": 1}
+]
+```
+```json
+"outputs":[
+	{
+		"outputID": "entity:minecraft:mooshroom",
+		"nbtData": {
+			"Type": "brown"
+		}
+	},
+	{
+		"outputID": "entity:minecraft:mooshroom"
+	}
+]
+```
+
+### **Mutations**
+
+You can use the new multi mutate by adding the new `mutations` parameter.
+
+Example:
+
+```json
+"MutationData": {
+	"hasMutation": true,
+	"mutationType": "BLOCK_TO_BLOCK",
+	"mutationInput": "minecraft:stone",
+	"mutationOutput": "minecraft:coal_ore",
+	"mutationCount": 5,
+	"mutations": [
+		{
+      "type": "BLOCK_TO_BLOCK",
+      "inputID": "tag:forge:stone",
+      "defaultWeight": 10,
+      "defaultChance" : 0.75,
+      "outputs": [
+        {"outputID": "minecraft:redstone_ore", "weight": 1, "chance": 0.25}
+        {"outputID": "minecraft:lapis_ore", "weight": 3, "chance": 0.40}
+      ]
+    },
+		{
+      "type": "BLOCK_TO_BLOCK",
+      "inputID": "minecraft:honey_block",
+      "outputs": [
+        {"outputID": "minecraft:glass", "chance": 0.5}
+      ]
+    },
+		{
+      "type": "BLOCK_TO_ITEM",
+      "inputID": "tag:forge:ores/diamond",
+      "outputs": [
+        {
+          "outputID": "minecraft:potion",
+          "nbtData": {
+            "Potion": "resourcefulbees:calming"
+          }
+        }
+      ]
+    },
+		{
+      "type": "ENTITY_TO_ENTITY",
+      "inputID": "entity:cow",
+      "outputs": [
+        {
+          "outputID": "entity:mooshroom",
+          "nbtData": {
+            "Type": "brown"
+          }
+        }
+      ]
+    }
+	]
+}
+```
+<br>
+<br>
+
 ## **Template**
 ***
 
@@ -146,7 +304,18 @@ Here is a blank template showing all configurable fields in the Mutation Data ob
 	"mutationType": "NONE",
 	"mutationInput": "",
 	"mutationOutput": "",
-	"mutationCount": 10
+	"mutationCount": 10,
+	"mutations": [
+		{
+			"type": "NONE",
+			"outputID": "",
+			"defaultChance": 1,
+			"defaultChance": 1,
+			"outputs": [
+				{"outputID": "", "chance": 1, "weight": 1, "nbtData":{}}
+			]
+		}
+	]
 }
 ```
 <!--stackedit_data:
