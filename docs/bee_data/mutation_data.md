@@ -148,10 +148,10 @@ A completely new way to register mutations, this system allows you to register a
 
 This is where you put the type of mutation you want to add.
 
-Examples:
-`"type": "BLOCK_TO_BLOCK"`
-`"type": "BLOCK_TO_ITEM"`
-`"type": "ENTITY_TO_ENTITY"`
+Examples:  
+`"type": "BLOCK_TO_BLOCK"`  
+`"type": "BLOCK_TO_ITEM"`  
+`"type": "ENTITY_TO_ENTITY"`  
 
 ### **inputID**
 
@@ -159,18 +159,18 @@ This is the id of the thing you want to mutate from
 
 **Note:** if you want to mutate a tag, you need to prefix with `tag:`, if you want to mutate an entity you need to prefix with `entity:`
 
-Examples:
-`"inputID": "minecraft:stone"`
-`"inputID": "tag:forge:stone"`
-`"inputID": "entity:minecraft:pig"`
+Examples:  
+`"inputID": "minecraft:stone"`  
+`"inputID": "tag:forge:stone"`  
+`"inputID": "entity:minecraft:pig"`  
 
 ### **defaultWeight** (optional)
 
 This will set the default weight that you will get an output if you do not specify a weight in the outputs.
 
-Examples:
-`"defaultWeight": 10`
-`"defaultWeight": 2`
+Examples:  
+`"defaultWeight": 10`  
+`"defaultWeight": 2`  
 
 Default : 1
 
@@ -178,9 +178,9 @@ Default : 1
 
 This will set the default weight that you will succeed in a mutation if you do not specify a chance in the outputs.
 
-Examples:
-`"defaultChance": 1`
-`"defaultChance": 0.5`
+Examples:  
+`"defaultChance": 1`  
+`"defaultChance": 0.5`  
 
 Default : 1
 
@@ -206,10 +206,10 @@ Default: 1
 **nbtData** (optional)
 NBT data, yes NBT data, this is where you can now set the nbt data for your mutation outputs
 
-**Effects**
-- Entity tags for `ENTITY_TO_ENTITY` Mutations
-- Item tags for `BLOCK_TO_ITEM` Mutations
-- Tile entity tags for `BLOCK_TO_BLOCK` and `FLUID_TO_BLOCK` Mutations
+**Effects**  
+- Entity tags for `ENTITY_TO_ENTITY` Mutations  
+- Item tags for `BLOCK_TO_ITEM` Mutations  
+- Tile entity tags for `BLOCK_TO_BLOCK` and `FLUID_TO_BLOCK` Mutations  
 
 Examples:
 ```json
@@ -287,7 +287,7 @@ Example:
         }
       ]
     }
-	]
+  ]
 }
 ```
 <br>
