@@ -1,6 +1,6 @@
 nav:
   - Home: 'index.md'
-  - Getting Started : 
+  - Getting Started :
     - Customizing Bees : 'getting_started/bee_creation.md'
     - Language Files : 'getting_started/language_files.md'
   - Bee Data :
@@ -26,6 +26,7 @@ nav:
     - Coal Bee : 'default_bees/coal.md'
     - Creeper Bee : 'default_bees/creeper.md'
     - Diamond Bee : 'default_bees/diamond.md'
+    - Dragon Bee : 'default_bees/dragon.md'
     - Emerald Bee : 'default_bees/emerald.md'
     - Ender Bee : 'default_bees/ender.md'
     - Gold Bee : 'default_bees/gold.md'
@@ -41,7 +42,7 @@ nav:
     - Slimy Bee : 'default_bees/slimy.md'
     - Wither Bee : 'default_bees/wither.md'
     - Zombee : 'default_bees/zombie.md'
-   
+
 
 site_name: Resourceful Bees Docs
 docs_dir: docs
