@@ -240,13 +240,13 @@ Example:
 
 ```json
 "MutationData": {
-	"hasMutation": true,
-	"mutationType": "BLOCK_TO_BLOCK",
-	"mutationInput": "minecraft:stone",
-	"mutationOutput": "minecraft:coal_ore",
-	"mutationCount": 5,
-	"mutations": [
-		{
+  "hasMutation": true,
+  "mutationType": "BLOCK_TO_BLOCK",
+  "mutationInput": "minecraft:stone",
+  "mutationOutput": "minecraft:coal_ore",
+  "mutationCount": 5,
+  "mutations": [
+    {
       "type": "BLOCK_TO_BLOCK",
       "inputID": "tag:forge:stone",
       "defaultWeight": 10,
@@ -256,14 +256,14 @@ Example:
         {"outputID": "minecraft:lapis_ore", "weight": 3, "chance": 0.40}
       ]
     },
-		{
+    {
       "type": "BLOCK_TO_BLOCK",
       "inputID": "minecraft:honey_block",
       "outputs": [
         {"outputID": "minecraft:glass", "chance": 0.5}
       ]
     },
-		{
+    {
       "type": "BLOCK_TO_ITEM",
       "inputID": "tag:forge:ores/diamond",
       "outputs": [
@@ -275,7 +275,7 @@ Example:
         }
       ]
     },
-		{
+    {
       "type": "ENTITY_TO_ENTITY",
       "inputID": "entity:cow",
       "outputs": [
