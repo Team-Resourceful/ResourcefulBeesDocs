@@ -310,7 +310,7 @@ Here is a blank template showing all configurable fields in the Mutation Data ob
 			"type": "NONE",
 			"outputID": "",
 			"defaultChance": 1,
-			"defaultChance": 1,
+			"defaultWeight": 1,
 			"outputs": [
 				{"outputID": "", "chance": 1, "weight": 1, "nbtData":{}}
 			]
