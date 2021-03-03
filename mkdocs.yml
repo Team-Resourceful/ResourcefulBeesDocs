@@ -49,8 +49,7 @@ docs_dir: docs
 
 markdown_extensions:
   - pymdownx.superfences
-  - pymdownx.highlight:
-      use_pygments: false
+  - pymdownx.highlight
       
 
 theme:
