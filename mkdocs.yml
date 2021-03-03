@@ -56,7 +56,7 @@ theme:
   name: material
   palette:
     scheme: slate
-    primary: blue
+    primary: red
     accent: blue
 
 extra_css:
