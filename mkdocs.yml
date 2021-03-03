@@ -55,6 +55,10 @@ markdown_extensions:
 
 theme:
   name: readthedocs
+  palette:
+    scheme: slate
+    primary: blue
+    accent: blue
     
   
 site_description: |
