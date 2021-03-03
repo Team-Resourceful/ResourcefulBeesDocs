@@ -54,7 +54,7 @@ markdown_extensions:
 
 theme:
   name: material
-  logo: image.png
+  logo: material/beehive-outline
   palette:
     scheme: slate
     primary: red
