@@ -47,11 +47,7 @@ nav:
 site_name: Resourceful Bees Docs
 docs_dir: docs
 theme:
-  name: material
-  palette:
-    scheme: slate
-    primary: blue
-    accent: blue
+  name: readthedocs
     
   
 site_description: |
