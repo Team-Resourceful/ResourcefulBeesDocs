@@ -46,6 +46,13 @@ nav:
 
 site_name: Resourceful Bees Docs
 docs_dir: docs
+
+markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      use_pygments: false
+      
+
 theme:
   name: readthedocs
     
