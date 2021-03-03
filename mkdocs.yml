@@ -58,8 +58,8 @@ theme:
     scheme: slate
     primary: blue
     accent: blue
-    
- extra_css:
+
+extra_css:
   - extra.css
     
   
