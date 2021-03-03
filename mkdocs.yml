@@ -47,7 +47,8 @@ nav:
 site_name: Resourceful Bees Docs
 docs_dir: docs
 theme: readthedocs
-site_description: | Welcome to the Resourceful Bees wiki!
+site_description: |
+  Welcome to the Resourceful Bees wiki!
   Here you will find information on how to customize your new bees.
 
 extra:
