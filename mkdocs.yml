@@ -59,6 +59,9 @@ theme:
     primary: blue
     accent: blue
     
+ extra_css:
+  - extra.css
+    
   
 site_description: |
   Welcome to the Resourceful Bees wiki!
