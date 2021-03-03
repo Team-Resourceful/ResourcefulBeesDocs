@@ -47,6 +47,23 @@ nav:
 site_name: Resourceful Bees Docs
 docs_dir: docs
 theme: material
+  palette:
+
+    # Light mode
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+
+    # Dark mode
+    - scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
 site_description: |
   Welcome to the Resourceful Bees wiki!
   Here you will find information on how to customize your new bees.
