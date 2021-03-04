@@ -204,40 +204,42 @@ Through the use of our API other mods can make their own data options. The mods 
 <br>
 <br>
 
-## **Template**
 ***
 
-Here is a Custom Bee Data template which shows the format for the core json itself. We will have a separate template page which has a **full template** containing *ALL* configurable options.
+!!! template "Template"
 
-```json
-{
-	"flower": "ALL",
-	"maxTimeInHive": 2400,
-	"hasHoneycomb": true,
-	"sizeModifier": 1.0,
-	"baseLayerTexture": "/custom/bee",  
-	"traits" : [""],
-	"customCombDrop": "",
-	"customBombBlockDrop": "",
-	"apiaryOutputAmounts" : [1,2,3,4],
-	"ColorData": {  
-		"isBeeColored": false
+	Here is a Custom Bee Data template which shows the format for the core json itself. We will have a separate template page which has a **full template** containing *ALL* configurable options.
+
+	```json
+	{
+		"flower": "ALL",
+		"maxTimeInHive": 2400,
+		"hasHoneycomb": true,
+		"sizeModifier": 1.0,
+		"baseLayerTexture": "/custom/bee",  
+		"traits" : [""],
+		"customCombDrop": "",
+		"customBombBlockDrop": "",
+		"apiaryOutputAmounts" : [1,2,3,4],
+		"ColorData": {  
+			"isBeeColored": false
+		}
+		"MutationData": {  
+			"hasMutation": false,
+			"mutationType": "NONE"
+		},
+		"CentrifugeData": {  
+			"hasCentrifugeOutput": false,  
+		},  
+		"SpawnData": {  
+			"canSpawnInWorld": false
+		},
+		"BreedData": {  
+			"isBreedable": false
+		},
+		"TraitData": {}
 	}
-	"MutationData": {  
-		"hasMutation": false,
-		"mutationType": "NONE"
-	},
-	"CentrifugeData": {  
-		"hasCentrifugeOutput": false,  
-	},  
-	"SpawnData": {  
-		"canSpawnInWorld": false
-	},
-	"BreedData": {  
-		"isBreedable": false
-	},
-	"TraitData": {}
-```
+	```
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMjEzODIxODE0MywtMTc3MDgzMTQ2LC0yMD
 g4NzQ2NjEyXX0=
