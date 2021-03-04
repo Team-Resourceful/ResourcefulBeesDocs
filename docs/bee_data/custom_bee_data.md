@@ -98,7 +98,8 @@ For example:
 
 Sub-directories can be nested like so: `"folder_1/folder_2/folder_3/texture"`
 
-**SPECIAL NOTE:** The file extension is *NOT REQUIRED* in the .json value as that is automatically appended by the mod when rendering.
+!!! important
+	The file extension is *NOT REQUIRED* in the .json value as that is automatically appended by the mod when rendering.
 
 <br>
 <br>
