@@ -3,81 +3,69 @@
 
 Below are all of the default bee traits included with the mod and what they do.
 
-### **wither**
-
-* Makes bee immune to wither damage
-* When bee stings player wither effect is applied
-
-<br>
-
-### **blaze**
-
-* Makes bee immune to Lava, Fire, and Hot Floors
-* Sets player on fire when attacking
-* Sets self on fire as visual effect
-* Has blaze particle effects
+!!! trait "Wither"
+  * Makes bee immune to wither damage
+  * When bee stings player wither effect is applied
 
 <br>
 
-### **can_swim**
-
-* Adds immunity to drowning damage
-
-<br>
-
-### **creeper**
-
-* Causes random size explosion when attacking players
+!!! trait "Blaze"
+  * Makes bee immune to Lava, Fire, and Hot Floors
+  * Sets player on fire when attacking
+  * Sets self on fire as visual effect
+  * Has blaze particle effects
 
 <br>
 
-### **zombie**
-
-* Causes hunger when attacking players
-
-<br>
-
-### **pigman**
-
-* Causes mining fatigue when attacking players
+!!! trait "can_swim"
+  * Adds immunity to drowning damage
 
 <br>
 
-### **ender**
-
-* Causes bee to randomly teleport up to 4 blocks away when not within a 10 block range of a hive or an ender beecon's coverage.
-* Adds portal particle effects to bee
+!!! trait "creeper"
+  * Causes random size explosion when attacking players
 
 <br>
 
-### **nether**
-
-* Makes bee immune to Lava, Fire, and Hot Floors
-
-<br>
-
-### **oreo**
-
-* Applies Instant Health II when attacking player
+!!! trait "zombie"
+  * Causes hunger when attacking players
 
 <br>
 
-### **kitten**
-
-* Applies Speed II when attacking player
-
-<br>
-
-### **slimy**
-
-* Bee drips slime particles
-* Bee makes squishy noises when colliding with players
+!!! trait "pigman"
+  * Causes mining fatigue when attacking players
 
 <br>
 
-### **desert**
+!!! trait "ender"
+  * Causes bee to randomly teleport up to 4 blocks away when not within a 10 block range of a hive or an ender beecon's coverage.
+  * Adds portal particle effects to bee
 
-* Grants immunity to Cactus damage sources
+<br>
+
+!!! trait "nether"
+  * Makes bee immune to Lava, Fire, and Hot Floors
+
+<br>
+
+!!! trait "oreo"
+  * Applies Instant Health II when attacking player
+
+<br>
+
+!!! trait "kitten"
+  * Applies Speed II when attacking player
+
+<br>
+
+!!! trait "slimy"
+  * Bee drips slime particles
+  * Bee makes squishy noises when colliding with players
+
+<br>
+
+!!! trait "desert"
+  * Grants immunity to Cactus damage sources
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTE2MjYyNzQ0MzQsLTE1MTA5OTM3NDgsLT
 M0OTI0MDQyXX0=
