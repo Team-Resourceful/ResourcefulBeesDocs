@@ -166,9 +166,9 @@ A completely new way to register mutations, this system allows you to register a
 This is where you put the type of mutation you want to add.
 
 !!! example "Examples" 
-	`"type": "BLOCK_TO_BLOCK"`  
-	`"type": "BLOCK_TO_ITEM"`  
-	`"type": "ENTITY_TO_ENTITY"`  
+	`#!json "type": "BLOCK_TO_BLOCK"`  
+	`#!json "type": "BLOCK_TO_ITEM"`  
+	`#!json "type": "ENTITY_TO_ENTITY"`  
 
 ### **inputID**
 
@@ -178,17 +178,17 @@ This is the id of the thing you want to mutate from
 	if you want to mutate a tag, you need to prefix with `tag:`, if you want to mutate an entity you need to prefix with `entity:`
 
 !!! example "Examples" 
-	`"inputID": "minecraft:stone"`  
-	`"inputID": "tag:forge:stone"`  
-	`"inputID": "entity:minecraft:pig"`  
+	`#!json "inputID": "minecraft:stone"`  
+	`#!json "inputID": "tag:forge:stone"`  
+	`#!json "inputID": "entity:minecraft:pig"`  
 
 ### **defaultWeight** (optional)
 
 This will set the default weight that you will get an output if you do not specify a weight in the outputs.
 
 !!! example "Examples"  
-	`"defaultWeight": 10`  
-	`"defaultWeight": 2`  
+	`#!json "defaultWeight": 10`  
+	`#!json "defaultWeight": 2`  
 
 Default : `1`
 
