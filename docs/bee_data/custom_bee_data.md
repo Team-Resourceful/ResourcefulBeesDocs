@@ -18,13 +18,13 @@ The flower value is used to determine what flower the bee should use for pollen/
 
 *Note:* Block tag support does not include fluid tags. Fluids must be specified by the source block name only.
 
-`json "flower": "all"`    <-------- This lets the bee use all available flowers including modded flowers.<br>
-`json "flower": "tall"`   <-------- This lets the bee use only flowers with the tag "tall" such as the rose bush.<br>
-`json "flower": "small"`  <------- This lets the bee use only flowers with the tag "small" such as the poppy.<br>
+`#!json "flower": "all"`    <-------- This lets the bee use all available flowers including modded flowers.<br>
+`#!json "flower": "tall"`   <-------- This lets the bee use only flowers with the tag "tall" such as the rose bush.<br>
+`#!json "flower": "small"`  <------- This lets the bee use only flowers with the tag "small" such as the poppy.<br>
 
-`json "flower: "tag:minecraft:bee_growables"` <--- This lets the bee use any block in the crops tag and sweet berry bushes (note: bees take damage from the sweet berry bush like a player would)<br>
+`#!json "flower: "tag:minecraft:bee_growables"` <--- This lets the bee use any block in the crops tag and sweet berry bushes (note: bees take damage from the sweet berry bush like a player would)<br>
 
-`json "flower": "minecraft:poppy"`<br>
+`#!json "flower": "minecraft:poppy"`<br>
 
 This final example lets the bee use only a predefined flower, including modded flowers. This value is not locked only to flowers, however. *ANY* block in the game including modded can be used here since it takes a string value in the form of `namespace:ID`.
 
@@ -44,9 +44,9 @@ This final example lets the bee use only a predefined flower, including modded f
 
 The size modifier is an optional floating point value that scales the size of the bee. This value ranges from 0.5 to 2.0. Any value entered outside this range will be automatically clamped to the range bounds. This means a value of 0.2 would become 0.5. The default value is 1.0.
 
-`json "sizeModifier": 2.0`  <---- This would make the bee twice the size of a vanilla bee<br>
-`json "sizeModifier": 0.5`  <---- This would make the bee half the size of a vanilla bee<br>
-`json "sizeModifier": 1.375`  <---- This would make the bee 1 3/8 times the size of a vanilla bee<br>
+`#!json "sizeModifier": 2.0`  <---- This would make the bee twice the size of a vanilla bee<br>
+`#!json "sizeModifier": 0.5`  <---- This would make the bee half the size of a vanilla bee<br>
+`#!json "sizeModifier": 1.375`  <---- This would make the bee 1 3/8 times the size of a vanilla bee<br>
 
 _Note: When a bees size is modified, the child version of that bee also has its size modified. Check out the icy bee as an example._
 
@@ -58,8 +58,8 @@ _Note: When a bees size is modified, the child version of that bee also has its 
 There are various *optional* traits available for bees and potentially more to come. Traits affect bees in a variety of ways such as what type of damage it does when it attacks. Traits are added to a bee by specifying them in the `traits[]` string array. *Note:* Bee traits are stackable.
 
 Examples:<br>
-`json "traits" : ["creeper"]`<br>
-`json "traits": ["nether", "pigman"]`<br>
+`#!json "traits" : ["creeper"]`<br>
+`#!json "traits": ["nether", "pigman"]`<br>
 
 <br>
 <br>
@@ -68,7 +68,7 @@ Examples:<br>
 
 This value is *optional.* This value is used to determine the amount of time **in ticks** the bee must spend in the hive before it generates a honeycomb. This value is represented as an integer value. The minimum value allowed is `600` ticks with no maximum. This value defaults to `2400` ticks, like the vanilla bee, if not set.
 
-`json "maxTimeInHive": 1000` <------ This means the bee will have to stay in the hive for `1000` ticks before generating a honeycomb.
+`#!json "maxTimeInHive": 1000` <------ This means the bee will have to stay in the hive for `1000` ticks before generating a honeycomb.
 
 <br>
 <br>
