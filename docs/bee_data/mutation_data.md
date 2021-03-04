@@ -15,53 +15,47 @@ Block Mutation is an *optional* feature for bees. It is the modded version of va
 
 `mutationType` is a REQUIRED field when giving a bee a mutation.
 
-### **NONE**
-
-This is used when a bee has no mutation. 
-!!! example
-	`#!json "mutationType": "NONE"`
-
-
-### **FLUID_TO_FLUID**
-
-This is used when a bee mutates a fluid block into another fluid block. 
-!!! example
-	`#!json "mutationType": "FLUID_TO_FLUID"`
+!!! mutation-type "NONE"
+	This is used when a bee has no mutation. 
+	!!! example
+		`#!json "mutationType": "NONE"`
 
 
-### **BLOCK_TO_FLUID**
-
-This is used when a bee mutates a normal block into a fluid block. 
-!!! example
-	`#!json "mutationType": "BLOCK_TO_FLUID"`
-
-
-### **FLUID_TO_BLOCK**
-
-This is used when a bee mutates a fluid block into a normal block. 
-!!! example
-	`#!json "mutationType": "FLUID_TO_BLOCK"`
+!!! mutation-type "FLUID_TO_FLUID"
+	This is used when a bee mutates a fluid block into another fluid block. 
+	!!! example
+		`#!json "mutationType": "FLUID_TO_FLUID"`
 
 
-### **BLOCK_TO_BLOCK**
-
-This is used when a bee mutates a normal block into another normal block. 
-!!! example
-	`#!json "mutationType": "BLOCK_TO_BLOCK"`
-
-
-### **BLOCK_TO_ITEM**
-
-This is used when a bee mutates a normal block into a dropped item. 
-!!! example
-	`#!json "mutationType": "BLOCK_TO_ITEM"`
+!!! mutation-type "BLOCK_TO_FLUID"
+	This is used when a bee mutates a normal block into a fluid block. 
+	!!! example
+		`#!json "mutationType": "BLOCK_TO_FLUID"`
 
 
-### **ENTITY_TO_ENTITY**
+!!! mutation-type "FLUID_TO_BLOCK"
+	This is used when a bee mutates a fluid block into a normal block. 
+	!!! example
+		`#!json "mutationType": "FLUID_TO_BLOCK"`
 
-This is used when a bee mutates an entity into another entity. 
-!!! example
-	`#!json "mutationType": "ENTITY_TO_ENTITY"`
+
+!!! mutation-type "BLOCK_TO_BLOCK"
+	This is used when a bee mutates a normal block into another normal block. 
+	!!! example
+		`#!json "mutationType": "BLOCK_TO_BLOCK"`
+
+
+!!! mutation-type "BLOCK_TO_ITEM"
+	This is used when a bee mutates a normal block into a dropped item. 
+	!!! example
+		`#!json "mutationType": "BLOCK_TO_ITEM"`
+
+
+!!! mutation-type "ENTITY_TO_ENTITY"
+	This is used when a bee mutates an entity into another entity. 
+	!!! example
+		`#!json "mutationType": "ENTITY_TO_ENTITY"`
+
 !!! note 
 	No other form of entity mutation is planned at this time.
 
