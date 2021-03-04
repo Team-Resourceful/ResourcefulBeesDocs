@@ -28,15 +28,16 @@ Here are some examples:
 
 Set `hasFluidOutput` to `true` when you want the main centrifuge output to be a fluid instead of an item.
 
-This example will output 2100mb of lava per honeycomb centrifuge process:<br>
-```json
-"CentrifugeData": {  
-  "hasCentrifugeOutput": true,  
-  "mainOutput": "minecraft:lava",  
-  "mainOutputCount": 2100,  
-  "hasFluidOutput": true  
-},
-```
+!!! example
+	This example will output 2100mb of lava per honeycomb centrifuge process:
+	```json
+	"CentrifugeData": {  
+	  "hasCentrifugeOutput": true,  
+	  "mainOutput": "minecraft:lava",  
+	  "mainOutputCount": 2100,  
+	  "hasFluidOutput": true  
+	},
+	```
 
 <br>
 <br>
@@ -70,19 +71,19 @@ Here is an example of it's usage:
 
 There are three different weight values that can be set for the centrifuge outputs. These correspond with the three different centrifuge outputs available. There is the `mainOutputWeight`, the `secondaryOutputWeight`, and the `bottleOutputWeight`. These values are *optional* and can be used to determine the chance an item has to be output from the centrifuge recipe. They are two-digit decimal numbers between 0.00 -> 1.00.
 
-Here is an example:
+!!! example
 
-```json
-"CentrifugeData": {
-	"hasCentrifugeOutput": true,
-	"mainOutput": "minecraft:diamond",
-	"mainOutputWeight": 0.40,
-	"secondaryOutput": "minecraft:nether_star",
-	"secondaryOutputWeight": 0.02,
-	"bottleOutput": "minecraft:experience_bottle",
-	"bottleOutputWeight": 0.70
-}
-```
+	```json
+	"CentrifugeData": {
+		"hasCentrifugeOutput": true,
+		"mainOutput": "minecraft:diamond",
+		"mainOutputWeight": 0.40,
+		"secondaryOutput": "minecraft:nether_star",
+		"secondaryOutputWeight": 0.02,
+		"bottleOutput": "minecraft:experience_bottle",
+		"bottleOutputWeight": 0.70
+	}
+	```
 <br>
 
 In the example above, the bee's honeycomb when used in the centrifuge will have a 40% chance to output a diamond, a 2% chance to output a nether star as the secondary output, and a 70% chance to output bottles of enchanting. <br>
@@ -103,23 +104,24 @@ In the example above, the bee's honeycomb when used in the centrifuge will have 
 
 Similar to weights, there are three different output count values that can be set for the centrifuge outputs. These correspond with the three different centrifuge outputs available. There is `mainOutputCount`, `secondaryOutputCount`, and `bottleOutputCount`. These values are *optional* and can be used to determine the amount of the associated output item that is received when the recipe is processed.
 
-Here is the previous example updated with input and output counts added:
+!!! example
+	Here is the previous example updated with input and output counts added:
 
-```json
-"CentrifugeData": {
-	"hasCentrifugeOutput": true,
-	"mainInputCount": 4,
-	"mainOutput": "minecraft:diamond",
-	"mainOutputWeight": 0.40,
-	"mainOutputCount": 2,
-	"secondaryOutput": "minecraft:nether_star",
-	"secondaryOutputWeight": 0.02,
-	"secondaryOutputCount": 1,
-	"bottleOutput": "minecraft:experience_bottle",
-	"bottleOutputWeight": 0.70,
-	"bottleOutputCount": 3
-}
-```
+	```json
+	"CentrifugeData": {
+		"hasCentrifugeOutput": true,
+		"mainInputCount": 4,
+		"mainOutput": "minecraft:diamond",
+		"mainOutputWeight": 0.40,
+		"mainOutputCount": 2,
+		"secondaryOutput": "minecraft:nether_star",
+		"secondaryOutputWeight": 0.02,
+		"secondaryOutputCount": 1,
+		"bottleOutput": "minecraft:experience_bottle",
+		"bottleOutputWeight": 0.70,
+		"bottleOutputCount": 3
+	}
+	```
 <br>
 
 In the example above, the centrifuge recipe will have a 40% chance to output **two** diamonds, a 2% chance to output **one** nether star as the secondary output, and a 70% chance to output **three** bottles of enchanting while consuming **four** honeycombs per operation. <br>
@@ -136,22 +138,22 @@ There are three separate parameters to edit the nbt data for each of the outputs
 `secondaryNBTData: {}`  
 `bottleNBTData: {}`  
 
-Examples:  
-```Json
-"mainNBTData": {
-  "display":{
-    "Name": "{\"text\":\"A Stone\"}"
-  }
-},
-"secondaryNBTData": {
-  "display":{
-    "Name": "{\"text\":\"Crystal Diamond\"}"
-  }
-},
-"bottleNBTData" : {
-  "Potion": "resourcefulbees:calming"
-},
-```
+!!! example "Examples"
+	```Json
+	"mainNBTData": {
+	  "display":{
+	    "Name": "{\"text\":\"A Stone\"}"
+	  }
+	},
+	"secondaryNBTData": {
+	  "display":{
+	    "Name": "{\"text\":\"Crystal Diamond\"}"
+	  }
+	},
+	"bottleNBTData" : {
+	  "Potion": "resourcefulbees:calming"
+	},
+	```
 <br>
 <br>
 
