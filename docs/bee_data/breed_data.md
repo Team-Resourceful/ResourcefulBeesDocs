@@ -88,8 +88,8 @@ Given the information above, when an `Iron` and `Gold` bee mate there is a 20% c
 This value is an  _optional_  value that is used to determine the chance that the parents breeding will result in an offspring of this type. The value is represented as a `double` and must be a percentage value represented by a number between 0 and 1. This value determines the chance that the breed will succeed. The default for this value is 1.
 
 Examples:  
-`"breedChance": 0.25`  
-`"breedChance": 0.1`
+`#!json "breedChance": 0.25`  
+`#!json "breedChance": 0.1`
 
 ## **Feeding Bees**
 ***
