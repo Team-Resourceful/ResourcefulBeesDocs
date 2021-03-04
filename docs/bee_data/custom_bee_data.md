@@ -59,11 +59,13 @@ The size modifier is an optional floating point value that scales the size of th
 
 ### **Bee Traits** (Optional)
 
-There are various *optional* traits available for bees and potentially more to come. Traits affect bees in a variety of ways such as what type of damage it does when it attacks. Traits are added to a bee by specifying them in the `traits[]` string array. *Note:* Bee traits are stackable.
+There are various *optional* traits available for bees and potentially more to come. Traits affect bees in a variety of ways such as what type of damage it does when it attacks. Traits are added to a bee by specifying them in the `traits[]` string array.
+!!! note
+	Bee traits are stackable.
 
-Examples:<br>
-`#!json "traits" : ["creeper"]`<br>
-`#!json "traits": ["nether", "pigman"]`<br>
+!!! example "Examples"
+	`#!json "traits" : ["creeper"]`
+	`#!json "traits": ["nether", "pigman"]`
 
 <br>
 <br>
@@ -108,8 +110,8 @@ Sub-directories can be nested like so: `"folder_1/folder_2/folder_3/texture"`
 
 If you want to change the base model of the bee, you can use the following value to change it, there are currently only two options `DEFAULT`, and `KITTEN`. Default is your default basic bee, and kitten makes them gain little cat ears, a little nose and some soft fluffy feet.
 
-Examples:<br>
-`#!json "baseModelType" : "KITTEN"`<br>
+!!! example
+	`#!json "baseModelType" : "KITTEN"`
 
 <br>
 <br>
@@ -146,13 +148,11 @@ These fields use the `namespace:ID` format.
 	You can specify any value of zero or greater. Specifying a value of `-1` defaults to the global output amounts set in the common config file.
 
 <br>
-<br>
 
 ### **Breed Data** (Optional)
 
 This is a json object that groups all breed related options. See Breed Data for more info.
 
-<br>
 <br>
 
 ### **Centrifuge Data** (Optional)
@@ -160,13 +160,11 @@ This is a json object that groups all breed related options. See Breed Data for 
 This is a json object that groups all centrifuge related options. See Centrifuge Data for more info.
 
 <br>
-<br>
 
 ### **Color Data** (Optional)
 
 This is a json object that groups all color related options. See Color Data for more info.
 
-<br>
 <br>
 
 ### **Combat Data** (Optional)
@@ -174,20 +172,17 @@ This is a json object that groups all color related options. See Color Data for 
 This is a json object that groups all combat related options. See Combat Data for more info.
 
 <br>
-<br>
 
 ### **Mutation Data** (Optional)
 
 This is a json object that groups all mutation related options. See Mutation Data for more info.
 
 <br>
-<br>
 
 ### **Spawn Data** (Optional)
 
 This is a json object that groups all spawn related options. See Spawn Data for more info.
 
-<br>
 <br>
 
 ### **Trait Data** (Optional)
@@ -201,7 +196,6 @@ This is a json object that groups all trait related options. See Trait Data for 
 
 Through the use of our API other mods can make their own data options. The mods would be required to handle their own parsing of the data and syntax for the data. Soon we will be adding Java Docs to our classes to help improve the API experience. Any and all feedback is welcome for improving our API either through PR requests or github issues.
 
-<br>
 <br>
 
 ***
