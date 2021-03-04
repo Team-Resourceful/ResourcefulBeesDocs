@@ -51,6 +51,7 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.highlight
   - pymdownx.inlinehilite
+  - admonition
       
 
 theme:
