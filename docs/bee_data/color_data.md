@@ -155,7 +155,7 @@ Set `isRainbowBee` to `true` when you want the bee to cycle through a rainbow of
 
 <br>
 <br>
-
+***
 !!! template "Template"
 
 	Here is the Color Data Template:
