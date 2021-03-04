@@ -46,9 +46,8 @@ Set `hasFluidOutput` to `true` when you want the main centrifuge output to be a 
 
 The secondary output is an optional value for the bee. You can have a "waste" item or any other item for the secondary output. This value follows the same rules as shown for the main output. If no value is supplied then the default value of "Beeswax" is provided instead. This value can also have a custom defined weighting.
 
-Here is an example of it's usage:
-
-`#!json "secondaryOutput" : "minecraft:redstone_lamp"`
+!!! example
+	`#!json "secondaryOutput" : "minecraft:redstone_lamp"`
 
 <br>
 <br>
@@ -60,9 +59,8 @@ The bottle output is an optional value for the bee. This output is intended to a
 !!! note
 	Regardless of the output, if a player chooses not to supply the centrifuge with bottles, then 250mb of honey will be added to an internal honey tank.
 
-Here is an example of it's usage:
-
-`#!json "bottleOutput" : "minecraft:dragon_breath"`
+!!! example
+	`#!json "bottleOutput" : "minecraft:dragon_breath"`
 
 <br>
 <br>
@@ -160,31 +158,30 @@ There are three separate parameters to edit the nbt data for each of the outputs
 <br>
 <br>
 
-## **Template**
-***
+!!! template "Template"
 
-Here is a blank template showing all configurable fields in the Breed Data object:
+	Here is a blank template showing all configurable fields in the Breed Data object:
 
-```json
-"CentrifugeData": {
-  "hasCentrifugeOutput": true,
-  "mainInputCount": 1,
-  "mainOutput": "",
-  "mainOutputWeight": 1.00,
-  "mainOutputCount": 1,
-  "mainNBTData": {},
-  "secondaryOutput": "resourcefulbees:wax",
-  "secondaryOutputWeight": 0.20,
-  "secondaryOutputCount": 1,
-  "secondaryNBTData": {},
-  "bottleOutput": "minecraft:honey_bottle",
-  "bottleOutputWeight": 0.25,
-  "bottleOutputCount": 1,
-  "bottleNBTData": {},
-  "recipeTime": 200,
-  "hasFluidoutput": false
-}
-```
+	```json
+	"CentrifugeData": {
+	  "hasCentrifugeOutput": true,
+	  "mainInputCount": 1,
+	  "mainOutput": "",
+	  "mainOutputWeight": 1.00,
+	  "mainOutputCount": 1,
+	  "mainNBTData": {},
+	  "secondaryOutput": "resourcefulbees:wax",
+	  "secondaryOutputWeight": 0.20,
+	  "secondaryOutputCount": 1,
+	  "secondaryNBTData": {},
+	  "bottleOutput": "minecraft:honey_bottle",
+	  "bottleOutputWeight": 0.25,
+	  "bottleOutputCount": 1,
+	  "bottleNBTData": {},
+	  "recipeTime": 200,
+	  "hasFluidoutput": false
+	}
+	```
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTEyNDk4MTgyMjUsLTE5NTAzOTA2LC0xMj
 AzODY4Nzg5LC0xMDMwNzQ0NDddfQ==
