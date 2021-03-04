@@ -153,6 +153,9 @@ Set `isRainbowBee` to `true` when you want the bee to cycle through a rainbow of
 
 `#!json "isRainbowBee": true`<br>
 
+<br>
+<br>
+
 !!! template "Template"
 
 	Here is the Color Data Template:
