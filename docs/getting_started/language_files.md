@@ -48,7 +48,8 @@ When creating custom bees, a language file needs to be created and entries provi
 
 As a convenience feature, we have provided an English Lang generator that will output a language file in the proper location with translations for every custom bee used. In the `client.toml` config file is an option to enable or disable the generator. This generator only needs to be run **once** after all custom bees have been added.
 
-_Note: The generator uses the .json file names for generating the translations._
+!!! note
+    The generator uses the .json file names for generating the translations.
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTIwODYzNjcyOTAsMjc3MTAzMTE4LDE3MD
 AzODUxMzYsMTE2MTIzNDIyMSwxMjk3MDA0OTI1XX0=
