@@ -33,19 +33,20 @@ Use `inflictsPoison` when you want a specific bee to **only** deal attack damage
 <br>
 <br>
 
-## **Template**
 ***
 
-Here is a blank template showing all configurable fields in the Combat Data object:
+!!! template "Template"
 
-```json
-"CombatData": {  
-  "isPassive": false,  
-  "removeStingerOnAttack": true,
-  "inflictsPoison": true,
-  "attackDamage": 1
-}
-```
+	Here is a blank template showing all configurable fields in the Combat Data object:
+
+	```json
+	"CombatData": {  
+	"isPassive": false,  
+	"removeStingerOnAttack": true,
+	"inflictsPoison": true,
+	"attackDamage": 1
+	}
+	```
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMTIzNDEzNjEyLC0xNjcxODE3NDUzLDE5ND
 I3NDgxMiw2NjM2Mjc1ODgsMTc4NTU5MTU3MV19
