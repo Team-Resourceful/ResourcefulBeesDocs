@@ -62,19 +62,16 @@ The primary and secondary layer textures are the textures used for coloring the 
 !!! note
 	Sub-directories are supported as you will see in the example .json below
 
-```json
-"primaryLayerTexture": "custom/alternative_primary_layer",
-"secondaryLayerTexture": "custom/alternative_secondary_layer"
-```
-<br>
+!!! example
+	```json
+	"primaryLayerTexture": "custom/alternative_primary_layer",
+	"secondaryLayerTexture": "custom/alternative_secondary_layer"
+	```
 
 Sub-directories can be nested like so: `"folder_1/folder_2/folder_3/texture"`
 
 !!! note
 	The file extension is NOT REQUIRED in the .json value as that is automatically appended by the mod when rendering.
-
-<br>
-<br>
 
 ## **Models**
 ***
@@ -173,31 +170,27 @@ Set `isRainbowBee` to `true` when you want the bee to cycle through a rainbow of
 
 `#!json "isRainbowBee": true`<br>
 
-<br>
-<br>
+!!! template "Template"
 
-## **Template**
-***
+	Here is the Color Data Template:
 
-Here is the Color Data Template:
-
-```json
-"ColorData": {
-	"primaryColor":"#005500",
-	"secondaryColor":"#005500",
-	"honeycombColor":"#005500",
-	"primaryLayerTexture":"/custom/primary_layer",
-	"secondaryLayerTexture":"/custom/secondary_layer",
-	"emissiveLayerTexture":"/creeper/creeper_bee_emissive",
-	"isBeeColored": true,
-	"isRainbowBee": false,
-	"isGlowing" : true,
-	"glowColor" : "#55ff55",
-	"isEnchanted" : false,
-	"glowingPulse" : 2,
-	"modelType": "DEFAULT"
-}
-```
+	```json
+	"ColorData": {
+		"primaryColor":"#005500",
+		"secondaryColor":"#005500",
+		"honeycombColor":"#005500",
+		"primaryLayerTexture":"/custom/primary_layer",
+		"secondaryLayerTexture":"/custom/secondary_layer",
+		"emissiveLayerTexture":"/creeper/creeper_bee_emissive",
+		"isBeeColored": true,
+		"isRainbowBee": false,
+		"isGlowing" : true,
+		"glowColor" : "#55ff55",
+		"isEnchanted" : false,
+		"glowingPulse" : 2,
+		"modelType": "DEFAULT"
+	}
+	```
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMTg3NjMwNTE0NCw4ODE1OTI0ODEsMzI2Nj
 Q0NzYwXX0=
