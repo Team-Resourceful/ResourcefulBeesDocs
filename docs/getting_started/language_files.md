@@ -29,7 +29,7 @@ When creating custom bees, a language file needs to be created and entries provi
 * You can either restart the game or use F3+T to reload assets and have the language file take effect.
 
 !!! note
-    You do not need multiple language files. You only need one with new lines added for each custom bee:*<br> 
+    You do not need multiple language files. You only need one with new lines added for each custom bee:
     ```json
     {
        "block.resourcefulbees.blaze_honeycomb_block": "Blaze Honeycomb Block",
