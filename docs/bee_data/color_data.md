@@ -86,18 +86,12 @@ The `ORE` `modelType` should be used when you want the bee to have "ore crystals
 !!! example
 	`#!json "modelType": "ORE"`
 
-<br>
-<br>
-
 ### **Gelatinous** (Optional)
 
 The `GELATINOUS` `modelType` should be used when you want the bee to have a slime or honey block type appearance. This model type renders a translucent "gel layer."
 
 !!! example
 	`#!json "modelType": "GELATINOUS"`
-
-<br>
-<br>
 
 ### **Dragon** (Optional)
 
@@ -106,18 +100,12 @@ The `DRAGON` `modelType` should be used when you want the bee to have dragon hor
 !!! example
 	`#!json "modelType": "DRAGON"`
 
-<br>
-<br>
-
 ### **Queen** (Optional)
 
 The `QUEEN` `modelType` should be used when you want the bee to have a pretty crown rendered on it's head.
 
 !!! example
 	`#!json "modelType": "QUEEN"`
-
-<br>
-<br>
 
 ### **Villager** (Optional)
 
@@ -126,18 +114,12 @@ The `VILLAGER` `modelType` should be used when you want the bee to have a nose r
 !!! example
 	`#!json "modelType": "VILLAGER"`
 
-<br>
-<br>
-
 ### **Mushroom** (Optional)
 
 The `MUSHROOM` `modelType` should be used when you want the bee to have 2 mushrooms on it's back and a nice layer of mycelium or other foliage on it's back.
 
 !!! example
 	`#!json "modelType": "MUSHROOM"`
-
-<br>
-<br>
 
 ## **Special**
 ***
