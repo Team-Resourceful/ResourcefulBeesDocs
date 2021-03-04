@@ -17,37 +17,37 @@ Block Mutation is an *optional* feature for bees. It is the modded version of va
 
 ### **NONE**
 
-This is used when a bee has no mutation. ex. `"mutationType": "NONE"`
+This is used when a bee has no mutation. ex. `#!json "mutationType": "NONE"`
 
 
 ### **FLUID_TO_FLUID**
 
-This is used when a bee mutates a fluid block into another fluid block. ex. `"mutationType": "FLUID_TO_FLUID"`
+This is used when a bee mutates a fluid block into another fluid block. ex. `#!json "mutationType": "FLUID_TO_FLUID"`
 
 
 ### **BLOCK_TO_FLUID**
 
-This is used when a bee mutates a normal block into a fluid block. ex. `"mutationType": "BLOCK_TO_FLUID"`
+This is used when a bee mutates a normal block into a fluid block. ex. `#!json "mutationType": "BLOCK_TO_FLUID"`
 
 
 ### **FLUID_TO_BLOCK**
 
-This is used when a bee mutates a fluid block into a normal block. ex. `"mutationType": "FLUID_TO_BLOCK"`
+This is used when a bee mutates a fluid block into a normal block. ex. `#!json "mutationType": "FLUID_TO_BLOCK"`
 
 
 ### **BLOCK_TO_BLOCK**
 
-This is used when a bee mutates a normal block into another normal block. ex. `"mutationType": "BLOCK_TO_BLOCK"`
+This is used when a bee mutates a normal block into another normal block. ex. `#!json "mutationType": "BLOCK_TO_BLOCK"`
 
 
 ### **BLOCK_TO_ITEM**
 
-This is used when a bee mutates a normal block into a dropped item. ex. `"mutationType": "BLOCK_TO_ITEM"`
+This is used when a bee mutates a normal block into a dropped item. ex. `#!json "mutationType": "BLOCK_TO_ITEM"`
 
 
 ### **ENTITY_TO_ENTITY**
 
-This is used when a bee mutates an entity into another entity. ex. `"mutationType": "ENTITY_TO_ENTITY"`
+This is used when a bee mutates an entity into another entity. ex. `#!json "mutationType": "ENTITY_TO_ENTITY"`
 _Note: No other form of entity mutation is planned at this time._
 
 ## **Mutation Inputs and Outputs**
@@ -179,8 +179,8 @@ Default : 1
 This will set the default weight that you will succeed in a mutation if you do not specify a chance in the outputs.
 
 Examples:  
-`"defaultChance": 1`  
-`"defaultChance": 0.5`  
+`#!json "defaultChance": 1`  
+`#!json "defaultChance": 0.5`  
 
 Default : 1
 
