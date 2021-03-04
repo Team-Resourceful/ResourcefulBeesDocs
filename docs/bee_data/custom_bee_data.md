@@ -22,7 +22,7 @@ The flower value is used to determine what flower the bee should use for pollen/
 `#!json "flower": "tall"`   <-------- This lets the bee use only flowers with the tag "tall" such as the rose bush.<br>
 `#!json "flower": "small"`  <------- This lets the bee use only flowers with the tag "small" such as the poppy.<br>
 
-`#!json "flower: "tag:minecraft:bee_growables"` <--- This lets the bee use any block in the crops tag and sweet berry bushes (note: bees take damage from the sweet berry bush like a player would)<br>
+`#!json "flower": "tag:minecraft:bee_growables"` <--- This lets the bee use any block in the crops tag and sweet berry bushes (note: bees take damage from the sweet berry bush like a player would)<br>
 
 `#!json "flower": "minecraft:poppy"`<br>
 
@@ -102,7 +102,7 @@ Sub-directories can be nested like so: `"folder_1/folder_2/folder_3/texture"`
 If you want to change the base model of the bee, you can use the following value to change it, there are currently only two options `DEFAULT`, and `KITTEN`. Default is your default basic bee, and kitten makes them gain little cat ears, a little nose and some soft fluffy feet.
 
 Examples:<br>
-`"baseModelType" : "KITTEN"`<br>
+``#!json "baseModelType" : "KITTEN"`<br>
 
 <br>
 <br>
