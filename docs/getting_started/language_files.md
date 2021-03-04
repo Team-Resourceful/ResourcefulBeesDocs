@@ -28,19 +28,20 @@ When creating custom bees, a language file needs to be created and entries provi
 ```
 * You can either restart the game or use F3+T to reload assets and have the language file take effect.
 
-*Note: You do not need multiple language files. You only need one with new lines added for each custom bee:*<br> 
-```json
-{
-   "block.resourcefulbees.blaze_honeycomb_block": "Blaze Honeycomb Block",
-   "item.resourcefulbees.blaze_honeycomb": "Blaze Honeycomb",
-   "item.resourcefulbees.blaze_spawn_egg": "Blaze Bee Spawn Egg",
-   "entity.resourcefulbees.blaze_bee": "Blaze Bee",
-   "block.resourcefulbees.pig_honeycomb_block": "Pig Honeycomb Block",
-   "item.resourcefulbees.pig_honeycomb": "Pig Honeycomb",
-   "item.resourcefulbees.pig_spawn_egg": "Pig Bee Spawn Egg",
-   "entity.resourcefulbees.pig_bee": "Pig Bee"
-}
-```
+!!! note
+    You do not need multiple language files. You only need one with new lines added for each custom bee:*<br> 
+    ```json
+    {
+       "block.resourcefulbees.blaze_honeycomb_block": "Blaze Honeycomb Block",
+       "item.resourcefulbees.blaze_honeycomb": "Blaze Honeycomb",
+       "item.resourcefulbees.blaze_spawn_egg": "Blaze Bee Spawn Egg",
+       "entity.resourcefulbees.blaze_bee": "Blaze Bee",
+       "block.resourcefulbees.pig_honeycomb_block": "Pig Honeycomb Block",
+       "item.resourcefulbees.pig_honeycomb": "Pig Honeycomb",
+       "item.resourcefulbees.pig_spawn_egg": "Pig Bee Spawn Egg",
+       "entity.resourcefulbees.pig_bee": "Pig Bee"
+    }
+    ```
 
 ## **English Lang Generator**
 ***
