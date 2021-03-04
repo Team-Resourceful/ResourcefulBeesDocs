@@ -17,33 +17,34 @@ The value defaults to `false` and must be set to `true` if you want the bee to b
 
 Here is an example of its usage:
 
-In this example the bee can be bred when a `Diamond` and `Emerald` bee mate.  
+!!! example
+	In this example the bee can be bred when a `Diamond` and `Emerald` bee mate.  
 
-```json
-"isBreedable": true,
-"parent1": "diamond",
-"parent2": "Emerald"
-```
+	```json
+	"isBreedable": true,
+	"parent1": "diamond",
+	"parent2": "Emerald"
+	```
 
+!!! example
+	In this example the bee can be bred when "my_super_cool_bee" mates with "my_other_super_cool_bee".  
+	```json
+	"isBreedable": true,
+	"parent1": "my_super_cool_bee",
+	"parent2": "my_other_super_cool_bee"
+	```
+!!! example
+	A bee can also have multiple sets of parents by comma separating the values. Here is an example:
+	```json
+	"isBreedable": true,
+	"parent1": "coal, redstone, lapis",
+	"parent2": "gold, diamond, emerald"
+	```
+	Using the example above the bee would have 3 possible sets of parents:
 
-In this example the bee can be bred when "my_super_cool_bee" mates with "my_other_super_cool_bee".  
-```json
-"isBreedable": true,
-"parent1": "my_super_cool_bee",
-"parent2": "my_other_super_cool_bee"
-```
-
-A bee can also have multiple sets of parents by comma separating the values. Here is an example:
-```json
-"isBreedable": true,
-"parent1": "coal, redstone, lapis",
-"parent2": "gold, diamond, emerald"
-```
-Using the example above the bee would have 3 possible sets of parents:
-
- 1. Coal & Gold
- 2. Redstone & Diamond
- 3. Lapis & Emerald
+	 1. Coal & Gold
+	 2. Redstone & Diamond
+	 3. Lapis & Emerald
 
 <br>
 <br>
@@ -52,33 +53,35 @@ Using the example above the bee would have 3 possible sets of parents:
 
 This value is an  _optional_  value that is used to determine the weighting that the child bee has versus all other bees the **same** two parents can make. The value is represented as a `double` and can be any number greater than zero. This value determines the weighting that the child bee has when breeding. The default for this value is 10.
 
-_Note: Breed weight cannot be customized per pair of parents._
+!!! note
+	Breed weight cannot be customized per pair of parents.
 
-Suppose for example that we have two parents: `Iron` and `Gold` and that these two parents can make three different bee types: `Diamond`, `Emerald`, and `Redstone`:
+!!! example
+	Suppose for example that we have two parents: `Iron` and `Gold` and that these two parents can make three different bee types: `Diamond`, `Emerald`, and `Redstone`:
 
-Diamond Breed Data:
-```json
-"isBreedable": true,
-"parent1": "iron",
-"parent2": "gold",
-"breedWeight": 20
-```
-Emerald Breed Data:
-```json
-"isBreedable": true,
-"parent1": "iron",
-"parent2": "gold",
-"breedWeight": 10
-```
-Redstone Breed Data:
-```json
-"isBreedable": true,
-"parent1": "iron",
-"parent2": "gold",
-"breedWeight": 70
-```
+	Diamond Breed Data:
+	```json
+	"isBreedable": true,
+	"parent1": "iron",
+	"parent2": "gold",
+	"breedWeight": 20
+	```
+	Emerald Breed Data:
+	```json
+	"isBreedable": true,
+	"parent1": "iron",
+	"parent2": "gold",
+	"breedWeight": 10
+	```
+	Redstone Breed Data:
+	```json
+	"isBreedable": true,
+	"parent1": "iron",
+	"parent2": "gold",
+	"breedWeight": 70
+	```
 
-Given the information above, when an `Iron` and `Gold` bee mate there is a 20% chance a `Diamond` bee will spawn, a 10% chance that an `Emerald` bee will spawn, and a 70% chance that a `Redstone` bee will spawn.
+	Given the information above, when an `Iron` and `Gold` bee mate there is a 20% chance a `Diamond` bee will spawn, a 10% chance that an `Emerald` bee will spawn, and a 70% chance that a `Redstone` bee will spawn.
 
 <br>
 <br>
@@ -87,9 +90,9 @@ Given the information above, when an `Iron` and `Gold` bee mate there is a 20% c
 
 This value is an  _optional_  value that is used to determine the chance that the parents breeding will result in an offspring of this type. The value is represented as a `double` and must be a percentage value represented by a number between 0 and 1. This value determines the chance that the breed will succeed. The default for this value is 1.
 
-Examples:  
-`#!json "breedChance": 0.25`  
-`#!json "breedChance": 0.1`
+!!! example "Examples"
+	`#!json "breedChance": 0.25`  
+	`#!json "breedChance": 0.1`
 
 ## **Feeding Bees**
 ***
@@ -98,24 +101,25 @@ Examples:
 
 The `feedItem` for a bee represents the item that is required to trigger the **love** state for a bee. The item is a string value  in the form of `namespace:ID`. `feedItem` has tag support as follows: `tag:domain:type/material`.
 
-Coal and Skeleton bees are good examples the feed item being used:
+!!! example "Examples"
+	Coal and Skeleton bees are good examples the feed item being used:
 
-Coal:
-```json
-"BreedData": {  
-  "feedItem": "minecraft:poppy",  
-  "feedAmount": 4,  
-  "isBreedable": true  
-}
-```
-Skeleton:
-```json
-"BreedData": {  
-  "isBreedable": true,  
-  "feedItem": "small",  
-  "feedAmount": 8  
-}
-```
+	Coal:
+	```json
+	"BreedData": {  
+	  "feedItem": "minecraft:poppy",  
+	  "feedAmount": 4,  
+	  "isBreedable": true  
+	}
+	```
+	Skeleton:
+	```json
+	"BreedData": {  
+	  "isBreedable": true,  
+	  "feedItem": "small",  
+	  "feedAmount": 8  
+	}
+	```
 
 <br>
 <br>
@@ -141,29 +145,29 @@ Skeleton:
 
 `breedDelay` is a signed integer represented as a positive value which indicates the number of ticks it takes before a bee can mate with another bee after having spawned in a child. By default, it uses the vanilla value of `6000`.
 
-**Note:** Internally, both values affect the `GrowingAge` of the `AgeableEntity` and increase or decrease in value each tick with the goal of reaching zero.
+!!! note
+	Internally, both values affect the `GrowingAge` of the `AgeableEntity` and increase or decrease in value each tick with the goal of reaching zero.
 
 <br>
 <br>
 
-## **Template**
-***
+!!! template "Template"
 
-Here is a blank template showing all configurable fields in the Breed Data object:
+	Here is a blank template showing all configurable fields in the Breed Data object:
 
-```json
-"BreedData": {  
-  "isBreedable": true,  
-  "parent1": "",
-  "parent2": "",
-  "breedWeight": 10,
-  "breedChance": 1,
-  "feedItem": "all",  
-  "feedAmount": 1,
-  "childGrowthDelay": -24000,
-  "breedDelay": 6000
-}
-```
+	```json
+	"BreedData": {  
+	  "isBreedable": true,  
+	  "parent1": "",
+	  "parent2": "",
+	  "breedWeight": 10,
+	  "breedChance": 1,
+	  "feedItem": "all",  
+	  "feedAmount": 1,
+	  "childGrowthDelay": -24000,
+	  "breedDelay": 6000
+	}
+	```
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTE0NDY1MTkyMzcsLTEyMTE3OTkwNyw4ND
 g3NjExNTMsMTE2OTI2NzM3OSwtMTc3NjU2ODAyMywyODU3NTM5
