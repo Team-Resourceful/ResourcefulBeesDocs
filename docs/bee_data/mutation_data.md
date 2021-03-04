@@ -17,106 +17,124 @@ Block Mutation is an *optional* feature for bees. It is the modded version of va
 
 ### **NONE**
 
-This is used when a bee has no mutation. ex. `#!json "mutationType": "NONE"`
+This is used when a bee has no mutation. 
+!!! example
+	`#!json "mutationType": "NONE"`
 
 
 ### **FLUID_TO_FLUID**
 
-This is used when a bee mutates a fluid block into another fluid block. ex. `#!json "mutationType": "FLUID_TO_FLUID"`
+This is used when a bee mutates a fluid block into another fluid block. 
+!!! example
+	`#!json "mutationType": "FLUID_TO_FLUID"`
 
 
 ### **BLOCK_TO_FLUID**
 
-This is used when a bee mutates a normal block into a fluid block. ex. `#!json "mutationType": "BLOCK_TO_FLUID"`
+This is used when a bee mutates a normal block into a fluid block. 
+!!! example
+	`#!json "mutationType": "BLOCK_TO_FLUID"`
 
 
 ### **FLUID_TO_BLOCK**
 
-This is used when a bee mutates a fluid block into a normal block. ex. `#!json "mutationType": "FLUID_TO_BLOCK"`
+This is used when a bee mutates a fluid block into a normal block. 
+!!! example
+	`#!json "mutationType": "FLUID_TO_BLOCK"`
 
 
 ### **BLOCK_TO_BLOCK**
 
-This is used when a bee mutates a normal block into another normal block. ex. `#!json "mutationType": "BLOCK_TO_BLOCK"`
+This is used when a bee mutates a normal block into another normal block. 
+!!! example
+	`#!json "mutationType": "BLOCK_TO_BLOCK"`
 
 
 ### **BLOCK_TO_ITEM**
 
-This is used when a bee mutates a normal block into a dropped item. ex. `#!json "mutationType": "BLOCK_TO_ITEM"`
+This is used when a bee mutates a normal block into a dropped item. 
+!!! example
+	`#!json "mutationType": "BLOCK_TO_ITEM"`
 
 
 ### **ENTITY_TO_ENTITY**
 
-This is used when a bee mutates an entity into another entity. ex. `#!json "mutationType": "ENTITY_TO_ENTITY"`
-_Note: No other form of entity mutation is planned at this time._
+This is used when a bee mutates an entity into another entity. 
+!!! example
+	`#!json "mutationType": "ENTITY_TO_ENTITY"`
+!!! note 
+	No other form of entity mutation is planned at this time.
 
 ## **Mutation Inputs and Outputs**
 ***
 
 The `mutationInput` represents the block or blocks to be mutated and the `mutationOutput` represents the final form. For example, a bee could mutate simple stone blocks into coal ore blocks or cobblestone into lava. The `mutationInput` has the option of accepting tags, however the `mutationOutput` does not.
 
-_Note: Entity to Entity mutation is also supported by using the_ `"entity:` _prefix. Entity tags are_ **not** _supported._
+!!! note 
+	Entity to Entity mutation is also supported by using the_ `"entity:` _prefix. Entity tags are_ **not** _supported.
 
-_Note 2: In a future update we will support multiple weighted outputs. This page will be updated when they are implemented._
+!!! note 
+	In a future update we will support multiple weighted outputs. This page will be updated when they are implemented.
 
-Example:
-
-In this example the bee will mutate a stone block into a coal ore block.
-```json
-"MutationData": {
-	"hasMutation": true,
-	"mutationType": "BLOCK_TO_BLOCK",
-	"mutationInput": "minecraft:stone",
-	"mutationOutput": "minecraft:coal_ore"
-}
-```
+!!! example 
+	In this example the bee will mutate a stone block into a coal ore block.
+	```json
+	"MutationData": {
+		"hasMutation": true,
+		"mutationType": "BLOCK_TO_BLOCK",
+		"mutationInput": "minecraft:stone",
+		"mutationOutput": "minecraft:coal_ore"
+	}
+	```
 <br>
 
-In this example the bee will mutate any block tagged as stone into a coal ore block.
-```json
-"MutationData": {
-	"hasMutation": true,
-	"mutationType": "BLOCK_TO_BLOCK",
-	"mutationInput": "tag:forge:stone",
-	"mutationOutput": "minecraft:coal_ore"
-}
-```
+!!! example 
+	In this example the bee will mutate any block tagged as stone into a coal ore block.
+	```json
+	"MutationData": {
+		"hasMutation": true,
+		"mutationType": "BLOCK_TO_BLOCK",
+		"mutationInput": "tag:forge:stone",
+		"mutationOutput": "minecraft:coal_ore"
+	}
+	```
+<br>
+!!! example 
+	In this example, the bee will mutate lava into obsidian.
+	```json
+	"MutationData": {
+		"hasMutation": true,
+		"mutationType": "FLUID_TO_BLOCK",
+		"mutationInput": "minecraft:lava",
+		"mutationOutput": "minecraft:obsidian"
+	}
+	```
+<br>
+!!! example 
+	In this example, the bee will mutate cobblestone into lava.
+	```json
+	"MutationData": {
+		"hasMutation": true,
+		"mutationType": "BLOCK_TO_FLUID",
+		"mutationInput": "minecraft:cobblestone",
+		"mutationOutput": "minecraft:lava"
+	}
+	```
+<br>
+!!! example 
+	In this example, the bee will mutate cow into a bat.
+	```json
+	"MutationData": {
+		"hasMutation": true,
+		"mutationType": "ENTITY_TO_ENTITY",
+		"mutationInput": "entity:minecraft:cow",
+		"mutationOutput": "entity:minecraft:bat"
+	}
+	```
 <br>
 
-In this example, the bee will mutate lava into obsidian.
-```json
-"MutationData": {
-	"hasMutation": true,
-	"mutationType": "FLUID_TO_BLOCK",
-	"mutationInput": "minecraft:lava",
-	"mutationOutput": "minecraft:obsidian"
-}
-```
-<br>
-
-In this example, the bee will mutate cobblestone into lava.
-```json
-"MutationData": {
-	"hasMutation": true,
-	"mutationType": "BLOCK_TO_FLUID",
-	"mutationInput": "minecraft:cobblestone",
-	"mutationOutput": "minecraft:lava"
-}
-```
-<br>
-
-In this example, the bee will mutate cow into a bat.
-```json
-"MutationData": {
-	"hasMutation": true,
-	"mutationType": "ENTITY_TO_ENTITY",
-	"mutationInput": "entity:minecraft:cow",
-	"mutationOutput": "entity:minecraft:bat"
-}
-```
-<br>
-
-_Note: Mutation Input and Mutation Output are not limited to just Minecraft blocks. Any block from any mod can be used as long as it has a resource location in the form of_ `namespace:ID`_. In addition, when using fluids, only fluids that have a block variant can be used._
+!!! note
+	Mutation Input and Mutation Output are not limited to just Minecraft blocks. Any block from any mod can be used as long as it has a resource location in the form of_ `namespace:ID`_. In addition, when using fluids, only fluids that have a block variant can be used.
 
 <br>
 <br>
@@ -125,17 +143,16 @@ _Note: Mutation Input and Mutation Output are not limited to just Minecraft bloc
 
 Use `mutationCount` when you want to specify how many blocks a bee can mutate before it must visit a hive and collect nectar again. By default a bee will mutate **ten** blocks before the process must be reset.
 
-Example:
-
-```json
-"MutationData": {
-	"hasMutation": true,
-	"mutationType": "BLOCK_TO_BLOCK",
-	"mutationInput": "minecraft:stone",
-	"mutationOutput": "minecraft:coal_ore",
-	"mutationCount": 5
-}
-```
+!!! example 
+	```json
+	"MutationData": {
+		"hasMutation": true,
+		"mutationType": "BLOCK_TO_BLOCK",
+		"mutationInput": "minecraft:stone",
+		"mutationOutput": "minecraft:coal_ore",
+		"mutationCount": 5
+	}
+	```
 
 <br>
 <br>
@@ -148,41 +165,42 @@ A completely new way to register mutations, this system allows you to register a
 
 This is where you put the type of mutation you want to add.
 
-Examples:  
-`"type": "BLOCK_TO_BLOCK"`  
-`"type": "BLOCK_TO_ITEM"`  
-`"type": "ENTITY_TO_ENTITY"`  
+!!! example "Examples" 
+	`"type": "BLOCK_TO_BLOCK"`  
+	`"type": "BLOCK_TO_ITEM"`  
+	`"type": "ENTITY_TO_ENTITY"`  
 
 ### **inputID**
 
 This is the id of the thing you want to mutate from
 
-**Note:** if you want to mutate a tag, you need to prefix with `tag:`, if you want to mutate an entity you need to prefix with `entity:`
+!!! note
+	if you want to mutate a tag, you need to prefix with `tag:`, if you want to mutate an entity you need to prefix with `entity:`
 
-Examples:  
-`"inputID": "minecraft:stone"`  
-`"inputID": "tag:forge:stone"`  
-`"inputID": "entity:minecraft:pig"`  
+!!! example "Examples" 
+	`"inputID": "minecraft:stone"`  
+	`"inputID": "tag:forge:stone"`  
+	`"inputID": "entity:minecraft:pig"`  
 
 ### **defaultWeight** (optional)
 
 This will set the default weight that you will get an output if you do not specify a weight in the outputs.
 
-Examples:  
-`"defaultWeight": 10`  
-`"defaultWeight": 2`  
+!!! example "Examples"  
+	`"defaultWeight": 10`  
+	`"defaultWeight": 2`  
 
-Default : 1
+Default : `1`
 
 ### **defaultChance** (optional)
 
 This will set the default weight that you will succeed in a mutation if you do not specify a chance in the outputs.
 
-Examples:  
-`#!json "defaultChance": 1`  
-`#!json "defaultChance": 0.5`  
+!!! example "Examples" 
+	`#!json "defaultChance": 1`  
+	`#!json "defaultChance": 0.5`  
 
-Default : 1
+Default : `1`
 
 ### **outputs**
 
@@ -191,17 +209,18 @@ This is where you specify the outputs for your mutations, you can have as many d
 **outputID**  
 this is where you specify the output id of your mutation.  
 
-**Note:** If your output is an entity, you need to prefix it with `entity:`  
+!!! note
+	If your output is an entity, you need to prefix it with `entity:`  
 
 **chance** (optional)  
 This is where you set the individual success chance for your mutation outputs
 
-Default: 1
+Default: `1`
 
 **weight** (optional)  
 This is where you set the individual weight for your mutation outputs
 
-Default: 1
+Default: `1`
 
 **nbtData** (optional)  
 NBT data, yes NBT data, this is where you can now set the nbt data for your mutation outputs
@@ -211,85 +230,85 @@ NBT data, yes NBT data, this is where you can now set the nbt data for your muta
 - Item tags for `BLOCK_TO_ITEM` Mutations  
 - Tile entity tags for `BLOCK_TO_BLOCK` and `FLUID_TO_BLOCK` Mutations  
 
-Examples:
-```json
-"outputs":[
-	{"outputID": "minecraft:stone", "chance": 1, "weight": 10},
-	{"outputID": "minecraft:diamond", "chance": 0.1, "weight": 1}
-]
-```
-```json
-"outputs":[
-	{
-		"outputID": "entity:minecraft:mooshroom",
-		"nbtData": {
-			"Type": "brown"
+!!! example "Examples" 
+	```json
+	"outputs":[
+		{"outputID": "minecraft:stone", "chance": 1, "weight": 10},
+		{"outputID": "minecraft:diamond", "chance": 0.1, "weight": 1}
+	]
+	```
+	```json
+	"outputs":[
+		{
+			"outputID": "entity:minecraft:mooshroom",
+			"nbtData": {
+				"Type": "brown"
+			}
+		},
+		{
+			"outputID": "entity:minecraft:mooshroom"
 		}
-	},
-	{
-		"outputID": "entity:minecraft:mooshroom"
-	}
-]
-```
+	]
+	```
 
 ### **Mutations**
 
 You can use the new multi mutate by adding the new `mutations` parameter.
 
-Example:
+!!! example "Examples" 
 
-```json
-"MutationData": {
-  "hasMutation": true,
-  "mutationType": "BLOCK_TO_BLOCK",
-  "mutationInput": "minecraft:stone",
-  "mutationOutput": "minecraft:coal_ore",
-  "mutationCount": 5,
-  "mutations": [
-    {
-      "type": "BLOCK_TO_BLOCK",
-      "inputID": "tag:forge:stone",
-      "defaultWeight": 10,
-      "defaultChance" : 0.75,
-      "outputs": [
-        {"outputID": "minecraft:redstone_ore", "weight": 1, "chance": 0.25}
-        {"outputID": "minecraft:lapis_ore", "weight": 3, "chance": 0.40}
-      ]
-    },
-    {
-      "type": "BLOCK_TO_BLOCK",
-      "inputID": "minecraft:honey_block",
-      "outputs": [
-        {"outputID": "minecraft:glass", "chance": 0.5}
-      ]
-    },
-    {
-      "type": "BLOCK_TO_ITEM",
-      "inputID": "tag:forge:ores/diamond",
-      "outputs": [
-        {
-          "outputID": "minecraft:potion",
-          "nbtData": {
-            "Potion": "resourcefulbees:calming"
-          }
-        }
-      ]
-    },
-    {
-      "type": "ENTITY_TO_ENTITY",
-      "inputID": "entity:cow",
-      "outputs": [
-        {
-          "outputID": "entity:mooshroom",
-          "nbtData": {
-            "Type": "brown"
-          }
-        }
-      ]
-    }
-  ]
-}
-```
+	```json
+	"MutationData": {
+	  "hasMutation": true,
+	  "mutationType": "BLOCK_TO_BLOCK",
+	  "mutationInput": "minecraft:stone",
+	  "mutationOutput": "minecraft:coal_ore",
+	  "mutationCount": 5,
+	  "mutations": [
+		{
+		  "type": "BLOCK_TO_BLOCK",
+		  "inputID": "tag:forge:stone",
+		  "defaultWeight": 10,
+		  "defaultChance" : 0.75,
+		  "outputs": [
+			{"outputID": "minecraft:redstone_ore", "weight": 1, "chance": 0.25}
+			{"outputID": "minecraft:lapis_ore", "weight": 3, "chance": 0.40}
+		  ]
+		},
+		{
+		  "type": "BLOCK_TO_BLOCK",
+		  "inputID": "minecraft:honey_block",
+		  "outputs": [
+			{"outputID": "minecraft:glass", "chance": 0.5}
+		  ]
+		},
+		{
+		  "type": "BLOCK_TO_ITEM",
+		  "inputID": "tag:forge:ores/diamond",
+		  "outputs": [
+			{
+			  "outputID": "minecraft:potion",
+			  "nbtData": {
+				"Potion": "resourcefulbees:calming"
+			  }
+			}
+		  ]
+		},
+		{
+		  "type": "ENTITY_TO_ENTITY",
+		  "inputID": "entity:cow",
+		  "outputs": [
+			{
+			  "outputID": "entity:mooshroom",
+			  "nbtData": {
+				"Type": "brown"
+			  }
+			}
+		  ]
+		}
+	  ]
+	}
+	```
 <br>
 <br>
 
