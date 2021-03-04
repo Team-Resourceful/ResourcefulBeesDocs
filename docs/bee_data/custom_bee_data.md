@@ -92,9 +92,9 @@ For example:
 !!! note
 	Sub-directories are supported as you will see in the example .json below
 
-```json
-"baseLayerTexture": "/creeper/creeper_bee"
-```
+	```json
+	"baseLayerTexture": "/creeper/creeper_bee"
+	```
 
 Sub-directories can be nested like so: `"folder_1/folder_2/folder_3/texture"`
 
@@ -141,7 +141,8 @@ Example:
 "apiaryOutputAmounts" : [1,2,3,4]
 ```
 
-**Note:** You can specify any value of zero or greater. Specifying a value of `-1` defaults to the global output amounts set in the common config file.
+!!! note
+	You can specify any value of zero or greater. Specifying a value of `-1` defaults to the global output amounts set in the common config file.
 
 <br>
 <br>
