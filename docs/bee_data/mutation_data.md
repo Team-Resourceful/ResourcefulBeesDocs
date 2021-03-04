@@ -56,9 +56,6 @@ Block Mutation is an *optional* feature for bees. It is the modded version of va
 	!!! example
 		`#!json "mutationType": "ENTITY_TO_ENTITY"`
 
-!!! note 
-	No other form of entity mutation is planned at this time.
-
 ## **Mutation Inputs and Outputs**
 ***
 
