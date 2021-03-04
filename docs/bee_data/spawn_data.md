@@ -127,22 +127,20 @@ As of now, this value only controls the light level a block must be at for the b
 <br>
 <br>
 
-## **Template**
-***
+!!! template "Template"
+	Here is a template for all configurable options in the Spawn Data Object:
 
-Here is a template for all configurable options in the Spawn Data Object:
-
-```json
-"SpawnData": {
-	"canSpawnInWorld": true,
-	"biomeWhitelist": "TAG:Mountain, HILLS",
-	"biomeBlacklist": "minecraft:desert_hills",
-	"spawnWeight": 2,
-	"minGroupSize": 1,
-	"maxGroupSize": 1,
-	"lightLevel": "ANY"
-}
-```
+	```json
+	"SpawnData": {
+		"canSpawnInWorld": true,
+		"biomeWhitelist": "TAG:Mountain, HILLS",
+		"biomeBlacklist": "minecraft:desert_hills",
+		"spawnWeight": 2,
+		"minGroupSize": 1,
+		"maxGroupSize": 1,
+		"lightLevel": "ANY"
+	}
+	```
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbNzU0Nzc3MjQyLC0xOTIxMTgxOTYzLDE5Mj
 g5NTcyMDcsMTY4NDYzMzA3MV19
