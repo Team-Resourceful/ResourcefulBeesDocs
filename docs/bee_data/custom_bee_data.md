@@ -122,13 +122,13 @@ If you wish to have a bee output something other than a honeycomb you can do so 
 
 These fields use the `namespace:ID` format.
 
-Example:
+!!! example
 
-```json
-"hasHoneycomb": true,
-"customCombDrop": "minecraft:iron",
-"customCombBlockDrop": "minecraft:iron_block"
-```
+	```json
+	"hasHoneycomb": true,
+	"customCombDrop": "minecraft:iron",
+	"customCombBlockDrop": "minecraft:iron_block"
+	```
 
 <br>
 <br>
