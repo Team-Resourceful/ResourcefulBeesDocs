@@ -7,7 +7,8 @@
 
 A bees **type** and **name** are used interchangeably. This information is determined based on the name of the .json file containing the bee's data. This value is automatically obtained and required.
 
-*Note:* Bee names **must** be entered in the snake_case format.
+!!! note
+    Bee names **must** be entered in the snake_case format.
 
 <br>
 <br>
@@ -16,7 +17,8 @@ A bees **type** and **name** are used interchangeably. This information is deter
 
 The flower value is used to determine what flower the bee should use for pollen/nectar gathering. We provide a few different options for the flower value and may provide more in the future. Currently, the options available for a flower include three separate tags or a block ID as seen below. In addition, we've added general block tag support as well.
 
-*Note:* Block tag support does not include fluid tags. Fluids must be specified by the source block name only.
+!!! note
+	Block tag support does not include fluid tags. Fluids must be specified by the source block name only.
 
 `#!json "flower": "all"`    <-------- This lets the bee use all available flowers including modded flowers.<br>
 `#!json "flower": "tall"`   <-------- This lets the bee use only flowers with the tag "tall" such as the rose bush.<br>
@@ -28,7 +30,8 @@ The flower value is used to determine what flower the bee should use for pollen/
 
 This final example lets the bee use only a predefined flower, including modded flowers. This value is not locked only to flowers, however. *ANY* block in the game including modded can be used here since it takes a string value in the form of `namespace:ID`.
 
-**Note:** Flowers are not a comma-separated list. You get to choose either **ONE** flower, all flowers, tall flowers, or small flowers, in addition to Block Tags.
+!!! note
+	Flowers are not a comma-separated list. You get to choose either **ONE** flower, all flowers, tall flowers, or small flowers, in addition to Block Tags.
 
 <br>
 <br>
@@ -48,7 +51,8 @@ The size modifier is an optional floating point value that scales the size of th
 `#!json "sizeModifier": 0.5`  <---- This would make the bee half the size of a vanilla bee<br>
 `#!json "sizeModifier": 1.375`  <---- This would make the bee 1 3/8 times the size of a vanilla bee<br>
 
-_Note: When a bees size is modified, the child version of that bee also has its size modified. Check out the icy bee as an example._
+!!! note
+	When a bees size is modified, the child version of that bee also has its size modified. Check out the icy bee as an example.
 
 <br>
 <br>
@@ -77,14 +81,16 @@ This value is *optional.* This value is used to determine the amount of time **i
 ***
 
 Should you wish to provide your own custom bee texture, there is one `baseLayerTexture` that can be customized.
-_Note: Textures can only be .png file types._
+!!! note
+	Textures can only be .png file types.
 
 The base layer texture is the texture used when you don't wish to have the bee colored. It also provides the eyes for the bee when using the colored variants. When supplying your own custom texture, the texture file must be located in the `config\resourcefulbees\resources\assets\resourcefulbees\textures\entity` directory found in the mod pack's directory. In addition, *two textures* for each texture variant **must** be present: a normal texture and an angry texture. The angry texture file name must end with `_angry`
 
 For example:
 ![Resourceful Bees Custom Texture Filename Example](https://i.imgur.com/2sypgCS.png)
 
-*Note:* Sub-directories are supported as you will see in the example .json below
+!!! note
+	Sub-directories are supported as you will see in the example .json below
 
 ```json
 "baseLayerTexture": "/creeper/creeper_bee"
