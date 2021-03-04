@@ -102,7 +102,7 @@ Sub-directories can be nested like so: `"folder_1/folder_2/folder_3/texture"`
 If you want to change the base model of the bee, you can use the following value to change it, there are currently only two options `DEFAULT`, and `KITTEN`. Default is your default basic bee, and kitten makes them gain little cat ears, a little nose and some soft fluffy feet.
 
 Examples:<br>
-``#!json "baseModelType" : "KITTEN"`<br>
+`#!json "baseModelType" : "KITTEN"`<br>
 
 <br>
 <br>
