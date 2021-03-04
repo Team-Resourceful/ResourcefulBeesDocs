@@ -18,11 +18,11 @@ This value can be expressed in multiple ways but is encoded in the .json as a st
 
 Below are some examples of color usage.
 
-`"honeycombColor": "#ff00ff"` <br>
-`"honeycombColor": "#fff"` <br>
-`"honeycombColor": "ff00ff"` <br>
-`"honeycombColor": "0xff00ff"` <br>
-`"honeycombColor": "white"` <br>
+`#!json "honeycombColor": "#ff00ff"` <br>
+`#!json "honeycombColor": "#fff"` <br>
+`#!json "honeycombColor": "ff00ff"` <br>
+`#!json "honeycombColor": "0xff00ff"` <br>
+`#!json "honeycombColor": "white"` <br>
 
 <br>
 <br>
@@ -35,11 +35,11 @@ These values can be expressed in multiple ways but are encoded in the .json as s
 
 Below are some examples of color usage.
 
-`"primaryColor": "#ff00ff"` <br>
-`"primaryColor": "#fff"` <br>
-`"primaryColor": "ff00ff"` <br>
-`"secondaryColor": "0xff00ff"` <br>
-`"secondaryColor": "white"` <br>
+`#!json "primaryColor": "#ff00ff"` <br>
+`#!json "primaryColor": "#fff"` <br>
+`#!json "primaryColor": "ff00ff"` <br>
+`#!json "secondaryColor": "0xff00ff"` <br>
+`#!json "secondaryColor": "white"` <br>
 
 *Note:* The secondary color is not required if you would like a single color bee with black stripes.
 
@@ -84,7 +84,7 @@ Currently we do not allow for full-fledged model customization, however, we do p
 
 The `ORE` `modelType` should be used when you want the bee to have "ore crystals" rendered on its back.
 
-Ex: `"modelType": "ORE"`
+Ex: `#!json "modelType": "ORE"`
 
 <br>
 <br>
@@ -93,7 +93,7 @@ Ex: `"modelType": "ORE"`
 
 The `GELATINOUS` `modelType` should be used when you want the bee to have a slime or honey block type appearance. This model type renders a translucent "gel layer."
 
-Ex: `"modelType": "GELATINOUS"`
+Ex: `#!json "modelType": "GELATINOUS"`
 
 <br>
 <br>
@@ -102,7 +102,7 @@ Ex: `"modelType": "GELATINOUS"`
 
 The `DRAGON` `modelType` should be used when you want the bee to have dragon horns and spines rendered on it's back.
 
-Ex: `"modelType": "DRAGON"`
+Ex: `#!json "modelType": "DRAGON"`
 
 <br>
 <br>
@@ -111,7 +111,7 @@ Ex: `"modelType": "DRAGON"`
 
 The `QUEEN` `modelType` should be used when you want the bee to have a pretty crown rendered on it's head.
 
-Ex: `"modelType": "QUEEN"`
+Ex: `#!json "modelType": "QUEEN"`
 
 <br>
 <br>
@@ -120,7 +120,7 @@ Ex: `"modelType": "QUEEN"`
 
 The `VILLAGER` `modelType` should be used when you want the bee to have a nose rendered on it's face, it looks at you disapprovingly.
 
-Ex: `"modelType": "VILLAGER"`
+Ex: `#!json "modelType": "VILLAGER"`
 
 <br>
 <br>
@@ -129,7 +129,7 @@ Ex: `"modelType": "VILLAGER"`
 
 The `MUSHROOM` `modelType` should be used when you want the bee to have 2 mushrooms on it's back and a nice layer of mycelium or other foliage on it's back.
 
-Ex: `"modelType": "MUSHROOM"`
+Ex: `#!json "modelType": "MUSHROOM"`
 
 <br>
 <br>
@@ -141,15 +141,15 @@ Ex: `"modelType": "MUSHROOM"`
 
 The color value for glowing is only a required value when the bee has the `isGlowing` value set to `true`.
 
-This value can be expressed in multiple ways but is encoded in the .json as a string. It can be expressed as a hexadecimal value with, or without, preceding tags, an integer value, or a named color from the available list found [here.](https://github.com/Resourceful-Bees/ResourcefulBees/wiki/Optional-Colors-Names) The color value is used to determine the bee's honeycomb color and honeycomb block color.
+This value can be expressed in multiple ways but is encoded in the .json as a string. It can be expressed as a hexadecimal value with, or without, preceding tags, an integer value, or a named color from the available list found [here.](https://wiki.resourcefulbees.com/en/1.16.3/extra_stuff/color_names/) The color value is used to determine the bee's honeycomb color and honeycomb block color.
 
 Below are some examples of color usage.
 
-`"glowColor": "#ff00ff"` <br>
-`"glowColor": "#fff"` <br>
-`"glowColor": "ff00ff"` <br>
-`"glowColor": "0xff00ff"` <br>
-`"glowColor": "white"` <br>
+`#!json "glowColor": "#ff00ff"` <br>
+`#!json "glowColor": "#fff"` <br>
+`#!json "glowColor": "ff00ff"` <br>
+`#!json "glowColor": "0xff00ff"` <br>
+`#!json "glowColor": "white"` <br>
 
 `isEnchanted` set to true sets the bee to have the enchantment glint effect.
 
@@ -162,7 +162,7 @@ _Note:_ `isGlowing` and `isEnchanted` _are incompatible._
 
 Set `isRainbowBee` to `true` when you want the bee to cycle through a rainbow of colors. Setting this option removes the need for a primary and secondary color.
 
-`"isRainbowBee": true`<br>
+`#!json "isRainbowBee": true`<br>
 
 <br>
 <br>
