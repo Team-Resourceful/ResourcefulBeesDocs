@@ -121,6 +121,8 @@ The `MUSHROOM` `modelType` should be used when you want the bee to have 2 mushro
 !!! example
 	`#!json "modelType": "MUSHROOM"`
 
+<br>
+
 ## **Special**
 ***
 
@@ -141,9 +143,8 @@ This value can be expressed in multiple ways but is encoded in the .json as a st
 `isEnchanted` set to true sets the bee to have the enchantment glint effect.
 
 !!! note
-	`isGlowing` and `isEnchanted` _are incompatible.
+	`isGlowing` and `isEnchanted` are incompatible.
 
-<br>
 <br>
 
 ### **is Rainbow Bee** (Optional)
