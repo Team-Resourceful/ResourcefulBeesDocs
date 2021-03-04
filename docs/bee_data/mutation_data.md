@@ -71,7 +71,7 @@ This is used when a bee mutates an entity into another entity.
 The `mutationInput` represents the block or blocks to be mutated and the `mutationOutput` represents the final form. For example, a bee could mutate simple stone blocks into coal ore blocks or cobblestone into lava. The `mutationInput` has the option of accepting tags, however the `mutationOutput` does not.
 
 !!! note 
-	Entity to Entity mutation is also supported by using the_ `"entity:` _prefix. Entity tags are_ **not** _supported.
+	Entity to Entity mutation is also supported by using the `entity:` prefix. Entity tags are **not** supported.
 
 !!! note 
 	In a future update we will support multiple weighted outputs. This page will be updated when they are implemented.
@@ -134,7 +134,7 @@ The `mutationInput` represents the block or blocks to be mutated and the `mutati
 <br>
 
 !!! note
-	Mutation Input and Mutation Output are not limited to just Minecraft blocks. Any block from any mod can be used as long as it has a resource location in the form of_ `namespace:ID`_. In addition, when using fluids, only fluids that have a block variant can be used.
+	Mutation Input and Mutation Output are not limited to just Minecraft blocks. Any block from any mod can be used as long as it has a resource location in the form of `namespace:ID`. In addition, when using fluids, only fluids that have a block variant can be used.
 
 <br>
 <br>
