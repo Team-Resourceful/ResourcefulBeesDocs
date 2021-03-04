@@ -303,31 +303,32 @@ You can use the new multi mutate by adding the new `mutations` parameter.
 <br>
 <br>
 
-## **Template**
 ***
 
-Here is a blank template showing all configurable fields in the Mutation Data object:
+!!! template "Template"
 
-```json
-"MutationData": {
-	"hasMutation": false,
-	"mutationType": "NONE",
-	"mutationInput": "",
-	"mutationOutput": "",
-	"mutationCount": 10,
-	"mutations": [
-		{
-			"type": "NONE",
-			"outputID": "",
-			"defaultChance": 1,
-			"defaultWeight": 1,
-			"outputs": [
-				{"outputID": "", "chance": 1, "weight": 1, "nbtData":{}}
-			]
-		}
-	]
-}
-```
+	Here is a blank template showing all configurable fields in the Mutation Data object:
+
+	```json
+	"MutationData": {
+		"hasMutation": false,
+		"mutationType": "NONE",
+		"mutationInput": "",
+		"mutationOutput": "",
+		"mutationCount": 10,
+		"mutations": [
+			{
+				"type": "NONE",
+				"outputID": "",
+				"defaultChance": 1,
+				"defaultWeight": 1,
+				"outputs": [
+					{"outputID": "", "chance": 1, "weight": 1, "nbtData":{}}
+				]
+			}
+		]
+	}
+	```
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTE0OTQwODA5NzgsNzEwMTM5NjEwLDcxMj
 E4NDU0Miw3MzA5OTgxMTZdfQ==
