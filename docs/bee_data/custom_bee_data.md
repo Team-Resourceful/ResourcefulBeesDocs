@@ -19,16 +19,17 @@ The flower value is used to determine what flower the bee should use for pollen/
 
 !!! note
 	Block tag support does not include fluid tags. Fluids must be specified by the source block name only.
+!!! example "Examples"
 
-`#!json "flower": "all"`    <-------- This lets the bee use all available flowers including modded flowers.<br>
-`#!json "flower": "tall"`   <-------- This lets the bee use only flowers with the tag "tall" such as the rose bush.<br>
-`#!json "flower": "small"`  <------- This lets the bee use only flowers with the tag "small" such as the poppy.<br>
+	`#!json "flower": "all"`    <-------- This lets the bee use all available flowers including modded flowers.<br>
+	`#!json "flower": "tall"`   <-------- This lets the bee use only flowers with the tag "tall" such as the rose bush.<br>
+	`#!json "flower": "small"`  <------- This lets the bee use only flowers with the tag "small" such as the poppy.<br>
 
-`#!json "flower": "tag:minecraft:bee_growables"` <--- This lets the bee use any block in the crops tag and sweet berry bushes (note: bees take damage from the sweet berry bush like a player would)<br>
+	`#!json "flower": "tag:minecraft:bee_growables"` <--- This lets the bee use any block in the crops tag and sweet berry bushes (note: bees take damage from the sweet berry bush like a player would)<br>
 
-`#!json "flower": "minecraft:poppy"`<br>
+	`#!json "flower": "minecraft:poppy"`
 
-This final example lets the bee use only a predefined flower, including modded flowers. This value is not locked only to flowers, however. *ANY* block in the game including modded can be used here since it takes a string value in the form of `namespace:ID`.
+	This final example lets the bee use only a predefined flower, including modded flowers. This value is not locked only to flowers, however. *ANY* block in the game including modded can be used here since it takes a string value in the form of `namespace:ID`.
 
 !!! note
 	Flowers are not a comma-separated list. You get to choose either **ONE** flower, all flowers, tall flowers, or small flowers, in addition to Block Tags.
