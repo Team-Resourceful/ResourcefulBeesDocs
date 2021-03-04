@@ -14,12 +14,12 @@
 
 `mainOutput` is a string value in the form of `namespace:ID` that specifies the primary output of the bees honeycomb when it is put into the centrifuge. This value is required when `hasCentrifugeOutput` is set to true. This value can be  _anything_  you want to give to the player so long as it is an item in game. This includes any item from another mod. This output can also have an optional weighting value provided that determines the chance of getting the item.
 
-Here are some examples:
+!!! example "Examples"
 
-`#!json "mainOutput": "minecraft:blaze_rod"`  <---- This would make the centrifuge provide blaze rods  
-`#!json "mainOutput": "theoneprobe:probe"`  <---- This would make the centrifuge provide probes from The One Probe  
-`#!json "mainOutput": "minecraft:nether_star"`  <---- This would make the centrifuge provide nether stars  
-`#!json "mainOutput": "minecraft:barrier"`  <---- This would make the centrifuge provide barrier blocks  
+	`#!json "mainOutput": "minecraft:blaze_rod"`  <---- This would make the centrifuge provide blaze rods  
+	`#!json "mainOutput": "theoneprobe:probe"`  <---- This would make the centrifuge provide probes from The One Probe  
+	`#!json "mainOutput": "minecraft:nether_star"`  <---- This would make the centrifuge provide nether stars  
+	`#!json "mainOutput": "minecraft:barrier"`  <---- This would make the centrifuge provide barrier blocks  
 
 <br>
 <br>
@@ -57,7 +57,8 @@ Here is an example of it's usage:
 
 The bottle output is an optional value for the bee. This output is intended to allow bees to provide a different bottled ingredient such as "Dragons Breath", however, like the other two outputs this value can be set to anything. This value defaults to "Honey Bottle" if not used. This value can also have a custom defined weighting.
 
-_Note: Regardless of the output, if a player chooses not to supply the centrifuge with bottles, then 250mb of honey will be added to an internal honey tank._
+!!! note
+	Regardless of the output, if a player chooses not to supply the centrifuge with bottles, then 250mb of honey will be added to an internal honey tank.
 
 Here is an example of it's usage:
 
@@ -88,7 +89,8 @@ There are three different weight values that can be set for the centrifuge outpu
 
 In the example above, the bee's honeycomb when used in the centrifuge will have a 40% chance to output a diamond, a 2% chance to output a nether star as the secondary output, and a 70% chance to output bottles of enchanting. <br>
 
-*Note:* The default value for Main Output is 1.0. The default value for Secondary output is 0.20. The default value for Bottle Output is 0.25.
+!!! note
+	The default value for Main Output is 1.0. The default value for Secondary output is 0.20. The default value for Bottle Output is 0.25.
 
 <br>
 <br>
@@ -126,7 +128,8 @@ Similar to weights, there are three different output count values that can be se
 
 In the example above, the centrifuge recipe will have a 40% chance to output **two** diamonds, a 2% chance to output **one** nether star as the secondary output, and a 70% chance to output **three** bottles of enchanting while consuming **four** honeycombs per operation. <br>
 
-*Note:* The default for all four values is `1`
+!!! note
+	The default for all four values is `1`
 
 ## **NBT data**
 
