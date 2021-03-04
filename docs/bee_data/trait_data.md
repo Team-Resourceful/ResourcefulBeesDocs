@@ -8,14 +8,14 @@ As of now, `hasTraits` is the only configurable field in the `TraitData` object.
 <br>
 <br>
 
-## **Template**
 ***
+!!!template "Template"
 
-```json
-"TraitData": {
-	"hasTraits": true
-}
-```
+	```json
+	"TraitData": {
+		"hasTraits": true
+	}
+	```
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMTI0MTAzODMxMl19
 -->
