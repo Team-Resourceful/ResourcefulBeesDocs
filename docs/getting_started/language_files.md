@@ -4,7 +4,9 @@
 When creating custom bees, a language file needs to be created and entries provided so all corresponding items and blocks  have proper names otherwise they will look something like this:<br>
 `item.resourcefulbees.blaze_honeycomb`<br>
 
-_Note: For new mod installs, run the game at least once so all necessary config files and folders can be generated_
+!!! note
+    For new mod installs, run the game at least once so all necessary config files and folders can be generated
+    
 ***
 * Locate the `resourcefulbees` config folder inside the main config folder. 
 * Before we begin the process of adding a language file we need to verify that specific resource and data pack files have been generated.
