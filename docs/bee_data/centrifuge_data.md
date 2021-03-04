@@ -16,10 +16,10 @@
 
 Here are some examples:
 
-`"mainOutput": "minecraft:blaze_rod"`  <---- This would make the centrifuge provide blaze rods  
-`"mainOutput": "theoneprobe:probe"`  <---- This would make the centrifuge provide probes from The One Probe  
-`"mainOutput": "minecraft:nether_star"`  <---- This would make the centrifuge provide nether stars  
-`"mainOutput": "minecraft:barrier"`  <---- This would make the centrifuge provide barrier blocks  
+`#!json "mainOutput": "minecraft:blaze_rod"`  <---- This would make the centrifuge provide blaze rods  
+`#!json "mainOutput": "theoneprobe:probe"`  <---- This would make the centrifuge provide probes from The One Probe  
+`#!json "mainOutput": "minecraft:nether_star"`  <---- This would make the centrifuge provide nether stars  
+`#!json "mainOutput": "minecraft:barrier"`  <---- This would make the centrifuge provide barrier blocks  
 
 <br>
 <br>
@@ -47,7 +47,7 @@ The secondary output is an optional value for the bee. You can have a "waste" it
 
 Here is an example of it's usage:
 
-`"secondaryOutput" : "minecraft:redstone_lamp"`
+`#!json "secondaryOutput" : "minecraft:redstone_lamp"`
 
 <br>
 <br>
@@ -60,7 +60,7 @@ _Note: Regardless of the output, if a player chooses not to supply the centrifug
 
 Here is an example of it's usage:
 
-`"bottleOutput" : "minecraft:dragon_breath"`
+`#!json "bottleOutput" : "minecraft:dragon_breath"`
 
 <br>
 <br>
