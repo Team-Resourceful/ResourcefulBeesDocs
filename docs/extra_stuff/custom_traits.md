@@ -103,7 +103,7 @@ This list is represented as a list of potion IDs
 
 This is a list of damageTypes that a bee will inflict on dealing damage to an entity.
 
-see: [damageImmunities](https://wiki.resourcefulbees.com/en/1.16.3/extra_stuff/custom_traits/#damageImmunities-optional) for a list of valid damageTypes.
+see: [damageImmunities](https://wiki.resourcefulbees.com/en/1.16.3/extra_stuff/custom_traits/#damageimmunities-optional) for a list of valid damageTypes.
 
 Each list entry has to variables both of which are required.
 
