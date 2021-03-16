@@ -259,18 +259,18 @@ You can use the new multi mutate by adding the new `mutations` parameter.
 		{
 		  "type": "BLOCK_TO_BLOCK",
 		  "inputID": "tag:forge:stone",
-		  "defaultWeight": 10,
-		  "cdefaultChance" : 0.75,
+		  "chance": 0.5,
 		  "outputs": [
-			{"outputID": "minecraft:redstone_ore", "weight": 1, "chance": 0.25}
-			{"outputID": "minecraft:lapis_ore", "weight": 3, "chance": 0.40}
+			{"outputID": "minecraft:redstone_ore", "weight": 1}
+			{"outputID": "minecraft:lapis_ore", "weight": 3}
 		  ]
 		},
 		{
 		  "type": "BLOCK_TO_BLOCK",
 		  "inputID": "minecraft:honey_block",
+		  "chance": 0.5,
 		  "outputs": [
-			{"outputID": "minecraft:glass", "chance": 0.5}
+			{"outputID": "minecraft:glass"}
 		  ]
 		},
 		{
@@ -330,6 +330,7 @@ You can use the new multi mutate by adding the new `mutations` parameter.
 	}
 	```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjI4NDg4NDMsLTE0OTQwODA5NzgsNz
-EwMTM5NjEwLDcxMjE4NDU0Miw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTEzNTg2ODY3MDEsLTE1NjI4NDg4NDMsLT
+E0OTQwODA5NzgsNzEwMTM5NjEwLDcxMjE4NDU0Miw3MzA5OTgx
+MTZdfQ==
 -->
