@@ -10,10 +10,10 @@ When created the trait will be available for use and be automatically be added t
 This is the item id for an item, this item will be used to represent the trait within the Beepedia.
 
 !!! example "Examples"
-	`#!json "beepediaItemID": "minecraft:end_rod"`
-	`#!json "beepediaItemID": "resourcefulbees:wax"`
+	`#!json "beepediaItemID": "minecraft:end_rod"`  
+	`#!json "beepediaItemID": "resourcefulbees:wax"`  
 
-Default "minecraft:blaze_powder"
+	Default `#!json "minecraft:blaze_powder"`  
 
 ## **potionDamageEffects** (Optional)
 
@@ -21,21 +21,21 @@ This is a list of potion effects that a bee can deal when it attacks an entity.
 
 Each list entry has to variables both of which are required.
 
-### **~~effectRegistryName~~** or **effectID**
+### **<strike>effectRegistryName</strike>** or **effectID**
 
 This is the effect id of the potion effect you wish to apply.
 
 !!! example "Examples"
-	`#!json "effectID": "minecraft:poison"`
-	`#!json "effectRegistryName": "resourcefulbees:calming"`
+	`#!json "effectID": "minecraft:poison"`  
+	`#!json "effectRegistryName": "resourcefulbees:calming"`  
 
-### **~~amplifier~~** or **strength**
+### **<strike>amplifier</strike>** or **strength**
 
 This is the strength of the potion effect you wish to apply.
 
 !!! example "Examples"
-	`#!json "strength": 2`
-	`#!json "amplifier": 0`
+	`#!json "strength": 2`  
+	`#!json "amplifier": 0`  
 
 
 !!! example "Example"
@@ -57,25 +57,25 @@ This is the strength of the potion effect you wish to apply.
 This is a list of damage immunities that will be applied to the bee
 
 !!! example "Valid damageTypes"
-	`#!json "inFire"`
-	`#!json "lightningBolt"`
-	`#!json "onFire"`
-	`#!json "lava"`
-	`#!json "hotFloor"`
-	`#!json "inWall"`
-	`#!json "cramming"`
-	`#!json "drown"`
-	`#!json "starve"`
-	`#!json "cactus"`
-	`#!json "fall"`
-	`#!json "flyIntoWall"`
-	`#!json "generic"`
-	`#!json "magic"`
-	`#!json "wither"`
-	`#!json "anvil"`
-	`#!json "fallingBlock"`
-	`#!json "dragonBreath"`
-	`#!json "dryout"`
+	`#!json "inFire"`  
+	`#!json "lightningBolt"`  
+	`#!json "onFire"`  
+	`#!json "lava"`  
+	`#!json "hotFloor"`  
+	`#!json "inWall"`  
+	`#!json "cramming"`  
+	`#!json "drown"`  
+	`#!json "starve"`  
+	`#!json "cactus"`  
+	`#!json "fall"`  
+	`#!json "flyIntoWall"`  
+	`#!json "generic"`  
+	`#!json "magic"`  
+	`#!json "wither"`  
+	`#!json "anvil"`  
+	`#!json "fallingBlock"`  
+	`#!json "dragonBreath"`  
+	`#!json "dryout"`  
 
 !!! example "Example"
 	```Json
@@ -112,8 +112,8 @@ Each list entry has to variables both of which are required.
 This is the damageType id used to determine the damage the bee will do.
 
 !!! example "Examples"
-	`#!json "damageTypeName": "lightningBolt"`
-	`#!json "damageTypeName": "anvil"`
+	`#!json "damageTypeName": "lightningBolt"`  
+	`#!json "damageTypeName": "anvil"`  
 
 ### **amplifier**
 
@@ -122,8 +122,8 @@ This is the amplifier that will be applied to the damage type, not every damage 
 Below are some examples of an amplifier:
 
 !!! example "Examples"
-	`#!json "amplifier": 2`
-	`#!json "amplifier": 0`
+	`#!json "amplifier": 2`  
+	`#!json "amplifier": 0`  
 
 
 !!! example "Example"
@@ -144,7 +144,7 @@ Below are some examples of an amplifier:
 This is the id of a particle that a bee will emit from itself every 2 seconds.
 
 !!! example "Example"
-	`#!json "particleName": "minecraft:end_rod"`
+	`#!json "particleName": "minecraft:end_rod"`  
 
 ***
 !!! template "Template"
