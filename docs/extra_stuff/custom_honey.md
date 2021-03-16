@@ -10,8 +10,8 @@ the ids of the custom items will be generated using the file name or an optional
 
 Below are some example of name usages.
 
-`"name": "sweet"`  
-`"name": "rainbow"`  
+`#!json "name": "sweet"`  
+`#!json "name": "rainbow"`  
 
 Here is how the IDs will be formated.
 
@@ -28,8 +28,8 @@ This value determines how much hunger you'll get on drinking the honey
 
 Below are some examples of hunger usage.
 
-`"hunger": 2`  
-`"hunger": 0`  
+`#!json "hunger": 2`  
+`#!json "hunger": 0`  
 
 Default: 1
 
@@ -39,9 +39,9 @@ This value determines how much saturation you'll gain on drinking the honey
 
 Below are some examples of saturation usage.
 
-`"saturation": 0.5`  
-`"saturation": 4`  
-`"saturation": 2.0`  
+`#!json "saturation": 0.5`  
+`#!json "saturation": 4`  
+`#!json "saturation": 2.0`  
 
 Default: 1.0
 
@@ -53,11 +53,11 @@ This value can be expressed in multiple ways but is encoded in the .json as a st
 
 Below are some examples of color usage.
 
-`"honeyColour": "#ff00ff"`  
-`"honeyColour": "#fff"`  
-`"honeyColour": "ff00ff"`  
-`"honeyColour": "0xff00ff"`  
-`"honeyColour": "white"`  
+`#!json "honeyColour": "#ff00ff"`  
+`#!json "honeyColour": "#fff"`  
+`#!json "honeyColour": "ff00ff"`  
+`#!json "honeyColour": "0xff00ff"`  
+`#!json "honeyColour": "white"`  
 
 Default: #ffffff
 
@@ -67,7 +67,7 @@ This value determines if the color of the honey is rainbow or not
 
 Example  
 
-`"isRainbow": true`  
+`#!json "isRainbow": true`  
 
 Default: false
 
@@ -77,7 +77,7 @@ This value determines if a recipe for a honey block and back to bottles is gener
 
 Example of honeyBlockRecipe usage.
 
-`"honeyBlockRecipe": false`  
+`#!json "honeyBlockRecipe": false`  
 
 Default: true
 
@@ -87,7 +87,7 @@ This value determines if a honey block is generated.
 
 Example of generateHoneyBlock usage.
 
-`"generateHoneyBlock": false`  
+`#!json "generateHoneyBlock": false`  
 
 Default: true
 
@@ -97,7 +97,7 @@ This value determines if honey fluid and a honey bucket are generated.
 
 Example of generateHoneyFluid usage.
 
-`"generateHoneyFluid": false`  
+`#!json "generateHoneyFluid": false`  
 
 Default: true
 
@@ -136,10 +136,10 @@ This value is the effect id you would use to apply a potion effect, make sure if
 
 Below are some examples of an effectID.
 
-`"effectID": "speed"`  
-`"effectID": "minecraft:strength"`  
-`"effectID": "ars_nouveau:mana_regen"`
-`"effectID": "modname:potion_id"`  
+`#!json "effectID": "speed"`  
+`#!json "effectID": "minecraft:strength"`  
+`#!json "effectID": "ars_nouveau:mana_regen"`
+`#!json "effectID": "modname:potion_id"`  
 
 ### duration (optional)
 
@@ -148,8 +148,8 @@ Note: One second is 20 ticks.
 
 Below are some examples of duration usage.
 
-`"duration": 600`  
-`"duration": 2400`
+`#!json "duration": 600`  
+`#!json "duration": 2400`
 
 Default: 60  
 
@@ -159,8 +159,8 @@ This value determines the strength of the potion effect given when you comsume t
 
 Below are some examples of strength usage.  
 
-`"strength": 0`  
-`"strength": 2`  
+`#!json "strength": 0`  
+`#!json "strength": 2`  
 
 Default: 0  
 
@@ -171,8 +171,8 @@ This value is a float value that represents a value out of 100, 1 being 100%, 0.
 
 Below are some examples of chance usage.
 
-`"chance": 0.3`  
-`"chance": 1`  
+`#!json "chance": 0.3`  
+`#!json "chance": 1`  
 
 Default: 1  
 
