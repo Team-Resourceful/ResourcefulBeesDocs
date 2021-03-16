@@ -55,7 +55,7 @@ markdown_extensions:
   - pymdownx.highlight
   - pymdownx.inlinehilite
   - admonition
-      
+
 
 theme:
   name: material
@@ -68,8 +68,8 @@ theme:
 
 extra_css:
   - extra.css
-    
-  
+
+
 site_description: |
   Welcome to the Resourceful Bees wiki!
   Here you will find information on how to customize your new bees.
