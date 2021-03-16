@@ -68,17 +68,17 @@ This page contains a template for the bee jsons with ALL configurable options. T
 		"type": "BLOCK_TO_BLOCK",
 		"inputID": "tag:forge:stone",
 		"defaultWeight": 10,
-		"defaultChance" : 0.75,
+		"chance" : 0.75,
 		"outputs": [
-		  {"outputID": "minecraft:redstone_ore", "weight": 1, "chance": 0.25}
-		  {"outputID": "minecraft:lapis_ore", "weight": 3, "chance": 0.40}
+		  {"outputID": "minecraft:redstone_ore", "weight": 1}
+		  {"outputID": "minecraft:lapis_ore", "weight": 3}
 		]
 	      },
 	      {
 		"type": "BLOCK_TO_BLOCK",
 		"inputID": "minecraft:honey_block",
 		"outputs": [
-		  {"outputID": "minecraft:glass", "chance": 0.5}
+		  {"outputID": "minecraft:glass"}
 		]
 	      }
 				{

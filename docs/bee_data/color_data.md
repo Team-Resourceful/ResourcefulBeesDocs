@@ -121,6 +121,20 @@ The `MUSHROOM` `modelType` should be used when you want the bee to have 2 mushro
 !!! example
 	`#!json "modelType": "MUSHROOM"`
 
+### **Crop** (Optional)
+
+The `CROP` `modelType` should be used when you want the bee to crops growing on it's back and a nice layer of foliage on it's back.
+
+!!! example
+	`#!json "modelType": "CROP"`
+
+### **Armored** (Optional)
+
+The `ARMORED` `modelType` should be used if you want to armor up your bee.
+
+!!! example
+	`#!json "modelType": "ARMORED"`
+
 <br>
 
 ## **Special**

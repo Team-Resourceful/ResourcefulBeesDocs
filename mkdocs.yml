@@ -15,7 +15,10 @@ nav:
   - Templates :
     - Bee Template : 'data_templates/bee_template.md'
     - Honey Template: 'data_templates/honey_template.md'
+    - Trait Template: 'data_templates/trait_template.md'
   - Extra Stuff :
+    - Custom Honey: `extra_stuff/custom_honey.md`
+    - Custom Traits: `extra_stuff/custom_traits.md`
     - List Of Bee Traits: 'extra_stuff/list_bee_traits.md'
     - Biome Tags : 'extra_stuff/biome_tags.md'
     - Custom Biome Dictionary: 'extra_stuff/custom_biome_dictionary.md'

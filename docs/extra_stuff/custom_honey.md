@@ -2,7 +2,7 @@
 
 Custom honey are made similar to how you would make a custom bee, below is information on what values you can use to customise your honey  
 
-currently custom honey blocks, honey bottles, honey buckets, and honey fluids will all be generated from the below Data.  
+currently custom honey blocks, honey bottles, honey buckets, and honey fluids will all be generated from the below Data. It will also be added the Beepedia automatically.  
 
 ## ID Names
 
@@ -195,3 +195,29 @@ Here is an example on how you should add your custom honey to your lang file.
 **Note:**  Like all other default lang values, if you set generateEnglishLang = true in the client.toml in the resourcefulbees config folder default values for honey will be generated as well, keep in mind this will also auto generate all of the bee lang values as well, so use with caution.
 
 [Get some extra information on how to set up lang files here.](https://resourceful-bees.readthedocs.io/en/1.16.3/getting_started/language_files/)
+
+***
+!!! template "Template"
+
+  Here is a blank template showing all configurable fields in custom honey:
+
+  ```Json
+  {
+    "name" : "",
+    "hunger": 0,
+    "honeyColor": "#FFFFFF",
+    "saturation": 0,
+    "isRainbow" : true,
+    "honeyBlockRecipe" : true,
+    "generateHoneyBlock" : true,
+    "generateHoneyBlock" : true,
+    "effects": [
+      {
+        "effectID": "",
+        "duration": 0,
+        "strength": 0,
+        "chance": 0
+      }
+    ]
+  }
+  ```
