@@ -16,43 +16,43 @@ Block Mutation is an *optional* feature for bees. It is the modded version of va
 `mutationType` is a REQUIRED field when giving a bee a mutation.
 
 !!! mutation-type "NONE"
-	This is used when a bee has no mutation.
+	This is used when a bee has no mutation. 
 	!!! example
 		`#!json "mutationType": "NONE"`
 
 
 !!! mutation-type "FLUID_TO_FLUID"
-	This is used when a bee mutates a fluid block into another fluid block.
+	This is used when a bee mutates a fluid block into another fluid block. 
 	!!! example
 		`#!json "mutationType": "FLUID_TO_FLUID"`
 
 
 !!! mutation-type "BLOCK_TO_FLUID"
-	This is used when a bee mutates a normal block into a fluid block.
+	This is used when a bee mutates a normal block into a fluid block. 
 	!!! example
 		`#!json "mutationType": "BLOCK_TO_FLUID"`
 
 
 !!! mutation-type "FLUID_TO_BLOCK"
-	This is used when a bee mutates a fluid block into a normal block.
+	This is used when a bee mutates a fluid block into a normal block. 
 	!!! example
 		`#!json "mutationType": "FLUID_TO_BLOCK"`
 
 
 !!! mutation-type "BLOCK_TO_BLOCK"
-	This is used when a bee mutates a normal block into another normal block.
+	This is used when a bee mutates a normal block into another normal block. 
 	!!! example
 		`#!json "mutationType": "BLOCK_TO_BLOCK"`
 
 
 !!! mutation-type "BLOCK_TO_ITEM"
-	This is used when a bee mutates a normal block into a dropped item.
+	This is used when a bee mutates a normal block into a dropped item. 
 	!!! example
 		`#!json "mutationType": "BLOCK_TO_ITEM"`
 
 
 !!! mutation-type "ENTITY_TO_ENTITY"
-	This is used when a bee mutates an entity into another entity.
+	This is used when a bee mutates an entity into another entity. 
 	!!! example
 		`#!json "mutationType": "ENTITY_TO_ENTITY"`
 
@@ -61,13 +61,13 @@ Block Mutation is an *optional* feature for bees. It is the modded version of va
 
 The `mutationInput` represents the block or blocks to be mutated and the `mutationOutput` represents the final form. For example, a bee could mutate simple stone blocks into coal ore blocks or cobblestone into lava. The `mutationInput` has the option of accepting tags, however the `mutationOutput` does not.
 
-!!! note
+!!! note 
 	Entity to Entity mutation is also supported by using the `entity:` prefix. Entity tags are **not** supported.
 
-!!! note
+!!! note 
 	In a future update we will support multiple weighted outputs. This page will be updated when they are implemented.
 
-!!! example
+!!! example 
 	In this example the bee will mutate a stone block into a coal ore block.
 	```json
 	"MutationData": {
@@ -79,7 +79,7 @@ The `mutationInput` represents the block or blocks to be mutated and the `mutati
 	```
 <br>
 
-!!! example
+!!! example 
 	In this example the bee will mutate any block tagged as stone into a coal ore block.
 	```json
 	"MutationData": {
@@ -90,7 +90,7 @@ The `mutationInput` represents the block or blocks to be mutated and the `mutati
 	}
 	```
 <br>
-!!! example
+!!! example 
 	In this example, the bee will mutate lava into obsidian.
 	```json
 	"MutationData": {
@@ -101,7 +101,7 @@ The `mutationInput` represents the block or blocks to be mutated and the `mutati
 	}
 	```
 <br>
-!!! example
+!!! example 
 	In this example, the bee will mutate cobblestone into lava.
 	```json
 	"MutationData": {
@@ -112,7 +112,7 @@ The `mutationInput` represents the block or blocks to be mutated and the `mutati
 	}
 	```
 <br>
-!!! example
+!!! example 
 	In this example, the bee will mutate cow into a bat.
 	```json
 	"MutationData": {
@@ -134,7 +134,7 @@ The `mutationInput` represents the block or blocks to be mutated and the `mutati
 
 Use `mutationCount` when you want to specify how many blocks a bee can mutate before it must visit a hive and collect nectar again. By default a bee will mutate **ten** blocks before the process must be reset.
 
-!!! example
+!!! example 
 	```json
 	"MutationData": {
 		"hasMutation": true,
@@ -156,7 +156,7 @@ A completely new way to register mutations, this system allows you to register a
 
 This is where you put the type of mutation you want to add.
 
-!!! example "Examples"
+!!! example "Examples" 
 	`#!json "type": "BLOCK_TO_BLOCK"`  
 	`#!json "type": "BLOCK_TO_ITEM"`  
 	`#!json "type": "ENTITY_TO_ENTITY"`  
@@ -168,7 +168,7 @@ This is the id of the thing you want to mutate from
 !!! note
 	if you want to mutate a tag, you need to prefix with `tag:`, if you want to mutate an entity you need to prefix with `entity:`
 
-!!! example "Examples"
+!!! example "Examples" 
 	`#!json "inputID": "minecraft:stone"`  
 	`#!json "inputID": "tag:forge:stone"`  
 	`#!json "inputID": "entity:minecraft:pig"`  
@@ -183,13 +183,13 @@ This will set the default weight that you will get an output if you do not speci
 
 Default : `1`
 
-### **chance** (optional)
+### **cdefaultChance** (optional)
 
 This will set the default weight that you will succeed in a mutation if you do not specify a chance in the outputs.
 
-!!! example "Examples"
-	`#!json "chance": 1`  
-	`#!json "chance": 0.5`  
+!!! example "Examples" 
+	`#!json "cdefaultChance": 1`  
+	`#!json "cdefaultChance": 0.5`  
 
 Default : `1`
 
@@ -202,6 +202,11 @@ this is where you specify the output id of your mutation.
 
 !!! note
 	If your output is an entity, you need to prefix it with `entity:`  
+
+**chance** (optional)  
+This is where you set the individual success chance for your mutation outputs
+
+Default: `1`
 
 **weight** (optional)  
 This is where you set the individual weight for your mutation outputs
@@ -216,11 +221,11 @@ NBT data, yes NBT data, this is where you can now set the nbt data for your muta
 - Item tags for `BLOCK_TO_ITEM` Mutations  
 - Tile entity tags for `BLOCK_TO_BLOCK` and `FLUID_TO_BLOCK` Mutations  
 
-!!! example "Examples"
+!!! example "Examples" 
 	```json
 	"outputs":[
-		{"outputID": "minecraft:stone", "weight": 10},
-		{"outputID": "minecraft:diamond", "weight": 1}
+		{"outputID": "minecraft:stone", "chance": 1, "weight": 10},
+		{"outputID": "minecraft:diamond", "chance": 0.1, "weight": 1}
 	]
 	```
 	```json
@@ -241,7 +246,7 @@ NBT data, yes NBT data, this is where you can now set the nbt data for your muta
 
 You can use the new multi mutate by adding the new `mutations` parameter.
 
-!!! example "Examples"
+!!! example "Examples" 
 
 	```json
 	"MutationData": {
@@ -255,17 +260,17 @@ You can use the new multi mutate by adding the new `mutations` parameter.
 		  "type": "BLOCK_TO_BLOCK",
 		  "inputID": "tag:forge:stone",
 		  "defaultWeight": 10,
-		  "chance" : 0.75,
+		  "cdefaultChance" : 0.75,
 		  "outputs": [
-			{"outputID": "minecraft:redstone_ore", "weight": 1}
-			{"outputID": "minecraft:lapis_ore", "weight": 3}
+			{"outputID": "minecraft:redstone_ore", "weight": 1, "chance": 0.25}
+			{"outputID": "minecraft:lapis_ore", "weight": 3, "chance": 0.40}
 		  ]
 		},
 		{
 		  "type": "BLOCK_TO_BLOCK",
 		  "inputID": "minecraft:honey_block",
 		  "outputs": [
-			{"outputID": "minecraft:glass"}
+			{"outputID": "minecraft:glass", "chance": 0.5}
 		  ]
 		},
 		{
@@ -315,16 +320,16 @@ You can use the new multi mutate by adding the new `mutations` parameter.
 			{
 				"type": "NONE",
 				"outputID": "",
-				"chance": 1,
+				"cdefaultChance": 1,
 				"defaultWeight": 1,
 				"outputs": [
-					{"outputID": "", "weight": 1, "nbtData":{}}
+					{"outputID": "", "chance": 1, "weight": 1, "nbtData":{}}
 				]
 			}
 		]
 	}
 	```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTQwODA5NzgsNzEwMTM5NjEwLDcxMj
-E4NDU0Miw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTE1NjI4NDg4NDMsLTE0OTQwODA5NzgsNz
+EwMTM5NjEwLDcxMjE4NDU0Miw3MzA5OTgxMTZdfQ==
 -->
