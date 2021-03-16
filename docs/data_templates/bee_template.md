@@ -68,17 +68,17 @@ This page contains a template for the bee jsons with ALL configurable options. T
 		"type": "BLOCK_TO_BLOCK",
 		"inputID": "tag:forge:stone",
 		"defaultWeight": 10,
-		"chance" : 0.75,
+		"cdefaultChance" : 0.75,
 		"outputs": [
-		  {"outputID": "minecraft:redstone_ore", "weight": 1}
-		  {"outputID": "minecraft:lapis_ore", "weight": 3}
+		  {"outputID": "minecraft:redstone_ore", "weight": 1, "chance": 0.25}
+		  {"outputID": "minecraft:lapis_ore", "weight": 3, "chance": 0.40}
 		]
 	      },
 	      {
 		"type": "BLOCK_TO_BLOCK",
 		"inputID": "minecraft:honey_block",
 		"outputs": [
-		  {"outputID": "minecraft:glass"}
+		  {"outputID": "minecraft:glass", "chance": 0.5}
 		]
 	      }
 				{
@@ -161,6 +161,6 @@ This page contains a template for the bee jsons with ALL configurable options. T
 	}
 	```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NTAxNzQwMywtODQ0NzMwNTYsMTgyMj
-Q1NjI4Nl19
+eyJoaXN0b3J5IjpbMTA3MTk3MTk1NCwyMDc1MDE3NDAzLC04ND
+Q3MzA1NiwxODIyNDU2Mjg2XX0=
 -->
