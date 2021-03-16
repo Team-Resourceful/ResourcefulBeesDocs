@@ -188,7 +188,7 @@ Default : `1`
 This will set the default weight that you will succeed in a mutation if you do not specify a chance in the outputs.
 
 !!! example "Examples" 
-	`#!json "cdefaultChance": 1`  
+	`#!json "chance": 1`  
 	`#!json "cdefaultChance": 0.5`  
 
 Default : `1`
@@ -330,7 +330,7 @@ You can use the new multi mutate by adding the new `mutations` parameter.
 	}
 	```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzgxMzEyODksLTE1NjI4NDg4NDMsLT
+eyJoaXN0b3J5IjpbLTIxMzI0ODU0OTUsLTE1NjI4NDg4NDMsLT
 E0OTQwODA5NzgsNzEwMTM5NjEwLDcxMjE4NDU0Miw3MzA5OTgx
 MTZdfQ==
 -->
