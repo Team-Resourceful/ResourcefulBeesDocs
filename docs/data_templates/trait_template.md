@@ -2,8 +2,9 @@
 ***
 
 This page contains a template for the trait jsons with ALL configurable options. This should help pack devs with making their own traits since elements only need to be modified or deleted as necessary.
+
 !!!template "Template"
-  ```json
+  ```jJson
   {
     "potionDamageEffects": [
       {
@@ -58,3 +59,6 @@ This page contains a template for the trait jsons with ALL configurable options.
     "particleName": "minecraft:end_rod"
   }
   ```
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTc1Njc0NDQ0MV19
+-->
