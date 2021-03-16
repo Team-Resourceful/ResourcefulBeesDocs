@@ -183,7 +183,7 @@ This will set the default weight that you will get an output if you do not speci
 
 Default : `1`
 
-### **cdefaultChance** (optional)
+### **chance** (optional)
 
 This will set the default weight that you will succeed in a mutation if you do not specify a chance in the outputs.
 
@@ -224,8 +224,8 @@ NBT data, yes NBT data, this is where you can now set the nbt data for your muta
 !!! example "Examples" 
 	```json
 	"outputs":[
-		{"outputID": "minecraft:stone", "chance": 1, "weight": 10},
-		{"outputID": "minecraft:diamond", "chance": 0.1, "weight": 1}
+		{"outputID": "minecraft:stone", "weight": 10},
+		{"outputID": "minecraft:diamond", "weight": 1}
 	]
 	```
 	```json
@@ -330,7 +330,7 @@ You can use the new multi mutate by adding the new `mutations` parameter.
 	}
 	```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTg2ODY3MDEsLTE1NjI4NDg4NDMsLT
+eyJoaXN0b3J5IjpbLTEyNzgxMzEyODksLTE1NjI4NDg4NDMsLT
 E0OTQwODA5NzgsNzEwMTM5NjEwLDcxMjE4NDU0Miw3MzA5OTgx
 MTZdfQ==
 -->
