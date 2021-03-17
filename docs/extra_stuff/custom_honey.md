@@ -122,7 +122,7 @@ This value is an object made up of all of the below effect options, you can add 
 			"chance": 0.5
 		}
 	]
-```
+	```
 
 ### **effectID** (required)
 
