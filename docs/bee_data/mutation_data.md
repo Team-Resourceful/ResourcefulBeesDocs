@@ -173,23 +173,13 @@ This is the id of the thing you want to mutate from
 	`#!json "inputID": "tag:forge:stone"`  
 	`#!json "inputID": "entity:minecraft:pig"`  
 
-### **defaultWeight** (optional)
-
-This will set the default weight that you will get an output if you do not specify a weight in the outputs.
-
-!!! example "Examples"  
-	`#!json "defaultWeight": 10`  
-	`#!json "defaultWeight": 2`  
-
-Default : `1`
-
 ### **chance** (optional)
 
 This will set the default weight that you will succeed in a mutation if you do not specify a chance in the outputs.
 
 !!! example "Examples" 
 	`#!json "chance": 1`  
-	`#!json "cdefaultChance": 0.5`  
+	`#!json "chance": 0.5`  
 
 Default : `1`
 
@@ -202,11 +192,6 @@ this is where you specify the output id of your mutation.
 
 !!! note
 	If your output is an entity, you need to prefix it with `entity:`  
-
-**chance** (optional)  
-This is where you set the individual success chance for your mutation outputs
-
-Default: `1`
 
 **weight** (optional)  
 This is where you set the individual weight for your mutation outputs
@@ -330,7 +315,7 @@ You can use the new multi mutate by adding the new `mutations` parameter.
 	}
 	```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzI0ODU0OTUsLTE1NjI4NDg4NDMsLT
-E0OTQwODA5NzgsNzEwMTM5NjEwLDcxMjE4NDU0Miw3MzA5OTgx
-MTZdfQ==
+eyJoaXN0b3J5IjpbMTg0MzQwNTA2LC0xNTYyODQ4ODQzLC0xND
+k0MDgwOTc4LDcxMDEzOTYxMCw3MTIxODQ1NDIsNzMwOTk4MTE2
+XX0=
 -->
