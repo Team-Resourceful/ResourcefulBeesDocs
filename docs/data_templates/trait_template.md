@@ -4,7 +4,7 @@
 This page contains a template for the trait jsons with ALL configurable options. This should help pack devs with making their own traits since elements only need to be modified or deleted as necessary.
 
 !!!template "Template"
-```json
+	```json
 	{
 		"potionDamageEffects": [
 			{
