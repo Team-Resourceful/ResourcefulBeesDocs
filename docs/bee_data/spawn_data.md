@@ -123,15 +123,14 @@ As of now, this value only controls the light level a block must be at for the b
 
 ### **minYLevel** and **maxYLevel** (Optional)
 
-These two!!! important 
-	This values allow you to set the minimum and maximum Y level that a bee can spawn at.
+These two values allow you to set the minimum and maximum Y level that a bee can spawn at.
 
 !!! note "Note"
-	Bees can still spawn in hives even when their yso affects breeding. When the bee is set as breedable, it will only spawn the child if the light level is setof the below y 60, this may change in a later patch.
+	Bees can still spawn in hives even when their y level is set below y 60, this may change in a later patch.
 
 !!! example "Examples"
 	`#!json "minYLevel" : 1`  
-	`#!json "maxYLevel" : 65`  ck at the time is the correct light level.
+	`#!json "maxYLevel" : 65`
 
 <br>
 <br>
