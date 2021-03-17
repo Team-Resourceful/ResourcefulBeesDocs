@@ -58,7 +58,7 @@ These values are *optional.* The values are comma-separated and used in combinat
 	```
 <br>
 
-!!! important 
+!!! important
 	Nests will generate in the biomes where bees are set to spawn. During generation a nest may come preloaded with additional bees consisting only of the bees *allowed* to spawn in the biome where the nest generated. Nest generation can be disabled by setting the global config value `generateBeeNests` to `false`.
 
 <br>
@@ -121,8 +121,16 @@ These values are *optional.* The values are comma-separated and used in combinat
 
 As of now, this value only controls the light level a block must be at for the bee to spawn. It is *not* representative of the daylight cycle as it may seem on first glance. *In a future update* we will be using this value to force bees to only work during specific times of day.
 
-!!! important 
-	This value also affects breeding. When the bee is set as breedable, it will only spawn the child if the light level of the block at the time is the correct light level.
+### **minYLevel** and **maxYLevel** (Optional)
+
+These two values allow you to set the minimum and maximum Y level that a bee can spawn at.
+
+!!! note "Note"
+	Bees can still spawn in hives even when their y level is set below y 60, this may change in a later patch.
+
+!!! example "Examples"
+	`#!json "minYLevel" : 1`  
+	`#!json "maxYLevel" : 65`  
 
 <br>
 <br>
@@ -136,6 +144,8 @@ As of now, this value only controls the light level a block must be at for the b
 		"biomeWhitelist": "TAG:Mountain, HILLS",
 		"biomeBlacklist": "minecraft:desert_hills",
 		"spawnWeight": 2,
+		"minYLevel": 0,
+		"maxYLevel": 255,
 		"minGroupSize": 1,
 		"maxGroupSize": 1,
 		"lightLevel": "ANY"

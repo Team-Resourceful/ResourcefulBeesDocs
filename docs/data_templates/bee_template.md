@@ -140,6 +140,8 @@ This page contains a template for the bee jsons with ALL configurable options. T
 			"spawnWeight": 8,
 			"biomeWhitelist":"tag:ocean",
 			"biomeBlacklist":"tag:overworld",
+			"minYLevel": 0,
+			"maxYLevel": 255,
 			"minGroupSize": 1,
 			"maxGroupSize": 1,
 			"lightLevel": "ANY"
