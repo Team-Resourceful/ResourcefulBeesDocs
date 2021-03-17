@@ -58,7 +58,7 @@ These values are *optional.* The values are comma-separated and used in combinat
 	```
 <br>
 
-!!! important
+!!! important 
 	Nests will generate in the biomes where bees are set to spawn. During generation a nest may come preloaded with additional bees consisting only of the bees *allowed* to spawn in the biome where the nest generated. Nest generation can be disabled by setting the global config value `generateBeeNests` to `false`.
 
 <br>
@@ -123,14 +123,15 @@ As of now, this value only controls the light level a block must be at for the b
 
 ### **minYLevel** and **maxYLevel** (Optional)
 
-These two values allow you to set the minimum and maximum Y level that a bee can spawn at.
+These two!!! important 
+	This values allow you to set the minimum and maximum Y level that a bee can spawn at.
 
 !!! note "Note"
-	Bees can still spawn in hives even when their y level is set below y 60, this may change in a later patch.
+	Bees can still spawn in hives even when their yso affects breeding. When the bee is set as breedable, it will only spawn the child if the light level is setof the below y 60, this may change in a later patch.
 
 !!! example "Examples"
 	`#!json "minYLevel" : 1`  
-	`#!json "maxYLevel" : 65`  
+	`#!json "maxYLevel" : 65`  ck at the time is the correct light level.
 
 <br>
 <br>
@@ -152,6 +153,6 @@ These two values allow you to set the minimum and maximum Y level that a bee can
 	}
 	```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU0Nzc3MjQyLC0xOTIxMTgxOTYzLDE5Mj
-g5NTcyMDcsMTY4NDYzMzA3MV19
+eyJoaXN0b3J5IjpbMjA5MDQ5MzEzLDc1NDc3NzI0MiwtMTkyMT
+E4MTk2MywxOTI4OTU3MjA3LDE2ODQ2MzMwNzFdfQ==
 -->
