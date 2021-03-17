@@ -4,16 +4,15 @@
 This page contains a template for the trait jsons with ALL configurable options. This should help pack devs with making their own traits since elements only need to be modified or deleted as necessary.
 
 !!!template "Template"
-	```jon
-"potionDamageEffects": [
+```json
+	{
+		"potionDamageEffects": [
 			{
-				      {
-       "effectID": "minecraft:wither",
+				"effectID": "minecraft:wither",
 				"strength": 6
 			},
 			{
-				      },
-"effectID": "minecraft:wither",
+				"effectID": "minecraft:wither",
 				"strength": 6
 			}
 		],
@@ -22,14 +21,14 @@ This page contains a template for the trait jsons with ALL configurable options.
 			"lightningBolt",
 			"onFire",
 			"lava",
-   "hotFloor",
+   			"hotFloor",
 			"inWall",
 			"cramming",
 			"drown",
 			"starve",
 			"cactus",
 			"fall",
-   "flyIntoWall",
+   			"flyIntoWall",
 			"generic",
 			"magic",
 			"wither",
@@ -48,7 +47,7 @@ This page contains a template for the trait jsons with ALL configurable options.
 				"amplifier": 6
 			},
 			{
-				 "damageTypeNName": "explosive",
+				"damageTypeNName": "explosive",
 				"amplifier": 3
 			}
 		],
@@ -56,7 +55,8 @@ This page contains a template for the trait jsons with ALL configurable options.
 			"teleport",
 			"flammable",
 			"slimy"
-rticleName": "minecraft:end_rod"
+		],
+		"particleName": "minecraft:end_rod"
 	}
 	```
 <!--stackedit_data:
