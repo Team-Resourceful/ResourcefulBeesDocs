@@ -16,10 +16,10 @@ the ids of the custom items will be generated using the file name or an optional
 !!! note
 	Here is how the IDs will be formated.
 
-	Honey bottle: {name}_honey_bottle
-	Honey block: {name}_honey_block
-	Honey bucket: {name}_honey_fluid_bucket
-	Honey fluid: {name}_honey
+	Honey bottle: {name}_honey_bottle  
+	Honey block: {name}_honey_block  
+	Honey bucket: {name}_honey_fluid_bucket  
+	Honey fluid: {name}_honey  
 
 ## **Food Data**
 
