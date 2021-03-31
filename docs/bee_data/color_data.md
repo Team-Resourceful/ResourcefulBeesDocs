@@ -19,7 +19,6 @@ This value can be expressed in multiple ways but is encoded in the .json as a st
 !!! example "Examples"
 	`#!json "honeycombColor": "#ff00ff"` <br>
 	`#!json "honeycombColor": "#fff"` <br>
-	`#!json "honeycombColor": "ff00ff"` <br>
 	`#!json "honeycombColor": "0xff00ff"` <br>
 	`#!json "honeycombColor": "white"` <br>
 
@@ -35,7 +34,6 @@ These values can be expressed in multiple ways but are encoded in the .json as s
 !!! example "Examples"
 	`#!json "primaryColor": "#ff00ff"` <br>
 	`#!json "primaryColor": "#fff"` <br>
-	`#!json "primaryColor": "ff00ff"` <br>
 	`#!json "secondaryColor": "0xff00ff"` <br>
 	`#!json "secondaryColor": "white"` <br>
 
@@ -150,7 +148,6 @@ This value can be expressed in multiple ways but is encoded in the .json as a st
 
 	`#!json "glowColor": "#ff00ff"` <br>
 	`#!json "glowColor": "#fff"` <br>
-	`#!json "glowColor": "ff00ff"` <br>
 	`#!json "glowColor": "0xff00ff"` <br>
 	`#!json "glowColor": "white"` <br>
 
