@@ -3,52 +3,13 @@ nav:
   - Getting Started :
     - Customizing Bees : 'getting_started/bee_creation.md'
     - Language Files : 'getting_started/language_files.md'
-  - Bee Data :
-    - Custom Bee Data : 'bee_data/custom_bee_data.md'
-    - Breed Data : 'bee_data/breed_data.md'
-    - Centrifuge Data : 'bee_data/centrifuge_data.md'
-    - Color Data : 'bee_data/color_data.md'
-    - Combat Data : 'bee_data/combat_data.md'
-    - Mutation Data : 'bee_data/mutation_data.md'
-    - Spawn Data : 'bee_data/spawn_data.md'
-    - Trait Data : 'bee_data/trait_data.md'
-  - Templates :
-    - Bee Template : 'data_templates/bee_template.md'
-    - Honey Template: 'data_templates/honey_template.md'
-    - Trait Template: 'data_templates/trait_template.md'
-  - Extra Stuff :
-    - Custom Honey: 'extra_stuff/custom_honey.md'
-    - Custom Traits: 'extra_stuff/custom_traits.md'
-    - List Of Bee Traits: 'extra_stuff/list_bee_traits.md'
-    - Biome Tags : 'extra_stuff/biome_tags.md'
-    - Custom Biome Dictionary: 'extra_stuff/custom_biome_dictionary.md'
-    - Color Name Options : 'extra_stuff/color_names.md'
-    - Centrifuge Recipes : 'extra_stuff/centrifuge_recipe.md'
-    - Valid Apiary Tag : 'extra_stuff/valid_apiary_tag.md'
-  - Default Bees :
-    - Coal Bee : 'default_bees/coal.md'
-    - Creeper Bee : 'default_bees/creeper.md'
-    - Diamond Bee : 'default_bees/diamond.md'
-    - Dragon Bee : 'default_bees/dragon.md'
-    - Emerald Bee : 'default_bees/emerald.md'
-    - Ender Bee : 'default_bees/ender.md'
-    - Gold Bee : 'default_bees/gold.md'
-    - Icy Bee : 'default_bees/icy.md'
-    - Iron Bee : 'default_bees/iron.md'
-    - Lapis Bee : 'default_bees/lapis.md'
-    - Nether Quartz Bee : 'default_bees/nether_quartz.md'
-    - Netherite Bee : 'default_bees/netherite.md'
-    - Pigman Bee : 'default_bees/pigman.md'
-    - Redstone Bee : 'default_bees/redstone.md'
-    - RGBee : 'default_bees/rgbee.md'
-    - Skeleton Bee : 'default_bees/skeleton.md'
-    - Slimy Bee : 'default_bees/slimy.md'
-    - Wither Bee : 'default_bees/wither.md'
-    - Zombee : 'default_bees/zombie.md'
+  - Examples :
+    - Examples : 'examples/examples.md'
+    - Blaze Bee : 'examples/blaze.md'
 
 
 site_name: Resourceful Bees Docs
-site_url: https://wiki.resourcefulbees.com/en/1.16.3/
+site_url: https://wiki.resourcefulbees.com/en/1.15/
 docs_dir: docs
 
 markdown_extensions:
