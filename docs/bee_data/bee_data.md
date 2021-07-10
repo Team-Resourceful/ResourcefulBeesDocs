@@ -12,7 +12,7 @@ A bee's **type** and **name** are used interchangeably. This information is dete
 
 ## **Honeycomb Color** (Optionally Required)
 
-The color value for the honeycomb is only a required value when the bee has a centrifuge output. This value can be expressed in multiple ways but is encoded in the .json as a string. It can be expressed as a hexadecimal value with, or without, preceding tags, an integer value, or a named color from the available list found [here.](https://wiki.resourcefulbees.com/en/1.15/extra_stuff/color_names/) The color value is used to determine the bee's honeycomb color and honeycomb block color.
+The color value for the honeycomb is only a required value when the bee has a centrifuge output. This value can be expressed in multiple ways but is encoded in the .json as a string. It can be expressed as a hexadecimal value with, or without, preceding tags, an integer value, or a named color from the available list found [here.](https://wiki.resourcefulbees.com/en/1.15/bee_data/color_names/) The color value is used to determine the bee's honeycomb color and honeycomb block color.
 
 !!! example "Examples"
 	`#!json "honeycombColor": "#ff00ff"` <br>
@@ -25,7 +25,7 @@ The color value for the honeycomb is only a required value when the bee has a ce
 
 ## **Primary Color && Secondary Color** (Optionally Required)
 
-The primary and secondary color values are required only when you want the bee to be colored using the boolean value `isBeeColored`. These values can be expressed in multiple ways but are encoded in the .json as strings. They can be expressed as a hexadecimal value with, or without, preceding tags, an integer value, or a named color from the available list found [here.](https://wiki.resourcefulbees.com/en/1.15/extra_stuff/color_names/) The color values are used to colorize the primary layer and secondary layer textures for the bee. 
+The primary and secondary color values are required only when you want the bee to be colored using the boolean value `isBeeColored`. These values can be expressed in multiple ways but are encoded in the .json as strings. They can be expressed as a hexadecimal value with, or without, preceding tags, an integer value, or a named color from the available list found [here.](https://wiki.resourcefulbees.com/en/1.15/bee_data/color_names/) The color values are used to colorize the primary layer and secondary layer textures for the bee. 
 
 !!! example "Examples"
   `#!json "primaryColor": "#ff00ff"` <br>
@@ -140,7 +140,7 @@ This value is *optionally required.* This value must be either `true` or `false`
 
 These values are *optionally required.* The values are comma-separated and used in combination with the "spawn in world" value. This value can be expressed in a variety of ways and as such the values are used to determine the dimension a bee may spawn in as well. It is much easier to show examples of their usage.
 
-*Note:* You can use either [biome type tags](https://github.com/Dungeon-Derps-Development/ResourcefulBees/wiki/Biome-Tags) or specific biomes, you cannot use both simultaneously.
+*Note:* You can use either [biome type tags](https://wiki.resourcefulbees.com/en/1.15/bee_data/biome_tags) or specific biomes, you cannot use both simultaneously.
 
 This example will let the bee spawn in any nether biome.<br>
 ```json
