@@ -6,6 +6,11 @@ nav:
   - Examples :
     - Examples : 'examples/examples.md'
     - Blaze Bee : 'examples/blaze.md'
+  - Bee Data:
+    - Custom Bee Data: 'bee_data/bee_data'
+    - Biome Tags: 'bee_data/biome_tags'
+    - Color Names: 'bee_data/color_names'
+    - Bee Data Table: 'bee_data/data_table'
 
 
 site_name: Resourceful Bees Docs
