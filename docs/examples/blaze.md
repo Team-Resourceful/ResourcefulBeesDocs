@@ -1,6 +1,6 @@
 Here is the example of the Blaze Bee:
 
-!!! example "Bee only made from 2 parents"
+!!! example "Blaze Bee"
       ```Json
       {
           "primaryColor": "#e6c153",
