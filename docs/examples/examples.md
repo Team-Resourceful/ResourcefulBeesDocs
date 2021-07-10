@@ -3,7 +3,7 @@
 
 !!! example "Bee only made from 2 parents"
 
-        ```#!json
+        ```Json
             {
               "primaryColor": "#fc8403",
               "honeycombColor": "#fc8403",
@@ -17,7 +17,7 @@
   
 !!! example "Bee with different centrifuge outputs & weightings"
 
-        ```#!json
+        ```Json
             {
               "primaryColor": "#ff0088",
               "honeycombColor": "#ff0088",
@@ -35,7 +35,7 @@
   
 !!! example "Bee with specific biome it can spawn in"
 
-        ```#!json
+        ```Json
             {
               "primaryColor": "#6b553d",
               "honeycombColor": "#6b553d",
