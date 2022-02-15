@@ -49,7 +49,7 @@ nav:
 
 site_name: Resourceful Bees Docs
 site_url: https://wiki.resourcefulbees.com/en/1.16.3/
-docs_dir: docs
+docs_dir: old-docs
 
 markdown_extensions:
   - pymdownx.superfences
