@@ -57,7 +57,8 @@ If you want to just use a texture that wont be recolored by our system you're lo
 
 The primary and secondary layer textures are the textures used for coloring the bee. If you would like to use different gray-scaled textures then the custom texture files must be located in the `config\resourcefulbees\resources\assets\resourcefulbees\textures\entity` directory found in the mod pack's directory.
 
-The emissive layer texture is the texture used for giving the bees a layer that glows, similar to how spider eyes glow. You need to have `isGlowing` set to `true` for this effect to happen. Setting a custom emissive texture will override the default vanilla glow, similar to enchanted items.
+The emissive layer texture is the texture used for giving the bees a layer that glows, similar to how spider eyes glow. You need to have `isGlowing` or `isEnchanted` set to `true` for this effect to happen. Setting a custom emissive texture will override the default vanilla glow, similar to enchanted items.
+Note that `isGlowing` is the same thing as `isEnchanted` and are mutually exclusive.
 
 !!! note
 	Sub-directories are supported as you will see in the example .json below
