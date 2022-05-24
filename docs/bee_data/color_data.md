@@ -53,9 +53,12 @@ These values can be expressed in multiple ways but are encoded in the .json as s
 
 Should you wish to provide your own bee layer textures, there are two layer textures that can be customized. These textures are `primaryLayerTexture`, and `secondaryLayerTexture`. The textures can only be .png file types.
 
-If you want to just use a texture that wont be recolored by our system you're looking for the baseLayerTexture in the main data.
+If you want to just use a texture that wont be recolored by our system you're looking for the `baseLayerTexture` in the main data.
 
 The primary and secondary layer textures are the textures used for coloring the bee. If you would like to use different gray-scaled textures then the custom texture files must be located in the `config\resourcefulbees\resources\assets\resourcefulbees\textures\entity` directory found in the mod pack's directory.
+
+The emissive layer texture is the texture used for giving the bees a layer that glows, similar to how spider eyes glow. You need to have `isGlowing` or `isEnchanted` set to `true` for this effect to happen. Setting a custom emissive texture will override the default vanilla glow, similar to enchanted items.
+Note that `isGlowing` and `isEnchanted` are mutually exclusive.
 
 !!! note
 	Sub-directories are supported as you will see in the example .json below
@@ -63,7 +66,8 @@ The primary and secondary layer textures are the textures used for coloring the 
 !!! example
 	```json
 	"primaryLayerTexture": "custom/alternative_primary_layer",
-	"secondaryLayerTexture": "custom/alternative_secondary_layer"
+	"secondaryLayerTexture": "custom/alternative_secondary_layer",
+	"emissiveLayerTexture": "custom/emissive_layer"
 	```
 
 Sub-directories can be nested like so: `"folder_1/folder_2/folder_3/texture"`
